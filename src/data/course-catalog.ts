@@ -1,1 +1,28 @@
-aW1wb3J0IGNhZmVJbWFnZSBmcm9tICJAL2Fzc2V0cy9oZXJvLXdhcnVuZy5qcGciOwppbXBvcnQgbWFya2V0SW1hZ2UgZnJvbSAiQC9hc3NldHMvY291cnNlLW1hcmtldC5qcGciOwppbXBvcnQgZGlyZWN0aW9uc0ltYWdlIGZyb20gIkAvYXNzZXRzL2NvdXJzZS1kaXJlY3Rpb25zLmpwZyI7CmltcG9ydCBob3RlbEltYWdlIGZyb20gIkAvYXNzZXRzL2NvdXJzZS1ob3RlbC5qcGciOwppbXBvcnQgdGF4aUltYWdlIGZyb20gIkAvYXNzZXRzL2NvdXJzZS10YXhpLmpwZyI7CmltcG9ydCBtb25leUltYWdlIGZyb20gIkAvYXNzZXRzL2NvdXJzZS1tb25leS5qcGciOwppbXBvcnQgY2xpbmljSW1hZ2UgZnJvbSAiQC9hc3NldHMvY291cnNlLWNsaW5pYy5qcGciOwppbXBvcnQgdGVtcGxlSW1hZ2UgZnJvbSAiQC9hc3NldHMvY291cnNlLXRlbXBsZS5qcGciOwppbXBvcnQgbmVpZ2hib3JJbWFnZSBmcm9tICJAL2Fzc2V0cy9jb3Vyc2UtbmVpZ2hib3IuanBnIjsKaW1wb3J0IHdoYXRzYXBwSW1hZ2UgZnJvbSAiQC9hc3NldHMvY291cnNlLXdoYXRzYXBwLmpwZyI7CgpleHBvcnQgY29uc3QgY291cnNlR3JvdXBzID0gWyLlhajpg6jor77nqIsiLCAi5pel5bi45Lqk5rWBIiwgIuaXheihjOeUn+a0uyIsICLnlJ/mtLvlip7kuosiLCAi56S+5Lqk6L+b6Zi2Il0gYXMgY29uc3Q7CmV4cG9ydCB0eXBlIENvdXJzZUdyb3VwID0gKHR5cGVvZiBjb3Vyc2VHcm91cHMpW251bWJlcl07CgpleHBvcnQgY29uc3QgY291cnNlRGV0YWlsczogUmVjb3JkPHN0cmluZywgeyBjYXRlZ29yeTogQ291cnNlR3JvdXA7IGltYWdlOiBzdHJpbmc7IGxhYmVsOiBzdHJpbmcgfT4gPSB7CiAgZ3JlZXRpbmc6IHsgY2F0ZWdvcnk6ICLml6XluLjkuqTmtYEiLCBpbWFnZTogY2FmZUltYWdlLCBsYWJlbDogIuiupOivhuW9vOatpCIgfSwKICBwb2xpdGU6IHsgY2F0ZWdvcnk6ICLml6XluLjkuqTmtYEiLCBpbWFnZTogbmVpZ2hib3JJbWFnZSwgbGFiZWw6ICLlrabkvJrnp7DlkbzkuI7npLzosowiIH0sCiAgbWFya2V0OiB7IGNhdGVnb3J5OiAi5peF6KGM55Sf5rS7IiwgaW1hZ2U6IG1hcmtldEltYWdlLCBsYWJlbDogIumAm+S4gOmAm+W4guWcuiIgfSwKICByZXN0YXVyYW50OiB7IGNhdGVnb3J5OiAi5peF6KGM55Sf5rS7IiwgaW1hZ2U6IGNhZmVJbWFnZSwgbGFiZWw6ICLlsJ3lsJ3lvZPlnLDlkbPpgZMiIH0sCiAgZGlyZWN0aW9uczogeyBjYXRlZ29yeTogIuaXheihjOeUn+a0uyIsIGltYWdlOiBkaXJlY3Rpb25zSW1hZ2UsIGxhYmVsOiAi6LWw6L+b5Z+O5biCIiB9LAogIGhvdGVsOiB7IGNhdGVnb3J5OiAi5peF6KGM55Sf5rS7IiwgaW1hZ2U6IGhvdGVsSW1hZ2UsIGxhYmVsOiAi5peF6YCU5a6J6aG/5LiL5p2lIiB9LAogIHRheGk6IHsgY2F0ZWdvcnk6ICLml4XooYznlJ/mtLsiLCBpbWFnZTogdGF4aUltYWdlLCBsYWJlbDogIuWHuumXqOS4iui3ryIgfSwKICB0b3VyOiB7IGNhdGVnb3J5OiAi5peF6KGM55Sf5rS7IiwgaW1hZ2U6IHRlbXBsZUltYWdlLCBsYWJlbDogIuWOu+eci+S4gOeciyIgfSwKICBtb25leTogeyBjYXRlZ29yeTogIueUn+a0u+WKnuS6iyIsIGltYWdlOiBtb25leUltYWdlLCBsYWJlbDogIuaKiumSseaNouWvuSIgfSwKICBkb2N0b3I6IHsgY2F0ZWdvcnk6ICLnlJ/mtLvlip7kuosiLCBpbWFnZTogY2xpbmljSW1hZ2UsIGxhYmVsOiAi5LiN6IiS5pyN5Lmf6KaB6K+05riF5qWaIiB9LAogIGZyaWVuZHM6IHsgY2F0ZWdvcnk6ICLnpL7kuqTov5vpmLYiLCBpbWFnZTogY2FmZUltYWdlLCBsYWJlbDogIuS7juiupOivhuWIsOaci+WPiyIgfSwKICB3aGF0c2FwcDogeyBjYXRlZ29yeTogIuekvuS6pOi/m+mYtiIsIGltYWdlOiB3aGF0c2FwcEltYWdlLCBsYWJlbDogIue6v+S4iuS5n+iBiuW+l+i1t+adpSIgfSwKfTsK
+import cafeImage from "@/assets/hero-warung.jpg";
+import marketImage from "@/assets/course-market.jpg";
+import directionsImage from "@/assets/course-directions.jpg";
+import hotelImage from "@/assets/course-hotel.jpg";
+import taxiImage from "@/assets/course-taxi.jpg";
+import moneyImage from "@/assets/course-money.jpg";
+import clinicImage from "@/assets/course-clinic.jpg";
+import templeImage from "@/assets/course-temple.jpg";
+import neighborImage from "@/assets/course-neighbor.jpg";
+import whatsappImage from "@/assets/course-whatsapp.jpg";
+
+export const courseGroups = ["全部课程", "日常交流", "旅行生活", "生活办事", "社交进阶"] as const;
+export type CourseGroup = (typeof courseGroups)[number];
+
+export const courseDetails: Record<string, { category: CourseGroup; image: string; label: string }> = {
+  greeting: { category: "日常交流", image: cafeImage, label: "认识彼此" },
+  polite: { category: "日常交流", image: neighborImage, label: "学会称呼与礼貌" },
+  market: { category: "旅行生活", image: marketImage, label: "逛一逛市场" },
+  restaurant: { category: "旅行生活", image: cafeImage, label: "尝尝当地味道" },
+  directions: { category: "旅行生活", image: directionsImage, label: "走进城市" },
+  hotel: { category: "旅行生活", image: hotelImage, label: "旅途安顿下来" },
+  taxi: { category: "旅行生活", image: taxiImage, label: "出门上路" },
+  tour: { category: "旅行生活", image: templeImage, label: "去看一看" },
+  money: { category: "生活办事", image: moneyImage, label: "把钱换对" },
+  doctor: { category: "生活办事", image: clinicImage, label: "不舒服也要说清楚" },
+  friends: { category: "社交进阶", image: cafeImage, label: "从认识到朋友" },
+  whatsapp: { category: "社交进阶", image: whatsappImage, label: "线上也聊得起来" },
+};

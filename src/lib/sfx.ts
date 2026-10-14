@@ -1,1 +1,39 @@
-bGV0IGN0eDogQXVkaW9Db250ZXh0IHwgbnVsbCA9IG51bGw7CmNvbnN0IEtFWSA9ICJuZ29icm9sLXNmeC1vZmYiOwoKZXhwb3J0IGZ1bmN0aW9uIGlzU2Z4T24oKSB7CiAgcmV0dXJuIHR5cGVvZiB3aW5kb3cgIT09ICJ1bmRlZmluZWQiICYmIGxvY2FsU3RvcmFnZS5nZXRJdGVtKEtFWSkgIT09ICIxIjsKfQpleHBvcnQgZnVuY3Rpb24gc2V0U2Z4T24ob246IGJvb2xlYW4pIHsKICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShLRVksIG9uID8gIjAiIDogIjEiKTsKfQoKLyoqIFNob3J0IHNvZnQgInRpY2siIGJ1aWx0IHdpdGggV2ViIEF1ZGlvIOKAlCBubyBmaWxlcyB0byBkb3dubG9hZC4gKi8KZXhwb3J0IGZ1bmN0aW9uIHBsYXlDbGljayhraW5kOiAidGFwIiB8ICJuYXYiID0gInRhcCIpIHsKICBpZiAoIWlzU2Z4T24oKSkgcmV0dXJuOwogIHRyeSB7CiAgICBjdHggPz89IG5ldyBBdWRpb0NvbnRleHQoKTsKICAgIGNvbnN0IHQgPSBjdHguY3VycmVudFRpbWU7CiAgICBjb25zdCBvc2MgPSBjdHguY3JlYXRlT3NjaWxsYXRvcigpOwogICAgY29uc3QgZ2FpbiA9IGN0eC5jcmVhdGVHYWluKCk7CiAgICBvc2MudHlwZSA9ICJzaW5lIjsKICAgIG9zYy5mcmVxdWVuY3kuc2V0VmFsdWVBdFRpbWUoa2luZCA9PT0gIm5hdiIgPyA1MjAgOiA4ODAsIHQpOwogICAgb3NjLmZyZXF1ZW5jeS5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKGtpbmQgPT09ICJuYXYiID8gNzgwIDogNTYwLCB0ICsgMC4wOCk7CiAgICBnYWluLmdhaW4uc2V0VmFsdWVBdFRpbWUoMC4wMDAxLCB0KTsKICAgIGdhaW4uZ2Fpbi5leHBvbmVudGlhbFJhbXBUb1ZhbHVlQXRUaW1lKDAuMTIsIHQgKyAwLjAwOCk7CiAgICBnYWluLmdhaW4uZXhwb25lbnRpYWxSYW1wVG9WYWx1ZUF0VGltZSgwLjAwMDEsIHQgKyAwLjEyKTsKICAgIG9zYy5jb25uZWN0KGdhaW4pLmNvbm5lY3QoY3R4LmRlc3RpbmF0aW9uKTsKICAgIG9zYy5zdGFydCh0KTsKICAgIG9zYy5zdG9wKHQgKyAwLjEzKTsKICB9IGNhdGNoIHsgLyogYXVkaW8gdW5hdmFpbGFibGUgKi8gfQp9CgpleHBvcnQgZnVuY3Rpb24gaW5zdGFsbENsaWNrU291bmRzKCkgewogIGNvbnN0IGhhbmRsZXIgPSAoZTogUG9pbnRlckV2ZW50KSA9PiB7CiAgICBjb25zdCBlbCA9IChlLnRhcmdldCBhcyBIVE1MRWxlbWVudCB8IG51bGwpPy5jbG9zZXN0KCJidXR0b24sIGEsIFtyb2xlPWJ1dHRvbl0iKTsKICAgIGlmICghZWwgfHwgKGVsIGFzIEhUTUxCdXR0b25FbGVtZW50KS5kaXNhYmxlZCkgcmV0dXJuOwogICAgcGxheUNsaWNrKGVsLnRhZ05hbWUgPT09ICJBIiA/ICJuYXYiIDogInRhcCIpOwogIH07CiAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigicG9pbnRlcmRvd24iLCBoYW5kbGVyKTsKICByZXR1cm4gKCkgPT4gZG9jdW1lbnQucmVtb3ZlRXZlbnRMaXN0ZW5lcigicG9pbnRlcmRvd24iLCBoYW5kbGVyKTsKfQo=
+let ctx: AudioContext | null = null;
+const KEY = "ngobrol-sfx-off";
+
+export function isSfxOn() {
+  return typeof window !== "undefined" && localStorage.getItem(KEY) !== "1";
+}
+export function setSfxOn(on: boolean) {
+  localStorage.setItem(KEY, on ? "0" : "1");
+}
+
+/** Short soft "tick" built with Web Audio — no files to download. */
+export function playClick(kind: "tap" | "nav" = "tap") {
+  if (!isSfxOn()) return;
+  try {
+    ctx ??= new AudioContext();
+    const t = ctx.currentTime;
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = "sine";
+    osc.frequency.setValueAtTime(kind === "nav" ? 520 : 880, t);
+    osc.frequency.exponentialRampToValueAtTime(kind === "nav" ? 780 : 560, t + 0.08);
+    gain.gain.setValueAtTime(0.0001, t);
+    gain.gain.exponentialRampToValueAtTime(0.12, t + 0.008);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.12);
+    osc.connect(gain).connect(ctx.destination);
+    osc.start(t);
+    osc.stop(t + 0.13);
+  } catch { /* audio unavailable */ }
+}
+
+export function installClickSounds() {
+  const handler = (e: PointerEvent) => {
+    const el = (e.target as HTMLElement | null)?.closest("button, a, [role=button]");
+    if (!el || (el as HTMLButtonElement).disabled) return;
+    playClick(el.tagName === "A" ? "nav" : "tap");
+  };
+  document.addEventListener("pointerdown", handler);
+  return () => document.removeEventListener("pointerdown", handler);
+}

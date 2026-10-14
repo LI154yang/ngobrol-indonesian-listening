@@ -1,1 +1,85 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHVzZU1lbW8sIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBTZWFyY2gsIFZvbHVtZTIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBMZWFybmluZ1NoZWxsIH0gZnJvbSAiQC9jb21wb25lbnRzL0xlYXJuaW5nU2hlbGwiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgbGVzc29ucyB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKaW1wb3J0IHsgc3BlYWtJbmRvbmVzaWFuIH0gZnJvbSAiQC9saWIvc3BlZWNoIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3dvcmRzIikoewogIGhlYWQ6ICgpID0+ICh7CiAgICBtZXRhOiBbCiAgICAgIHsgdGl0bGU6ICLljZXor43lupMgwrcgTmdvYnJvbCEg5Y2w5bC86K+t5ZCs5Yqb6K++5aCCIiB9LAogICAgICB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLmsYfmgLvmiYDmnInor77nqIvnmoTljbDlsLzor63ljZXor43vvIzlj6/mkJzntKLjgIHngrnor7vlj5Hpn7PjgIIiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICLljZXor43lupMgwrcgTmdvYnJvbCEg5Y2w5bC86K+t5ZCs5Yqb6K++5aCCIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAi5rGH5oC75omA5pyJ6K++56iL55qE5Y2w5bC86K+t5Y2V6K+N77yM5Y+v5pCc57Si44CB54K56K+75Y+R6Z+z44CCIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeSIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBXb3Jkc1BhZ2UsCn0pOwoKZnVuY3Rpb24gV29yZHNQYWdlKCkgewogIGNvbnN0IFtxdWVyeSwgc2V0UXVlcnldID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtsZXNzb25JZCwgc2V0TGVzc29uSWRdID0gdXNlU3RhdGU8c3RyaW5nPigiYWxsIik7CgogIGNvbnN0IHdvcmRzID0gdXNlTWVtbygoKSA9PiB7CiAgICBjb25zdCBxID0gcXVlcnkudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgICByZXR1cm4gbGVzc29ucwogICAgICAuZmlsdGVyKGwgPT4gbGVzc29uSWQgPT09ICJhbGwiIHx8IGwuaWQgPT09IGxlc3NvbklkKQogICAgICAuZmxhdE1hcChsID0+IGwudm9jYWIubWFwKHYgPT4gKHsgLi4udiwgbGVzc29uOiBsIH0pKSkKICAgICAgLmZpbHRlcih2ID0+ICFxIHx8IHYud29yZC50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKHEpIHx8IHYubWVhbmluZy5pbmNsdWRlcyhxKSk7CiAgfSwgW3F1ZXJ5LCBsZXNzb25JZF0pOwoKICBjb25zdCB0b3RhbCA9IGxlc3NvbnMucmVkdWNlKChuLCBsKSA9PiBuICsgbC52b2NhYi5sZW5ndGgsIDApOwoKICByZXR1cm4gKAogICAgPExlYXJuaW5nU2hlbGw+CiAgICAgIDxtYWluIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy02eGwgcHgtNSBweS0xMCBzbTpweC04Ij4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC00eGwgZm9udC1ib2xkIj7ljZXor43lupM8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPuWFsSB7dG90YWx9IOS4quWNleivje+8jOeCueWHu+WWh+WPreWQrOWPkemfs+OAgjwvcD4KCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTYgZmxleCBmbGV4LWNvbCBnYXAtMyBzbTpmbGV4LXJvdyI+CiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4LTEiPgogICAgICAgICAgICA8U2VhcmNoIGNsYXNzTmFtZT0iYWJzb2x1dGUgbGVmdC0zIHRvcC0xLzIgaC00IHctNCAtdHJhbnNsYXRlLXktMS8yIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdmFsdWU9e3F1ZXJ5fQogICAgICAgICAgICAgIG9uQ2hhbmdlPXtlID0+IHNldFF1ZXJ5KGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i5pCc57Si5Y2w5bC86K+t5oiW5Lit5paH4oCmIgogICAgICAgICAgICAgIGFyaWEtbGFiZWw9IuaQnOe0ouWNleivjSIKICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZCBweS0yIHBsLTkgcHItMyB0ZXh0LXNtIG91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgIHZhbHVlPXtsZXNzb25JZH0KICAgICAgICAgICAgb25DaGFuZ2U9e2UgPT4gc2V0TGVzc29uSWQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICBhcmlhLWxhYmVsPSLmjInor77nqIvnrZvpgIkiCiAgICAgICAgICAgIGNsYXNzTmFtZT0icm91bmRlZC1tZCBib3JkZXIgYm9yZGVyLWlucHV0IGJnLWJhY2tncm91bmQgcHgtMyBweS0yIHRleHQtc20iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9ImFsbCI+5YWo6YOo6K++56iLPC9vcHRpb24+CiAgICAgICAgICAgIHtsZXNzb25zLm1hcChsID0+IDxvcHRpb24ga2V5PXtsLmlkfSB2YWx1ZT17bC5pZH0+e2wudGl0bGV9PC9vcHRpb24+KX0KICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgIDwvZGl2PgoKICAgICAgICA8dWwgY2xhc3NOYW1lPSJtdC02IGdyaWQgZ2FwLTMgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMiPgogICAgICAgICAge3dvcmRzLm1hcCh2ID0+ICgKICAgICAgICAgICAgPGxpIGtleT17YCR7di5sZXNzb24uaWR9LSR7di53b3JkfWB9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTMgcm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNCI+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9Imljb24iIG9uQ2xpY2s9eygpID0+IHNwZWFrSW5kb25lc2lhbih2LndvcmQpfSBhcmlhLWxhYmVsPXtg5pKt5pS+ICR7di53b3JkfWB9PgogICAgICAgICAgICAgICAgPFZvbHVtZTIgLz4KICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCBmbGV4LTEiPgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC1sZyBmb250LXNlbWlib2xkIj57di53b3JkfTwvcD4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt2Lm1lYW5pbmd9PC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxMaW5rIHRvPSIvbGVzc29ucy8kbGVzc29uSWQiIHBhcmFtcz17eyBsZXNzb25JZDogdi5sZXNzb24uaWQgfX0gY2xhc3NOYW1lPSJzaHJpbmstMCB0ZXh0LXhzIHRleHQtcHJpbWFyeSBob3Zlcjp1bmRlcmxpbmUiPgogICAgICAgICAgICAgICAge3YubGVzc29uLnRpdGxlfQogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgPC9saT4KICAgICAgICAgICkpfQogICAgICAgIDwvdWw+CiAgICAgICAge3dvcmRzLmxlbmd0aCA9PT0gMCAmJiA8cCBjbGFzc05hbWU9Im10LTggdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj7msqHmnInmib7liLDljLnphY3nmoTljZXor43jgII8L3A+fQogICAgICA8L21haW4+CiAgICA8L0xlYXJuaW5nU2hlbGw+CiAgKTsKfQo=
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useMemo, useState } from "react";
+import { Search, Volume2 } from "lucide-react";
+import { LearningShell } from "@/components/LearningShell";
+import { Button } from "@/components/ui/button";
+import { lessons } from "@/data/lessons";
+import { speakIndonesian } from "@/lib/speech";
+
+export const Route = createFileRoute("/words")({
+  head: () => ({
+    meta: [
+      { title: "单词库 · Ngobrol! 印尼语听力课堂" },
+      { name: "description", content: "汇总所有课程的印尼语单词，可搜索、点读发音。" },
+      { property: "og:title", content: "单词库 · Ngobrol! 印尼语听力课堂" },
+      { property: "og:description", content: "汇总所有课程的印尼语单词，可搜索、点读发音。" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: WordsPage,
+});
+
+function WordsPage() {
+  const [query, setQuery] = useState("");
+  const [lessonId, setLessonId] = useState<string>("all");
+
+  const words = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return lessons
+      .filter(l => lessonId === "all" || l.id === lessonId)
+      .flatMap(l => l.vocab.map(v => ({ ...v, lesson: l })))
+      .filter(v => !q || v.word.toLowerCase().includes(q) || v.meaning.includes(q));
+  }, [query, lessonId]);
+
+  const total = lessons.reduce((n, l) => n + l.vocab.length, 0);
+
+  return (
+    <LearningShell>
+      <main className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
+        <h1 className="font-display text-4xl font-bold">单词库</h1>
+        <p className="mt-2 text-muted-foreground">共 {total} 个单词，点击喇叭听发音。</p>
+
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+          <label className="relative flex-1">
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <input
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+              placeholder="搜索印尼语或中文…"
+              aria-label="搜索单词"
+              className="w-full rounded-md border border-input bg-background py-2 pl-9 pr-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            />
+          </label>
+          <select
+            value={lessonId}
+            onChange={e => setLessonId(e.target.value)}
+            aria-label="按课程筛选"
+            className="rounded-md border border-input bg-background px-3 py-2 text-sm"
+          >
+            <option value="all">全部课程</option>
+            {lessons.map(l => <option key={l.id} value={l.id}>{l.title}</option>)}
+          </select>
+        </div>
+
+        <ul className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {words.map(v => (
+            <li key={`${v.lesson.id}-${v.word}`} className="flex items-center gap-3 rounded-lg border border-border bg-card p-4">
+              <Button variant="secondary" size="icon" onClick={() => speakIndonesian(v.word)} aria-label={`播放 ${v.word}`}>
+                <Volume2 />
+              </Button>
+              <div className="min-w-0 flex-1">
+                <p className="font-display text-lg font-semibold">{v.word}</p>
+                <p className="text-sm text-muted-foreground">{v.meaning}</p>
+              </div>
+              <Link to="/lessons/$lessonId" params={{ lessonId: v.lesson.id }} className="shrink-0 text-xs text-primary hover:underline">
+                {v.lesson.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        {words.length === 0 && <p className="mt-8 text-center text-muted-foreground">没有找到匹配的单词。</p>}
+      </main>
+    </LearningShell>
+  );
+}

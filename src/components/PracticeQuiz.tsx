@@ -1,1 +1,62 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgVm9sdW1lMiwgQ2hlY2tDaXJjbGUyLCBYQ2lyY2xlLCBSb3RhdGVDY3csIFNlbmQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgc3BlYWtJbmRvbmVzaWFuIH0gZnJvbSAiQC9saWIvc3BlZWNoIjsKaW1wb3J0IHsgYWRkTWlzdGFrZSB9IGZyb20gIkAvbGliL21pc3Rha2VzIjsKaW1wb3J0IHR5cGUgeyBQcmFjdGljZVF1ZXN0aW9uIH0gZnJvbSAiQC9saWIvcHJhY3RpY2UiOwoKLyoqIEdlbmVyaWMgcXVpejogcGljayDihpIgc3VibWl0IOKGkiBmZWVkYmFjayDihpIgbmV4dC4gYGJ1aWxkYCBpcyBjYWxsZWQgZm9yIGVhY2ggbmV3IHJvdW5kLiAqLwpleHBvcnQgZnVuY3Rpb24gUHJhY3RpY2VRdWl6KHsgYnVpbGQsIGxlc3NvbklkIH06IHsgYnVpbGQ6ICgpID0+IFByYWN0aWNlUXVlc3Rpb25bXTsgbGVzc29uSWQ/OiBzdHJpbmcgfSkgewogIGNvbnN0IFtyb3VuZCwgc2V0Um91bmRdID0gdXNlU3RhdGU8UHJhY3RpY2VRdWVzdGlvbltdIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2N1cnJlbnQsIHNldEN1cnJlbnRdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW3NlbGVjdGVkLCBzZXRTZWxlY3RlZF0gPSB1c2VTdGF0ZTxudW1iZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBbc3VibWl0dGVkLCBzZXRTdWJtaXR0ZWRdID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtzY29yZSwgc2V0U2NvcmVdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW2ZpbmlzaGVkLCBzZXRGaW5pc2hlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IHJlc3RhcnQgPSAoKSA9PiB7IHNldFJvdW5kKGJ1aWxkKCkpOyBzZXRDdXJyZW50KDApOyBzZXRTZWxlY3RlZChudWxsKTsgc2V0U3VibWl0dGVkKGZhbHNlKTsgc2V0U2NvcmUoMCk7IHNldEZpbmlzaGVkKGZhbHNlKTsgfTsKICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgcmVhY3QtaG9va3MvZXhoYXVzdGl2ZS1kZXBzCiAgdXNlRWZmZWN0KCgpID0+IHsgcmVzdGFydCgpOyB9LCBbXSk7CgogIGlmICghcm91bmQpIHJldHVybiA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+5q2j5Zyo5Ye66aKY4oCmPC9kaXY+OwogIGNvbnN0IHEgPSByb3VuZFtjdXJyZW50XTsKICBpZiAoIXEpIHJldHVybiBudWxsOwoKICBjb25zdCBzdWJtaXQgPSAoKSA9PiB7CiAgICBpZiAoc2VsZWN0ZWQgPT09IG51bGwgfHwgc3VibWl0dGVkKSByZXR1cm47CiAgICBzZXRTdWJtaXR0ZWQodHJ1ZSk7CiAgICBpZiAoc2VsZWN0ZWQgPT09IHEuYW5zd2VyKSBzZXRTY29yZShzID0+IHMgKyAxKTsKICAgIGVsc2UgYWRkTWlzdGFrZSh7IGtpbmQ6ICJxdWl6Iiwgd29yZDogcS5hdWRpbyA/PyBxLnByb21wdCwgbWVhbmluZzogcS5vcHRpb25zW3EuYW5zd2VyXSA/PyAiIiwgeW91ckFuc3dlcjogcS5vcHRpb25zW3NlbGVjdGVkXSA/PyAiIiwgLi4uKGxlc3NvbklkID8geyBsZXNzb25JZCB9IDoge30pIH0pOwogIH07CiAgY29uc3QgbmV4dCA9ICgpID0+IHsKICAgIGlmIChjdXJyZW50ICsgMSA+PSByb3VuZC5sZW5ndGgpIHNldEZpbmlzaGVkKHRydWUpOwogICAgZWxzZSB7IHNldEN1cnJlbnQoYyA9PiBjICsgMSk7IHNldFNlbGVjdGVkKG51bGwpOyBzZXRTdWJtaXR0ZWQoZmFsc2UpOyB9CiAgfTsKCiAgaWYgKGZpbmlzaGVkKSByZXR1cm4gPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTggdGV4dC1jZW50ZXIiPgogICAgPHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC00eGwgZm9udC1ib2xkIHRleHQtcHJpbWFyeSI+e3Njb3JlfSAvIHtyb3VuZC5sZW5ndGh9PC9wPgogICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57c2NvcmUgPT09IHJvdW5kLmxlbmd0aCA/ICLlhajlr7nvvIFIZWJhdO+8gSIgOiAi562U6ZSZ55qE6aKY5bey6K6w5YWl6ZSZ6aKY5bqT44CCIn08L3A+CiAgICA8QnV0dG9uIG9uQ2xpY2s9e3Jlc3RhcnR9IGNsYXNzTmFtZT0ibXQtNSI+PFJvdGF0ZUNjdyAvPuaNouS4gOe7hOaWsOmimDwvQnV0dG9uPgogIDwvZGl2PjsKCiAgcmV0dXJuIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC02Ij4KICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktYmV0d2VlbiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+PHNwYW4+56ysIHtjdXJyZW50ICsgMX0gLyB7cm91bmQubGVuZ3RofSDpopg8L3NwYW4+PHNwYW4+5b6X5YiG77yae3Njb3JlfTwvc3Bhbj48L2Rpdj4KICAgIDxwIGNsYXNzTmFtZT0ibXQtNCBmb250LXNlbWlib2xkIj57cS5wcm9tcHR9PC9wPgogICAge3EuYXVkaW8gJiYgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIGNsYXNzTmFtZT0ibXQtMyIgb25DbGljaz17KCkgPT4gc3BlYWtJbmRvbmVzaWFuKHEuYXVkaW8hKX0+PFZvbHVtZTIgLz7mkq3mlL48L0J1dHRvbj59CiAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNSBncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIj4KICAgICAge3Eub3B0aW9ucy5tYXAoKG9wdCwgaSkgPT4gewogICAgICAgIGNvbnN0IG9rID0gc3VibWl0dGVkICYmIGkgPT09IHEuYW5zd2VyOwogICAgICAgIGNvbnN0IGJhZCA9IHN1Ym1pdHRlZCAmJiBzZWxlY3RlZCA9PT0gaSAmJiBpICE9PSBxLmFuc3dlcjsKICAgICAgICBjb25zdCBwaWNrZWQgPSAhc3VibWl0dGVkICYmIHNlbGVjdGVkID09PSBpOwogICAgICAgIHJldHVybiA8QnV0dG9uIGtleT17aX0gdmFyaWFudD0ib3V0bGluZSIgZGlzYWJsZWQ9e3N1Ym1pdHRlZH0gb25DbGljaz17KCkgPT4gc2V0U2VsZWN0ZWQoaSl9CiAgICAgICAgICBjbGFzc05hbWU9e2BoLWF1dG8ganVzdGlmeS1iZXR3ZWVuIHdoaXRlc3BhY2Utbm9ybWFsIHB5LTMgdGV4dC1sZWZ0ICR7b2sgPyAiYm9yZGVyLWFjY2VudCBiZy1hY2NlbnQvMTAiIDogYmFkID8gImJvcmRlci1kZXN0cnVjdGl2ZSBiZy1kZXN0cnVjdGl2ZS8xMCIgOiBwaWNrZWQgPyAiYm9yZGVyLXByaW1hcnkgYmctc2Vjb25kYXJ5IiA6ICIifWB9PgogICAgICAgICAge29wdH17b2sgJiYgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9InRleHQtYWNjZW50IiAvPn17YmFkICYmIDxYQ2lyY2xlIGNsYXNzTmFtZT0idGV4dC1kZXN0cnVjdGl2ZSIgLz59CiAgICAgICAgPC9CdXR0b24+OwogICAgICB9KX0KICAgIDwvZGl2PgogICAgeyFzdWJtaXR0ZWQgPyA8QnV0dG9uIGNsYXNzTmFtZT0ibXQtNSIgZGlzYWJsZWQ9e3NlbGVjdGVkID09PSBudWxsfSBvbkNsaWNrPXtzdWJtaXR9PjxTZW5kIC8+5o+Q5Lqk562U5qGIPC9CdXR0b24+IDogPD4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgcm91bmRlZC1tZCBiZy1zZWNvbmRhcnkgcC0zIHRleHQtc20iPntxLmV4cGxhbmF0aW9ufTwvZGl2PgogICAgICA8QnV0dG9uIGNsYXNzTmFtZT0ibXQtNCIgb25DbGljaz17bmV4dH0+e2N1cnJlbnQgKyAxID49IHJvdW5kLmxlbmd0aCA/ICLmn6XnnIvmiJDnu6kiIDogIuS4i+S4gOmimCJ9PC9CdXR0b24+CiAgICA8Lz59CiAgPC9kaXY+Owp9Cg==
+import { useEffect, useState } from "react";
+import { Volume2, CheckCircle2, XCircle, RotateCcw, Send } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { speakIndonesian } from "@/lib/speech";
+import { addMistake } from "@/lib/mistakes";
+import type { PracticeQuestion } from "@/lib/practice";
+
+/** Generic quiz: pick → submit → feedback → next. `build` is called for each new round. */
+export function PracticeQuiz({ build, lessonId }: { build: () => PracticeQuestion[]; lessonId?: string }) {
+  const [round, setRound] = useState<PracticeQuestion[] | null>(null);
+  const [current, setCurrent] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [submitted, setSubmitted] = useState(false);
+  const [score, setScore] = useState(0);
+  const [finished, setFinished] = useState(false);
+
+  const restart = () => { setRound(build()); setCurrent(0); setSelected(null); setSubmitted(false); setScore(0); setFinished(false); };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  useEffect(() => { restart(); }, []);
+
+  if (!round) return <div className="rounded-lg border border-border bg-card p-6 text-sm text-muted-foreground">正在出题…</div>;
+  const q = round[current];
+  if (!q) return null;
+
+  const submit = () => {
+    if (selected === null || submitted) return;
+    setSubmitted(true);
+    if (selected === q.answer) setScore(s => s + 1);
+    else addMistake({ kind: "quiz", word: q.audio ?? q.prompt, meaning: q.options[q.answer] ?? "", yourAnswer: q.options[selected] ?? "", ...(lessonId ? { lessonId } : {}) });
+  };
+  const next = () => {
+    if (current + 1 >= round.length) setFinished(true);
+    else { setCurrent(c => c + 1); setSelected(null); setSubmitted(false); }
+  };
+
+  if (finished) return <div className="rounded-lg border border-border bg-card p-8 text-center">
+    <p className="font-display text-4xl font-bold text-primary">{score} / {round.length}</p>
+    <p className="mt-2 text-sm text-muted-foreground">{score === round.length ? "全对！Hebat！" : "答错的题已记入错题库。"}</p>
+    <Button onClick={restart} className="mt-5"><RotateCcw />换一组新题</Button>
+  </div>;
+
+  return <div className="rounded-lg border border-border bg-card p-6">
+    <div className="flex justify-between text-sm text-muted-foreground"><span>第 {current + 1} / {round.length} 题</span><span>得分：{score}</span></div>
+    <p className="mt-4 font-semibold">{q.prompt}</p>
+    {q.audio && <Button variant="secondary" className="mt-3" onClick={() => speakIndonesian(q.audio!)}><Volume2 />播放</Button>}
+    <div className="mt-5 grid gap-3 sm:grid-cols-2">
+      {q.options.map((opt, i) => {
+        const ok = submitted && i === q.answer;
+        const bad = submitted && selected === i && i !== q.answer;
+        const picked = !submitted && selected === i;
+        return <Button key={i} variant="outline" disabled={submitted} onClick={() => setSelected(i)}
+          className={`h-auto justify-between whitespace-normal py-3 text-left ${ok ? "border-accent bg-accent/10" : bad ? "border-destructive bg-destructive/10" : picked ? "border-primary bg-secondary" : ""}`}>
+          {opt}{ok && <CheckCircle2 className="text-accent" />}{bad && <XCircle className="text-destructive" />}
+        </Button>;
+      })}
+    </div>
+    {!submitted ? <Button className="mt-5" disabled={selected === null} onClick={submit}><Send />提交答案</Button> : <>
+      <div className="mt-5 rounded-md bg-secondary p-3 text-sm">{q.explanation}</div>
+      <Button className="mt-4" onClick={next}>{current + 1 >= round.length ? "查看成绩" : "下一题"}</Button>
+    </>}
+  </div>;
+}

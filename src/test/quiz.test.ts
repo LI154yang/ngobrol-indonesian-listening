@@ -1,1 +1,42 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwoKaW1wb3J0IHsgcXVpelF1ZXN0aW9ucyB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKaW1wb3J0IHsgYnVpbGRRdWl6Um91bmQsIHNodWZmbGUgfSBmcm9tICJAL2xpYi9xdWl6IjsKCi8vIFRoZSBxdWl6IG11c3Qgc3RheSBjaGFsbGVuZ2luZzogZXZlcnkgcm91bmQgcmVzaHVmZmxlcyBxdWVzdGlvbnMgYW5kCi8vIG9wdGlvbnMsIGFuZCB0aGUgYW5zd2VyIGluZGV4IG11c3QgYWx3YXlzIHBvaW50IGF0IHRoZSByaWdodCBvcHRpb24uCmRlc2NyaWJlKCJRdWl6IHJvdW5kIGJ1aWxkZXIiLCAoKSA9PiB7CiAgaXQoImtlZXBzIGV2ZXJ5IHF1ZXN0aW9uIGFuZCBldmVyeSBvcHRpb24gZXhhY3RseSBvbmNlIiwgKCkgPT4gewogICAgY29uc3Qgcm91bmQgPSBidWlsZFF1aXpSb3VuZCgpOwogICAgZXhwZWN0KHJvdW5kLmxlbmd0aCkudG9CZShxdWl6UXVlc3Rpb25zLmxlbmd0aCk7CiAgICBmb3IgKGNvbnN0IHEgb2Ygcm91bmQpIHsKICAgICAgY29uc3Qgc291cmNlID0gcXVpelF1ZXN0aW9ucy5maW5kKHMgPT4gcy5hdWRpbyA9PT0gcS5hdWRpbyk7CiAgICAgIGV4cGVjdChzb3VyY2UsIGB1bmtub3duIHF1ZXN0aW9uOiAke3EucXVlc3Rpb259YCkudG9CZVRydXRoeSgpOwogICAgICBleHBlY3QoWy4uLnEub3B0aW9uc10uc29ydCgpKS50b0VxdWFsKFsuLi5zb3VyY2UhLm9wdGlvbnNdLnNvcnQoKSk7CiAgICB9CiAgfSk7CgogIGl0KCJhbHdheXMgbWFwcyB0aGUgYW5zd2VyIGluZGV4IHRvIHRoZSBjb3JyZWN0IG9wdGlvbiB0ZXh0IiwgKCkgPT4gewogICAgZm9yIChsZXQgcnVuID0gMDsgcnVuIDwgMjA7IHJ1bisrKSB7CiAgICAgIGZvciAoY29uc3QgcSBvZiBidWlsZFF1aXpSb3VuZCgpKSB7CiAgICAgICAgY29uc3Qgc291cmNlID0gcXVpelF1ZXN0aW9ucy5maW5kKHMgPT4gcy5hdWRpbyA9PT0gcS5hdWRpbykhOwogICAgICAgIGV4cGVjdChxLm9wdGlvbnNbcS5hbnN3ZXJdKS50b0JlKHNvdXJjZS5vcHRpb25zW3NvdXJjZS5hbnN3ZXJdKTsKICAgICAgfQogICAgfQogIH0pOwoKICBpdCgiY2hhbmdlcyB0aGUgb3JkZXIgYmV0d2VlbiByb3VuZHMiLCAoKSA9PiB7CiAgICBjb25zdCBmaXJzdCA9IGJ1aWxkUXVpelJvdW5kKCkubWFwKHEgPT4gcS5xdWVzdGlvbikuam9pbigifCIpOwogICAgY29uc3Qgb3JkZXJzID0gbmV3IFNldChbZmlyc3RdKTsKICAgIGZvciAobGV0IHJ1biA9IDA7IHJ1biA8IDEwOyBydW4rKykgewogICAgICBvcmRlcnMuYWRkKGJ1aWxkUXVpelJvdW5kKCkubWFwKHEgPT4gcS5xdWVzdGlvbikuam9pbigifCIpKTsKICAgIH0KICAgIGV4cGVjdChvcmRlcnMuc2l6ZSkudG9CZUdyZWF0ZXJUaGFuKDEpOwogIH0pOwoKICBpdCgic2h1ZmZsZSBkb2VzIG5vdCBtdXRhdGUgaXRzIGlucHV0IiwgKCkgPT4gewogICAgY29uc3QgaW5wdXQgPSBbMSwgMiwgMywgNCwgNV07CiAgICBzaHVmZmxlKGlucHV0KTsKICAgIGV4cGVjdChpbnB1dCkudG9FcXVhbChbMSwgMiwgMywgNCwgNV0pOwogIH0pOwp9KTsK
+import { describe, expect, it } from "vitest";
+
+import { quizQuestions } from "@/data/lessons";
+import { buildQuizRound, shuffle } from "@/lib/quiz";
+
+// The quiz must stay challenging: every round reshuffles questions and
+// options, and the answer index must always point at the right option.
+describe("Quiz round builder", () => {
+  it("keeps every question and every option exactly once", () => {
+    const round = buildQuizRound();
+    expect(round.length).toBe(quizQuestions.length);
+    for (const q of round) {
+      const source = quizQuestions.find(s => s.audio === q.audio);
+      expect(source, `unknown question: ${q.question}`).toBeTruthy();
+      expect([...q.options].sort()).toEqual([...source!.options].sort());
+    }
+  });
+
+  it("always maps the answer index to the correct option text", () => {
+    for (let run = 0; run < 20; run++) {
+      for (const q of buildQuizRound()) {
+        const source = quizQuestions.find(s => s.audio === q.audio)!;
+        expect(q.options[q.answer]).toBe(source.options[source.answer]);
+      }
+    }
+  });
+
+  it("changes the order between rounds", () => {
+    const first = buildQuizRound().map(q => q.question).join("|");
+    const orders = new Set([first]);
+    for (let run = 0; run < 10; run++) {
+      orders.add(buildQuizRound().map(q => q.question).join("|"));
+    }
+    expect(orders.size).toBeGreaterThan(1);
+  });
+
+  it("shuffle does not mutate its input", () => {
+    const input = [1, 2, 3, 4, 5];
+    shuffle(input);
+    expect(input).toEqual([1, 2, 3, 4, 5]);
+  });
+});

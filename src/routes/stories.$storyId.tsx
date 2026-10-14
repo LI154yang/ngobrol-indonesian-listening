@@ -1,1 +1,71 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rLCBub3RGb3VuZCB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBBcnJvd0xlZnQsIFZvbHVtZTIsIFBsYXksIFNxdWFyZSwgRXllLCBFeWVPZmYsIEhlbHBDaXJjbGUgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBzdG9yaWVzIH0gZnJvbSAiQC9kYXRhL3N0b3JpZXMiOwppbXBvcnQgeyBMZWFybmluZ1NoZWxsIH0gZnJvbSAiQC9jb21wb25lbnRzL0xlYXJuaW5nU2hlbGwiOwppbXBvcnQgeyBQcmFjdGljZVF1aXogfSBmcm9tICJAL2NvbXBvbmVudHMvUHJhY3RpY2VRdWl6IjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IHNwZWFrSW5kb25lc2lhbiwgc3RvcFNwZWFraW5nIH0gZnJvbSAiQC9saWIvc3BlZWNoIjsKaW1wb3J0IHsgc2h1ZmZsZSB9IGZyb20gIkAvbGliL3F1aXoiOwppbXBvcnQgeyBzaHVmZmxlT3B0aW9ucyB9IGZyb20gIkAvbGliL3ByYWN0aWNlIjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL3N0b3JpZXMvJHN0b3J5SWQiKSh7CiAgbG9hZGVyOiAoeyBwYXJhbXMgfSkgPT4gewogICAgY29uc3Qgc3RvcnkgPSBzdG9yaWVzLmZpbmQocyA9PiBzLmlkID09PSBwYXJhbXMuc3RvcnlJZCk7CiAgICBpZiAoIXN0b3J5KSB0aHJvdyBub3RGb3VuZCgpOwogICAgcmV0dXJuIHsgc3RvcnkgfTsKICB9LAogIGhlYWQ6ICh7IGxvYWRlckRhdGEgfSkgPT4gewogICAgY29uc3QgdGl0bGUgPSBsb2FkZXJEYXRhID8gYCR7bG9hZGVyRGF0YS5zdG9yeS50aXRsZX0g4oCUIE5nb2Jyb2whIOWNsOWwvOivreaVheS6i2AgOiAi5pWF5LqL5pyq5om+5YiwIOKAlCBOZ29icm9sISI7CiAgICBjb25zdCBkZXNjcmlwdGlvbiA9IGxvYWRlckRhdGEgPyBgJHtsb2FkZXJEYXRhLnN0b3J5LnN1bW1hcnl9IOmAkOauteacl+ivu+OAgeS4reaWh+WvueeFp+S4jumYheivu+eQhuino+OAgmAgOiAi6L+U5Zue5pWF5LqL5YiX6KGo44CCIjsKICAgIHJldHVybiB7IG1ldGE6IFt7IHRpdGxlIH0sIHsgbmFtZTogImRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogdGl0bGUgfSwgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogZGVzY3JpcHRpb24gfSwgeyBwcm9wZXJ0eTogIm9nOnR5cGUiLCBjb250ZW50OiAiYXJ0aWNsZSIgfSwgeyBuYW1lOiAidHdpdHRlcjpjYXJkIiwgY29udGVudDogInN1bW1hcnkiIH1dIH07CiAgfSwKICBjb21wb25lbnQ6IFN0b3J5UGFnZSwKICBub3RGb3VuZENvbXBvbmVudDogKCkgPT4gPExlYXJuaW5nU2hlbGw+PGRpdiBjbGFzc05hbWU9InB5LTIwIHRleHQtY2VudGVyIj48aDEgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQiPuayoeacieaJvuWIsOi/meS4quaVheS6izwvaDE+PEJ1dHRvbiBhc0NoaWxkIGNsYXNzTmFtZT0ibXQtNiI+PExpbmsgdG89Ii9zdG9yaWVzIj7ov5Tlm57mlYXkuovliJfooag8L0xpbms+PC9CdXR0b24+PC9kaXY+PC9MZWFybmluZ1NoZWxsPiwKfSk7CgpmdW5jdGlvbiBTdG9yeVBhZ2UoKSB7CiAgY29uc3QgeyBzdG9yeSB9ID0gUm91dGUudXNlTG9hZGVyRGF0YSgpOwogIGNvbnN0IFtzaG93WmgsIHNldFNob3daaF0gPSB1c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBbYWN0aXZlLCBzZXRBY3RpdmVdID0gdXNlU3RhdGU8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3BsYXlpbmdBbGwsIHNldFBsYXlpbmdBbGxdID0gdXNlU3RhdGUoZmFsc2UpOwogIHVzZUVmZmVjdCgoKSA9PiAoKSA9PiBzdG9wU3BlYWtpbmcoKSwgW3N0b3J5LmlkXSk7CgogIGNvbnN0IHBsYXlPbmUgPSAoaTogbnVtYmVyKSA9PiB7CiAgICBzZXRQbGF5aW5nQWxsKGZhbHNlKTsKICAgIGlmIChhY3RpdmUgPT09IGkpIHsgc3RvcFNwZWFraW5nKCk7IHNldEFjdGl2ZShudWxsKTsgcmV0dXJuOyB9CiAgICBpZiAoc3BlYWtJbmRvbmVzaWFuKHN0b3J5LnBhcmFncmFwaHNbaV0hLmluZG9uZXNpYW4sIHsgb25FbmQ6ICgpID0+IHNldEFjdGl2ZShudWxsKSB9KSkgc2V0QWN0aXZlKGkpOwogIH07CiAgY29uc3QgcGxheUFsbCA9ICgpID0+IHsKICAgIGlmIChwbGF5aW5nQWxsKSB7IHN0b3BTcGVha2luZygpOyBzZXRQbGF5aW5nQWxsKGZhbHNlKTsgc2V0QWN0aXZlKG51bGwpOyByZXR1cm47IH0KICAgIHNldFBsYXlpbmdBbGwodHJ1ZSk7CiAgICBjb25zdCBzdGVwID0gKGk6IG51bWJlcikgPT4gewogICAgICBjb25zdCBwID0gc3RvcnkucGFyYWdyYXBoc1tpXTsKICAgICAgaWYgKCFwKSB7IHNldFBsYXlpbmdBbGwoZmFsc2UpOyBzZXRBY3RpdmUobnVsbCk7IHJldHVybjsgfQogICAgICBzZXRBY3RpdmUoaSk7CiAgICAgIHNwZWFrSW5kb25lc2lhbihwLmluZG9uZXNpYW4sIHsgcmF0ZTogMC44NSwgb25FbmQ6ICgpID0+IHNldFRpbWVvdXQoKCkgPT4gc3RlcChpICsgMSksIDYwMCkgfSk7CiAgICB9OwogICAgc3RlcCgwKTsKICB9OwoKICByZXR1cm4gPExlYXJuaW5nU2hlbGw+PG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTN4bCBweC01IHB5LTggc206cHgtOCI+CiAgICA8QnV0dG9uIHZhcmlhbnQ9ImxpbmsiIGFzQ2hpbGQgY2xhc3NOYW1lPSJweC0wIj48TGluayB0bz0iL3N0b3JpZXMiPjxBcnJvd0xlZnQgLz7lhajpg6jmlYXkuos8L0xpbms+PC9CdXR0b24+CiAgICA8cCBjbGFzc05hbWU9Im10LTYgdGV4dC1zbSB0ZXh0LWFjY2VudCI+e3N0b3J5LmxldmVsfSDCtyB7c3RvcnkucGFyYWdyYXBocy5sZW5ndGh9IOautTwvcD4KICAgIDxoMSBjbGFzc05hbWU9Im10LTIgZm9udC1kaXNwbGF5IHRleHQtM3hsIGZvbnQtYm9sZCI+e3N0b3J5LnRpdGxlfTwvaDE+CiAgICA8cCBjbGFzc05hbWU9Iml0YWxpYyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPntzdG9yeS50aXRsZUlkfTwvcD4KICAgIDxkaXYgY2xhc3NOYW1lPSJtdC02IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgPEJ1dHRvbiBvbkNsaWNrPXtwbGF5QWxsfT57cGxheWluZ0FsbCA/IDw+PFNxdWFyZSAvPuWBnOatouacl+ivuzwvPiA6IDw+PFBsYXkgLz7mnJfor7vlhajmloc8Lz59PC9CdXR0b24+CiAgICAgIDxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgb25DbGljaz17KCkgPT4gc2V0U2hvd1poKHYgPT4gIXYpfT57c2hvd1poID8gPD48RXllT2ZmIC8+6ZqQ6JeP5Lit5paHPC8+IDogPD48RXllIC8+5pi+56S65Lit5paHPC8+fTwvQnV0dG9uPgogICAgPC9kaXY+CiAgICA8YXJ0aWNsZSBjbGFzc05hbWU9Im10LTYgZGl2aWRlLXkgZGl2aWRlLWJvcmRlciByb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQiPgogICAgICB7c3RvcnkucGFyYWdyYXBocy5tYXAoKHAsIGkpID0+IDxkaXYga2V5PXtpfSBjbGFzc05hbWU9e2BmbGV4IGdhcC00IHAtNSAke2FjdGl2ZSA9PT0gaSA/ICJiZy1zZWNvbmRhcnkvNzAiIDogIiJ9YH0+CiAgICAgICAgPEJ1dHRvbiBzaXplPSJpY29uIiB2YXJpYW50PXthY3RpdmUgPT09IGkgPyAiZGVmYXVsdCIgOiAic2Vjb25kYXJ5In0gYXJpYS1sYWJlbD17YOacl+ivu+esrCAke2kgKyAxfSDmrrVgfSBvbkNsaWNrPXsoKSA9PiBwbGF5T25lKGkpfT48Vm9sdW1lMiAvPjwvQnV0dG9uPgogICAgICAgIDxkaXY+PHAgY2xhc3NOYW1lPSJsZWFkaW5nLXJlbGF4ZWQiPntwLmluZG9uZXNpYW59PC9wPntzaG93WmggJiYgPHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtc20gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj57cC5jaGluZXNlfTwvcD59PC9kaXY+CiAgICAgIDwvZGl2Pil9CiAgICA8L2FydGljbGU+CiAgICA8aDIgY2xhc3NOYW1lPSJtdC0xMCBmb250LWRpc3BsYXkgdGV4dC14bCBmb250LWJvbGQiPuaVheS6i+eUn+ivjTwvaDI+CiAgICA8dWwgY2xhc3NOYW1lPSJtdC0zIGdyaWQgZ2FwLTIgc206Z3JpZC1jb2xzLTIiPntzdG9yeS52b2NhYi5tYXAodiA9PiA8bGkga2V5PXt2LndvcmR9IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBweC00IHB5LTIiPjxzcGFuPjxiIGNsYXNzTmFtZT0idGV4dC1zbSI+e3Yud29yZH08L2I+IDxzcGFuIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPnt2Lm1lYW5pbmd9PC9zcGFuPjwvc3Bhbj48QnV0dG9uIHNpemU9Imljb24iIHZhcmlhbnQ9Imdob3N0IiBhcmlhLWxhYmVsPXtg5pKt5pS+77yaJHt2LndvcmR9YH0gb25DbGljaz17KCkgPT4gc3BlYWtJbmRvbmVzaWFuKHYud29yZCl9PjxWb2x1bWUyIC8+PC9CdXR0b24+PC9saT4pfTwvdWw+CiAgICA8aDIgY2xhc3NOYW1lPSJtYi00IG10LTEwIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGZvbnQtZGlzcGxheSB0ZXh0LXhsIGZvbnQtYm9sZCI+PEhlbHBDaXJjbGUgY2xhc3NOYW1lPSJoLTUgdy01IHRleHQtcHJpbWFyeSIgLz7pmIXor7vnkIbop6M8L2gyPgogICAgPFByYWN0aWNlUXVpeiBrZXk9e3N0b3J5LmlkfSBidWlsZD17KCkgPT4gc2h1ZmZsZShzdG9yeS5xdWVzdGlvbnMpLm1hcChzaHVmZmxlT3B0aW9ucyl9IC8+CiAgPC9tYWluPjwvTGVhcm5pbmdTaGVsbD47Cn0K
+import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import { useEffect, useState } from "react";
+import { ArrowLeft, Volume2, Play, Square, Eye, EyeOff, HelpCircle } from "lucide-react";
+import { stories } from "@/data/stories";
+import { LearningShell } from "@/components/LearningShell";
+import { PracticeQuiz } from "@/components/PracticeQuiz";
+import { Button } from "@/components/ui/button";
+import { speakIndonesian, stopSpeaking } from "@/lib/speech";
+import { shuffle } from "@/lib/quiz";
+import { shuffleOptions } from "@/lib/practice";
+
+export const Route = createFileRoute("/stories/$storyId")({
+  loader: ({ params }) => {
+    const story = stories.find(s => s.id === params.storyId);
+    if (!story) throw notFound();
+    return { story };
+  },
+  head: ({ loaderData }) => {
+    const title = loaderData ? `${loaderData.story.title} — Ngobrol! 印尼语故事` : "故事未找到 — Ngobrol!";
+    const description = loaderData ? `${loaderData.story.summary} 逐段朗读、中文对照与阅读理解。` : "返回故事列表。";
+    return { meta: [{ title }, { name: "description", content: description }, { property: "og:title", content: title }, { property: "og:description", content: description }, { property: "og:type", content: "article" }, { name: "twitter:card", content: "summary" }] };
+  },
+  component: StoryPage,
+  notFoundComponent: () => <LearningShell><div className="py-20 text-center"><h1 className="text-2xl font-bold">没有找到这个故事</h1><Button asChild className="mt-6"><Link to="/stories">返回故事列表</Link></Button></div></LearningShell>,
+});
+
+function StoryPage() {
+  const { story } = Route.useLoaderData();
+  const [showZh, setShowZh] = useState(true);
+  const [active, setActive] = useState<number | null>(null);
+  const [playingAll, setPlayingAll] = useState(false);
+  useEffect(() => () => stopSpeaking(), [story.id]);
+
+  const playOne = (i: number) => {
+    setPlayingAll(false);
+    if (active === i) { stopSpeaking(); setActive(null); return; }
+    if (speakIndonesian(story.paragraphs[i]!.indonesian, { onEnd: () => setActive(null) })) setActive(i);
+  };
+  const playAll = () => {
+    if (playingAll) { stopSpeaking(); setPlayingAll(false); setActive(null); return; }
+    setPlayingAll(true);
+    const step = (i: number) => {
+      const p = story.paragraphs[i];
+      if (!p) { setPlayingAll(false); setActive(null); return; }
+      setActive(i);
+      speakIndonesian(p.indonesian, { rate: 0.85, onEnd: () => setTimeout(() => step(i + 1), 600) });
+    };
+    step(0);
+  };
+
+  return <LearningShell><main className="mx-auto max-w-3xl px-5 py-8 sm:px-8">
+    <Button variant="link" asChild className="px-0"><Link to="/stories"><ArrowLeft />全部故事</Link></Button>
+    <p className="mt-6 text-sm text-accent">{story.level} · {story.paragraphs.length} 段</p>
+    <h1 className="mt-2 font-display text-3xl font-bold">{story.title}</h1>
+    <p className="italic text-muted-foreground">{story.titleId}</p>
+    <div className="mt-6 flex flex-wrap gap-2">
+      <Button onClick={playAll}>{playingAll ? <><Square />停止朗读</> : <><Play />朗读全文</>}</Button>
+      <Button variant="outline" onClick={() => setShowZh(v => !v)}>{showZh ? <><EyeOff />隐藏中文</> : <><Eye />显示中文</>}</Button>
+    </div>
+    <article className="mt-6 divide-y divide-border rounded-lg border border-border bg-card">
+      {story.paragraphs.map((p, i) => <div key={i} className={`flex gap-4 p-5 ${active === i ? "bg-secondary/70" : ""}`}>
+        <Button size="icon" variant={active === i ? "default" : "secondary"} aria-label={`朗读第 ${i + 1} 段`} onClick={() => playOne(i)}><Volume2 /></Button>
+        <div><p className="leading-relaxed">{p.indonesian}</p>{showZh && <p className="mt-1 text-sm text-muted-foreground">{p.chinese}</p>}</div>
+      </div>)}
+    </article>
+    <h2 className="mt-10 font-display text-xl font-bold">故事生词</h2>
+    <ul className="mt-3 grid gap-2 sm:grid-cols-2">{story.vocab.map(v => <li key={v.word} className="flex items-center justify-between rounded-md border border-border bg-card px-4 py-2"><span><b className="text-sm">{v.word}</b> <span className="text-xs text-muted-foreground">{v.meaning}</span></span><Button size="icon" variant="ghost" aria-label={`播放：${v.word}`} onClick={() => speakIndonesian(v.word)}><Volume2 /></Button></li>)}</ul>
+    <h2 className="mb-4 mt-10 flex items-center gap-2 font-display text-xl font-bold"><HelpCircle className="h-5 w-5 text-primary" />阅读理解</h2>
+    <PracticeQuiz key={story.id} build={() => shuffle(story.questions).map(shuffleOptions)} />
+  </main></LearningShell>;
+}

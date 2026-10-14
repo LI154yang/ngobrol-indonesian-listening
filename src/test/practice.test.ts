@@ -1,1 +1,33 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBsZXNzb25zIH0gZnJvbSAiQC9kYXRhL2xlc3NvbnMiOwppbXBvcnQgeyBzdG9yaWVzIH0gZnJvbSAiQC9kYXRhL3N0b3JpZXMiOwppbXBvcnQgeyBidWlsZExlc3NvblF1aXogfSBmcm9tICJAL2xpYi9wcmFjdGljZSI7CgpkZXNjcmliZSgiUGVyLWxlc3NvbiBxdWl6IiwgKCkgPT4gewogIGl0KCJidWlsZHMgNSBxdWVzdGlvbnMgd2l0aCA0IHVuaXF1ZSBvcHRpb25zIGFuZCBhIGNvcnJlY3QgYW5zd2VyIGZyb20gdGhlIGxlc3NvbiIsICgpID0+IHsKICAgIGZvciAoY29uc3QgbGVzc29uIG9mIGxlc3NvbnMpIHsKICAgICAgY29uc3QgcXMgPSBidWlsZExlc3NvblF1aXoobGVzc29uKTsKICAgICAgZXhwZWN0KHFzLmxlbmd0aCkudG9CZSg1KTsKICAgICAgZm9yIChjb25zdCBxIG9mIHFzKSB7CiAgICAgICAgZXhwZWN0KG5ldyBTZXQocS5vcHRpb25zKS5zaXplKS50b0JlKDQpOwogICAgICAgIGNvbnN0IG93biA9IFsuLi5sZXNzb24ubGluZXMubWFwKGwgPT4gbC5jaGluZXNlKSwgLi4ubGVzc29uLnZvY2FiLm1hcCh2ID0+IHYubWVhbmluZyldOwogICAgICAgIGV4cGVjdChvd24pLnRvQ29udGFpbihxLm9wdGlvbnNbcS5hbnN3ZXJdKTsKICAgICAgfQogICAgfQogIH0pOwogIGl0KCJkcmF3cyBkaWZmZXJlbnQgcXVlc3Rpb25zIGJldHdlZW4gdmlzaXRzIiwgKCkgPT4gewogICAgY29uc3Qgc2VlbiA9IG5ldyBTZXQ8c3RyaW5nPigpOwogICAgZm9yIChsZXQgaSA9IDA7IGkgPCAxMDsgaSsrKSBzZWVuLmFkZChidWlsZExlc3NvblF1aXoobGVzc29uc1swXSEpLm1hcChxID0+IHEuYXVkaW8pLmpvaW4oInwiKSk7CiAgICBleHBlY3Qoc2Vlbi5zaXplKS50b0JlR3JlYXRlclRoYW4oMSk7CiAgfSk7Cn0pOwoKZGVzY3JpYmUoIlN0b3JpZXMiLCAoKSA9PiB7CiAgaXQoImFyZSBsb25nIGVub3VnaCBhbmQgaGF2ZSBjb21wcmVoZW5zaW9uIHF1ZXN0aW9ucyIsICgpID0+IHsKICAgIGV4cGVjdChzdG9yaWVzLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuT3JFcXVhbCgzKTsKICAgIGZvciAoY29uc3QgcyBvZiBzdG9yaWVzKSB7CiAgICAgIGV4cGVjdChzLnBhcmFncmFwaHMubGVuZ3RoKS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDgpOwogICAgICBleHBlY3Qocy5xdWVzdGlvbnMubGVuZ3RoKS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDUpOwogICAgfQogIH0pOwp9KTsK
+import { describe, expect, it } from "vitest";
+import { lessons } from "@/data/lessons";
+import { stories } from "@/data/stories";
+import { buildLessonQuiz } from "@/lib/practice";
+
+describe("Per-lesson quiz", () => {
+  it("builds 5 questions with 4 unique options and a correct answer from the lesson", () => {
+    for (const lesson of lessons) {
+      const qs = buildLessonQuiz(lesson);
+      expect(qs.length).toBe(5);
+      for (const q of qs) {
+        expect(new Set(q.options).size).toBe(4);
+        const own = [...lesson.lines.map(l => l.chinese), ...lesson.vocab.map(v => v.meaning)];
+        expect(own).toContain(q.options[q.answer]);
+      }
+    }
+  });
+  it("draws different questions between visits", () => {
+    const seen = new Set<string>();
+    for (let i = 0; i < 10; i++) seen.add(buildLessonQuiz(lessons[0]!).map(q => q.audio).join("|"));
+    expect(seen.size).toBeGreaterThan(1);
+  });
+});
+
+describe("Stories", () => {
+  it("are long enough and have comprehension questions", () => {
+    expect(stories.length).toBeGreaterThanOrEqual(3);
+    for (const s of stories) {
+      expect(s.paragraphs.length).toBeGreaterThanOrEqual(8);
+      expect(s.questions.length).toBeGreaterThanOrEqual(5);
+    }
+  });
+});

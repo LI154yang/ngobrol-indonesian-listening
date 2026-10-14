@@ -1,1 +1,15 @@
-PCEtLSBMT1ZBQkxFOkJFR0lOIC0tPgo+IFshSU1QT1JUQU5UXQo+IFRoaXMgcHJvamVjdCBpcyBjb25uZWN0ZWQgdG8gW0xvdmFibGVdKGh0dHBzOi8vbG92YWJsZS5kZXYpLiBBdm9pZCByZXdyaXRpbmcKPiBwdWJsaXNoZWQgZ2l0IGhpc3Rvcnkg4oCUIGZvcmNlIHB1c2hpbmcsIG9yIHJlYmFzaW5nL2FtZW5kaW5nL3NxdWFzaGluZyBjb21taXRzCj4gdGhhdCBhcmUgYWxyZWFkeSBwdXNoZWQg4oCUIGFzIGl0IHJld3JpdGVzIGhpc3Rvcnkgb24gTG92YWJsZSdzIHNpZGUgYW5kIHRoZQo+IHVzZXIgd2lsbCBsaWtlbHkgbG9zZSB0aGVpciBwcm9qZWN0IGhpc3RvcnkuCj4KPiBDb21taXRzIHlvdSBwdXNoIHRvIHRoZSBjb25uZWN0ZWQgYnJhbmNoIHN5bmMgYmFjayB0byBMb3ZhYmxlIGFuZCBzaG93IHVwIGluCj4gdGhlIGVkaXRvciwgc28ga2VlcCB0aGUgYnJhbmNoIGluIGEgd29ya2luZyBzdGF0ZS4KPCEtLSBMT1ZBQkxFOkVORCAtLT4KCi0gS2VlcCB0aGUgY291cnNlIGNlbnRlciBhdCBgL2AsIGluZGl2aWR1YWwgbGVzc29ucyBhdCBgL2xlc3NvbnMvJGxlc3NvbklkYCwgYW5kIHRoZSBsaXN0ZW5pbmcgcXVpeiBhdCBgL3F1aXpgIHNvIGNvdXJzZXMgY2FuIGJlIG9wZW5lZCBhbmQgc2hhcmVkIGluZGVwZW5kZW50bHkuCi0gS2VlcCBiaWxpbmd1YWwgbGVzc29uIGNvbnRlbnQgaW4gdGhlIHNoYXJlZCBsZXNzb24gY2F0YWxvZyBhbmQgcHJlc2VudGF0aW9uIG1ldGFkYXRhIHNlcGFyYXRlbHkgc28gZXZlcnkgY291cnNlIHBhZ2UgdXNlcyB0aGUgc2FtZSBsaXN0ZW5pbmcgZXhwZXJpZW5jZS4KCi0gV2hlbiBhZGRpbmcgYSBsZXNzb24sIGFsc28gYWRkIGl0cyBgY291cnNlRGV0YWlsc2AgZW50cnkgKGNhdGVnb3J5ICsgcGhvdG8pIGluIGBzcmMvZGF0YS9jb3Vyc2UtY2F0YWxvZy50c2A7IGBzcmMvdGVzdC9sZXNzb24tY29udGVudC50ZXN0LnRzYCBndWFyZHMgdGhhdCBldmVyeSBsZXNzb24gc3RheXMgcmVhY2hhYmxlLCB0cmFuc2xhdGFibGUgYW5kIGRpY3RhdGlvbi1mcmllbmRseS4K
+<!-- LOVABLE:BEGIN -->
+> [!IMPORTANT]
+> This project is connected to [Lovable](https://lovable.dev). Avoid rewriting
+> published git history — force pushing, or rebasing/amending/squashing commits
+> that are already pushed — as it rewrites history on Lovable's side and the
+> user will likely lose their project history.
+>
+> Commits you push to the connected branch sync back to Lovable and show up in
+> the editor, so keep the branch in a working state.
+<!-- LOVABLE:END -->
+
+- Keep the course center at `/`, individual lessons at `/lessons/$lessonId`, and the listening quiz at `/quiz` so courses can be opened and shared independently.
+- Keep bilingual lesson content in the shared lesson catalog and presentation metadata separately so every course page uses the same listening experience.
+
+- When adding a lesson, also add its `courseDetails` entry (category + photo) in `src/data/course-catalog.ts`; `src/test/lesson-content.test.ts` guards that every lesson stays reachable, translatable and dictation-friendly.

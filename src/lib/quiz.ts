@@ -1,1 +1,36 @@
-aW1wb3J0IHsgcXVpelF1ZXN0aW9ucyB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKCmV4cG9ydCBpbnRlcmZhY2UgU2h1ZmZsZWRRdWVzdGlvbiB7CiAgcXVlc3Rpb246IHN0cmluZzsKICBhdWRpbzogc3RyaW5nOwogIG9wdGlvbnM6IHN0cmluZ1tdOwogIGFuc3dlcjogbnVtYmVyOwogIGV4cGxhbmF0aW9uOiBzdHJpbmc7Cn0KCi8qKiBGaXNoZXLigJNZYXRlcyBzaHVmZmxlLCByZXR1cm5zIGEgbmV3IGFycmF5LiAqLwpleHBvcnQgZnVuY3Rpb24gc2h1ZmZsZTxUPihpdGVtczogcmVhZG9ubHkgVFtdKTogVFtdIHsKICBjb25zdCBhcnIgPSBbLi4uaXRlbXNdOwogIGZvciAobGV0IGkgPSBhcnIubGVuZ3RoIC0gMTsgaSA+IDA7IGktLSkgewogICAgY29uc3QgaiA9IE1hdGguZmxvb3IoTWF0aC5yYW5kb20oKSAqIChpICsgMSkpOwogICAgW2FycltpXSwgYXJyW2pdXSA9IFthcnJbal0hLCBhcnJbaV0hXTsKICB9CiAgcmV0dXJuIGFycjsKfQoKLyoqCiAqIEJ1aWxkIGEgZnJlc2ggcXVpeiByb3VuZDogcXVlc3Rpb24gb3JkZXIgYW5kIG9wdGlvbiBvcmRlciBhcmUgYm90aAogKiBzaHVmZmxlZCwgYW5kIGVhY2ggcXVlc3Rpb24ncyBhbnN3ZXIgaW5kZXggaXMgcmVtYXBwZWQgdG8gaXRzIG5ldyBzcG90LgogKi8KZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkUXVpelJvdW5kKCk6IFNodWZmbGVkUXVlc3Rpb25bXSB7CiAgcmV0dXJuIHNodWZmbGUocXVpelF1ZXN0aW9ucykubWFwKHEgPT4gewogICAgY29uc3Qgb3JkZXIgPSBzaHVmZmxlKHEub3B0aW9ucy5tYXAoKF8sIGkpID0+IGkpKTsKICAgIHJldHVybiB7CiAgICAgIHF1ZXN0aW9uOiBxLnF1ZXN0aW9uLAogICAgICBhdWRpbzogcS5hdWRpbywKICAgICAgZXhwbGFuYXRpb246IHEuZXhwbGFuYXRpb24sCiAgICAgIG9wdGlvbnM6IG9yZGVyLm1hcChpID0+IHEub3B0aW9uc1tpXSEpLAogICAgICBhbnN3ZXI6IG9yZGVyLmluZGV4T2YocS5hbnN3ZXIpLAogICAgfTsKICB9KTsKfQo=
+import { quizQuestions } from "@/data/lessons";
+
+export interface ShuffledQuestion {
+  question: string;
+  audio: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+}
+
+/** Fisher–Yates shuffle, returns a new array. */
+export function shuffle<T>(items: readonly T[]): T[] {
+  const arr = [...items];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j]!, arr[i]!];
+  }
+  return arr;
+}
+
+/**
+ * Build a fresh quiz round: question order and option order are both
+ * shuffled, and each question's answer index is remapped to its new spot.
+ */
+export function buildQuizRound(): ShuffledQuestion[] {
+  return shuffle(quizQuestions).map(q => {
+    const order = shuffle(q.options.map((_, i) => i));
+    return {
+      question: q.question,
+      audio: q.audio,
+      explanation: q.explanation,
+      options: order.map(i => q.options[i]!),
+      answer: order.indexOf(q.answer),
+    };
+  });
+}

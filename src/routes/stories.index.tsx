@@ -1,1 +1,27 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IEJvb2tUZXh0LCBBcnJvd1JpZ2h0IH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgc3RvcmllcyB9IGZyb20gIkAvZGF0YS9zdG9yaWVzIjsKaW1wb3J0IHsgTGVhcm5pbmdTaGVsbCB9IGZyb20gIkAvY29tcG9uZW50cy9MZWFybmluZ1NoZWxsIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9zdG9yaWVzLyIpKHsKICBoZWFkOiAoKSA9PiAoeyBtZXRhOiBbeyB0aXRsZTogIuaVheS6i+mYheivuyDigJQgTmdvYnJvbCEg5Y2w5bC86K+t6K++5aCCIiB9LCB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLplb/nr4fljbDlsLzor63mlYXkuovvvJrpgJDmrrXmnJfor7vjgIHkuK3mloflr7nnhafjgIHnlJ/or43lkozpmIXor7vnkIbop6Pnu4PkuaDjgIIiIH0sIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICLljbDlsLzor63mlYXkuovpmIXor7sg4oCUIE5nb2Jyb2whIiB9LCB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAi6K+75a6M5pW055qE5Y2w5bC86K+t5pWF5LqL77yM6L655ZCs6L6557uD44CCIiB9LCB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LCB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeSIgfV0gfSksCiAgY29tcG9uZW50OiBTdG9yaWVzUGFnZSwKfSk7CgpmdW5jdGlvbiBTdG9yaWVzUGFnZSgpIHsKICByZXR1cm4gPExlYXJuaW5nU2hlbGw+PG1haW4gY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LTR4bCBweC01IHB5LTEwIHNtOnB4LTgiPgogICAgPHAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIHRleHQtYWNjZW50Ij48Qm9va1RleHQgY2xhc3NOYW1lPSJoLTQgdy00IiAvPumVv+evh+mYheivuzwvcD4KICAgIDxoMSBjbGFzc05hbWU9Im10LTMgZm9udC1kaXNwbGF5IHRleHQtM3hsIGZvbnQtYm9sZCI+5pWF5LqL6K++56iLPC9oMT4KICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LW11dGVkLWZvcmVncm91bmQiPuavlOWvueivneabtOmVv+eahOWujOaVtOaVheS6i++8jOWPr+S7pemAkOauteWQrOOAgeWvueeFp+S4reaWh++8jOivu+WujOWBmumYheivu+eQhuino+OAgjwvcD4KICAgIDx1bCBjbGFzc05hbWU9Im10LTggZ3JpZCBnYXAtNCI+CiAgICAgIHtzdG9yaWVzLm1hcCgocywgaSkgPT4gPGxpIGtleT17cy5pZH0gY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC02Ij4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1hY2NlbnQiPuaVheS6iyB7U3RyaW5nKGkgKyAxKS5wYWRTdGFydCgyLCAiMCIpfSDCtyB7cy5sZXZlbH0gwrcge3MucGFyYWdyYXBocy5sZW5ndGh9IOautTwvcD4KICAgICAgICA8aDIgY2xhc3NOYW1lPSJtdC0yIGZvbnQtZGlzcGxheSB0ZXh0LXhsIGZvbnQtYm9sZCI+e3MudGl0bGV9PC9oMj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gaXRhbGljIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e3MudGl0bGVJZH08L3A+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0yIHRleHQtc20iPntzLnN1bW1hcnl9PC9wPgogICAgICAgIDxCdXR0b24gYXNDaGlsZCBjbGFzc05hbWU9Im10LTQiPjxMaW5rIHRvPSIvc3Rvcmllcy8kc3RvcnlJZCIgcGFyYW1zPXt7IHN0b3J5SWQ6IHMuaWQgfX0+5byA5aeL6ZiF6K+7PEFycm93UmlnaHQgLz48L0xpbms+PC9CdXR0b24+CiAgICAgIDwvbGk+KX0KICAgIDwvdWw+CiAgPC9tYWluPjwvTGVhcm5pbmdTaGVsbD47Cn0K
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { BookText, ArrowRight } from "lucide-react";
+import { stories } from "@/data/stories";
+import { LearningShell } from "@/components/LearningShell";
+import { Button } from "@/components/ui/button";
+
+export const Route = createFileRoute("/stories/")({
+  head: () => ({ meta: [{ title: "故事阅读 — Ngobrol! 印尼语课堂" }, { name: "description", content: "长篇印尼语故事：逐段朗读、中文对照、生词和阅读理解练习。" }, { property: "og:title", content: "印尼语故事阅读 — Ngobrol!" }, { property: "og:description", content: "读完整的印尼语故事，边听边练。" }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary" }] }),
+  component: StoriesPage,
+});
+
+function StoriesPage() {
+  return <LearningShell><main className="mx-auto max-w-4xl px-5 py-10 sm:px-8">
+    <p className="flex items-center gap-2 text-sm text-accent"><BookText className="h-4 w-4" />长篇阅读</p>
+    <h1 className="mt-3 font-display text-3xl font-bold">故事课程</h1>
+    <p className="mt-2 text-muted-foreground">比对话更长的完整故事，可以逐段听、对照中文，读完做阅读理解。</p>
+    <ul className="mt-8 grid gap-4">
+      {stories.map((s, i) => <li key={s.id} className="rounded-lg border border-border bg-card p-6">
+        <p className="text-xs font-medium text-accent">故事 {String(i + 1).padStart(2, "0")} · {s.level} · {s.paragraphs.length} 段</p>
+        <h2 className="mt-2 font-display text-xl font-bold">{s.title}</h2>
+        <p className="text-sm italic text-muted-foreground">{s.titleId}</p>
+        <p className="mt-2 text-sm">{s.summary}</p>
+        <Button asChild className="mt-4"><Link to="/stories/$storyId" params={{ storyId: s.id }}>开始阅读<ArrowRight /></Link></Button>
+      </li>)}
+    </ul>
+  </main></LearningShell>;
+}

@@ -1,1 +1,13 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IEFycm93TGVmdCwgSGVhZHBob25lcyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IFF1aXogfSBmcm9tICJAL2NvbXBvbmVudHMvUXVpeiI7CmltcG9ydCB7IExlYXJuaW5nU2hlbGwgfSBmcm9tICJAL2NvbXBvbmVudHMvTGVhcm5pbmdTaGVsbCI7CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iOwoKZXhwb3J0IGNvbnN0IFJvdXRlID0gY3JlYXRlRmlsZVJvdXRlKCIvcXVpeiIpKHsKICBoZWFkOiAoKSA9PiAoeyBtZXRhOiBbeyB0aXRsZTogIuWQrOWKm+a1i+mqjCDigJQgTmdvYnJvbCEg5Y2w5bC86K+t6K++5aCCIiB9LCB7IG5hbWU6ICJkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLnlKjkupTpgZPljbDlsLzor63lkKzlipvpopjmo4Dpqozpl67lgJnjgIHnoI3ku7flkozppJDljoXngrnppJDooajovr7vvIzmn6XnnIvnrZTmoYjkuI7op6PmnpDjgIIiIH0sIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICLlkKzlipvmtYvpqowg4oCUIE5nb2Jyb2whIiB9LCB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAi5ZCs5b2V6Z+z44CB6YCJ562U5qGI77yM5qOA6aqM5pel5bi45Y2w5bC86K+t5ZCs5Yqb44CCIiB9LCB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LCB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeV9sYXJnZV9pbWFnZSIgfV0gfSksCiAgY29tcG9uZW50OiBRdWl6UGFnZSwKfSk7CmZ1bmN0aW9uIFF1aXpQYWdlKCkgewogIHJldHVybiA8TGVhcm5pbmdTaGVsbD48bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctM3hsIHB4LTUgcHktOCBzbTpweC04Ij48QnV0dG9uIHZhcmlhbnQ9ImxpbmsiIGFzQ2hpbGQgY2xhc3NOYW1lPSJweC0wIj48TGluayB0bz0iLyI+PEFycm93TGVmdCAvPui/lOWbnuivvueoi+S4reW/gzwvTGluaz48L0J1dHRvbj48cCBjbGFzc05hbWU9Im10LTcgZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC1zbSB0ZXh0LWFjY2VudCI+PEhlYWRwaG9uZXMgY2xhc3NOYW1lPSJoLTQgdy00IiAvPumXruWAmSDCtyDnoI3ku7cgwrcg54K56aSQPC9wPjxoMSBjbGFzc05hbWU9Im10LTMgZm9udC1kaXNwbGF5IHRleHQtM3hsIGZvbnQtYm9sZCI+5ZCs5Yqb5bCP5rWL6aqMPC9oMT48ZGl2IGNsYXNzTmFtZT0ibXQtOCI+PFF1aXogLz48L2Rpdj48L21haW4+PC9MZWFybmluZ1NoZWxsPjsKfQo=
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { ArrowLeft, Headphones } from "lucide-react";
+import { Quiz } from "@/components/Quiz";
+import { LearningShell } from "@/components/LearningShell";
+import { Button } from "@/components/ui/button";
+
+export const Route = createFileRoute("/quiz")({
+  head: () => ({ meta: [{ title: "听力测验 — Ngobrol! 印尼语课堂" }, { name: "description", content: "用五道印尼语听力题检验问候、砍价和餐厅点餐表达，查看答案与解析。" }, { property: "og:title", content: "听力测验 — Ngobrol!" }, { property: "og:description", content: "听录音、选答案，检验日常印尼语听力。" }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
+  component: QuizPage,
+});
+function QuizPage() {
+  return <LearningShell><main className="mx-auto max-w-3xl px-5 py-8 sm:px-8"><Button variant="link" asChild className="px-0"><Link to="/"><ArrowLeft />返回课程中心</Link></Button><p className="mt-7 flex items-center gap-2 text-sm text-accent"><Headphones className="h-4 w-4" />问候 · 砍价 · 点餐</p><h1 className="mt-3 font-display text-3xl font-bold">听力小测验</h1><div className="mt-8"><Quiz /></div></main></LearningShell>;
+}

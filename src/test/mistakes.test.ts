@@ -1,1 +1,11 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGl0LCBleHBlY3QgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBtZXJnZU1pc3Rha2UgfSBmcm9tICJAL2xpYi9taXN0YWtlcyI7CmRlc2NyaWJlKCJtaXN0YWtlIGJhbmsiLCAoKSA9PiB7CiAgaXQoImNvdW50cyByZXBlYXRlZCBtaXN0YWtlcyBvbiB0aGUgc2FtZSB3b3JkIG9uY2UiLCAoKSA9PiB7CiAgICBjb25zdCBlID0geyBraW5kOiAiZGljdGF0aW9uIiBhcyBjb25zdCwgd29yZDogIkt1bmNpIiwgbWVhbmluZzogIumSpeWMmSIsIHlvdXJBbnN3ZXI6ICJrdW5jaGkiIH07CiAgICBjb25zdCBsaXN0ID0gbWVyZ2VNaXN0YWtlKG1lcmdlTWlzdGFrZShbXSwgZSwgMSksIHsgLi4uZSwgeW91ckFuc3dlcjogImt1Y2kiIH0sIDIpOwogICAgZXhwZWN0KGxpc3QpLnRvSGF2ZUxlbmd0aCgxKTsKICAgIGV4cGVjdChsaXN0WzBdIS5jb3VudCkudG9CZSgyKTsKICAgIGV4cGVjdChsaXN0WzBdIS55b3VyQW5zd2VyKS50b0JlKCJrdWNpIik7CiAgfSk7Cn0pOwo=
+import { describe, it, expect } from "vitest";
+import { mergeMistake } from "@/lib/mistakes";
+describe("mistake bank", () => {
+  it("counts repeated mistakes on the same word once", () => {
+    const e = { kind: "dictation" as const, word: "Kunci", meaning: "钥匙", yourAnswer: "kunchi" };
+    const list = mergeMistake(mergeMistake([], e, 1), { ...e, yourAnswer: "kuci" }, 2);
+    expect(list).toHaveLength(1);
+    expect(list[0]!.count).toBe(2);
+    expect(list[0]!.yourAnswer).toBe("kuci");
+  });
+});

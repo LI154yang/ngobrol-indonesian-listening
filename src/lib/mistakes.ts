@@ -1,1 +1,72 @@
-aW1wb3J0IHsgdXNlU3luY0V4dGVybmFsU3RvcmUgfSBmcm9tICJyZWFjdCI7CgpleHBvcnQgdHlwZSBNaXN0YWtlS2luZCA9ICJkaWN0YXRpb24iIHwgInF1aXoiOwoKZXhwb3J0IGludGVyZmFjZSBNaXN0YWtlIHsKICBpZDogc3RyaW5nOwogIGtpbmQ6IE1pc3Rha2VLaW5kOwogIC8qKiBJbmRvbmVzaWFuIHRleHQgdG8gcmVwbGF5ICovCiAgd29yZDogc3RyaW5nOwogIG1lYW5pbmc6IHN0cmluZzsKICAvKiogV2hhdCB0aGUgbGVhcm5lciBhbnN3ZXJlZCAqLwogIHlvdXJBbnN3ZXI6IHN0cmluZzsKICBsZXNzb25JZD86IHN0cmluZzsKICBjb3VudDogbnVtYmVyOwogIGxhc3RBdDogbnVtYmVyOwp9Cgpjb25zdCBLRVkgPSAibmdvYnJvbC1taXN0YWtlcy12MSI7CmNvbnN0IGxpc3RlbmVycyA9IG5ldyBTZXQ8KCkgPT4gdm9pZD4oKTsKbGV0IGNhY2hlOiBNaXN0YWtlW10gfCBudWxsID0gbnVsbDsKY29uc3QgRU1QVFk6IE1pc3Rha2VbXSA9IFtdOwoKZnVuY3Rpb24gcmVhZCgpOiBNaXN0YWtlW10gewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikgcmV0dXJuIEVNUFRZOwogIGlmIChjYWNoZSkgcmV0dXJuIGNhY2hlOwogIHRyeSB7CiAgICBjYWNoZSA9IEpTT04ucGFyc2Uod2luZG93LmxvY2FsU3RvcmFnZS5nZXRJdGVtKEtFWSkgPz8gIltdIikgYXMgTWlzdGFrZVtdOwogIH0gY2F0Y2ggewogICAgY2FjaGUgPSBbXTsKICB9CiAgcmV0dXJuIGNhY2hlOwp9CgpmdW5jdGlvbiB3cml0ZShuZXh0OiBNaXN0YWtlW10pIHsKICBjYWNoZSA9IG5leHQ7CiAgdHJ5IHsKICAgIHdpbmRvdy5sb2NhbFN0b3JhZ2Uuc2V0SXRlbShLRVksIEpTT04uc3RyaW5naWZ5KG5leHQpKTsKICB9IGNhdGNoIHsKICAgIC8qIGlnbm9yZSBxdW90YSBlcnJvcnMgKi8KICB9CiAgbGlzdGVuZXJzLmZvckVhY2gobCA9PiBsKCkpOwp9CgpleHBvcnQgZnVuY3Rpb24gbWVyZ2VNaXN0YWtlKGxpc3Q6IE1pc3Rha2VbXSwgZW50cnk6IE9taXQ8TWlzdGFrZSwgImlkIiB8ICJjb3VudCIgfCAibGFzdEF0Ij4sIG5vdzogbnVtYmVyKTogTWlzdGFrZVtdIHsKICBjb25zdCBpZCA9IGAke2VudHJ5LmtpbmR9OiR7ZW50cnkud29yZC50b0xvd2VyQ2FzZSgpfWA7CiAgY29uc3QgZXhpc3RpbmcgPSBsaXN0LmZpbmQobSA9PiBtLmlkID09PSBpZCk7CiAgaWYgKGV4aXN0aW5nKSB7CiAgICByZXR1cm4gW3sgLi4uZXhpc3RpbmcsIC4uLmVudHJ5LCBjb3VudDogZXhpc3RpbmcuY291bnQgKyAxLCBsYXN0QXQ6IG5vdyB9LCAuLi5saXN0LmZpbHRlcihtID0+IG0uaWQgIT09IGlkKV07CiAgfQogIHJldHVybiBbeyAuLi5lbnRyeSwgaWQsIGNvdW50OiAxLCBsYXN0QXQ6IG5vdyB9LCAuLi5saXN0XTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGFkZE1pc3Rha2UoZW50cnk6IE9taXQ8TWlzdGFrZSwgImlkIiB8ICJjb3VudCIgfCAibGFzdEF0Ij4pIHsKICB3cml0ZShtZXJnZU1pc3Rha2UocmVhZCgpLCBlbnRyeSwgRGF0ZS5ub3coKSkpOwp9CgpleHBvcnQgZnVuY3Rpb24gcmVtb3ZlTWlzdGFrZShpZDogc3RyaW5nKSB7CiAgd3JpdGUocmVhZCgpLmZpbHRlcihtID0+IG0uaWQgIT09IGlkKSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBjbGVhck1pc3Rha2VzKCkgewogIHdyaXRlKFtdKTsKfQoKZnVuY3Rpb24gc3Vic2NyaWJlKGxpc3RlbmVyOiAoKSA9PiB2b2lkKSB7CiAgbGlzdGVuZXJzLmFkZChsaXN0ZW5lcik7CiAgcmV0dXJuICgpID0+IGxpc3RlbmVycy5kZWxldGUobGlzdGVuZXIpOwp9CgpleHBvcnQgZnVuY3Rpb24gdXNlTWlzdGFrZXMoKTogTWlzdGFrZVtdIHsKICByZXR1cm4gdXNlU3luY0V4dGVybmFsU3RvcmUoc3Vic2NyaWJlLCByZWFkLCAoKSA9PiBFTVBUWSk7Cn0K
+import { useSyncExternalStore } from "react";
+
+export type MistakeKind = "dictation" | "quiz";
+
+export interface Mistake {
+  id: string;
+  kind: MistakeKind;
+  /** Indonesian text to replay */
+  word: string;
+  meaning: string;
+  /** What the learner answered */
+  yourAnswer: string;
+  lessonId?: string;
+  count: number;
+  lastAt: number;
+}
+
+const KEY = "ngobrol-mistakes-v1";
+const listeners = new Set<() => void>();
+let cache: Mistake[] | null = null;
+const EMPTY: Mistake[] = [];
+
+function read(): Mistake[] {
+  if (typeof window === "undefined") return EMPTY;
+  if (cache) return cache;
+  try {
+    cache = JSON.parse(window.localStorage.getItem(KEY) ?? "[]") as Mistake[];
+  } catch {
+    cache = [];
+  }
+  return cache;
+}
+
+function write(next: Mistake[]) {
+  cache = next;
+  try {
+    window.localStorage.setItem(KEY, JSON.stringify(next));
+  } catch {
+    /* ignore quota errors */
+  }
+  listeners.forEach(l => l());
+}
+
+export function mergeMistake(list: Mistake[], entry: Omit<Mistake, "id" | "count" | "lastAt">, now: number): Mistake[] {
+  const id = `${entry.kind}:${entry.word.toLowerCase()}`;
+  const existing = list.find(m => m.id === id);
+  if (existing) {
+    return [{ ...existing, ...entry, count: existing.count + 1, lastAt: now }, ...list.filter(m => m.id !== id)];
+  }
+  return [{ ...entry, id, count: 1, lastAt: now }, ...list];
+}
+
+export function addMistake(entry: Omit<Mistake, "id" | "count" | "lastAt">) {
+  write(mergeMistake(read(), entry, Date.now()));
+}
+
+export function removeMistake(id: string) {
+  write(read().filter(m => m.id !== id));
+}
+
+export function clearMistakes() {
+  write([]);
+}
+
+function subscribe(listener: () => void) {
+  listeners.add(listener);
+  return () => listeners.delete(listener);
+}
+
+export function useMistakes(): Mistake[] {
+  return useSyncExternalStore(subscribe, read, () => EMPTY);
+}

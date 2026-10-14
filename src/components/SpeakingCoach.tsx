@@ -1,1 +1,46 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBzaHVmZmxlIH0gZnJvbSAiQC9saWIvcXVpeiI7CmltcG9ydCB7IFNwYXJrbGVzLCBTcXVhcmUsIFJvdGF0ZUNjdyB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB0eXBlIHsgTGVzc29uIH0gZnJvbSAiQC9kYXRhL2xlc3NvbnMiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKCmV4cG9ydCBmdW5jdGlvbiBTcGVha2luZ0NvYWNoKHsgbGVzc29uIH06IHsgbGVzc29uOiBMZXNzb24gfSkgewogIGNvbnN0IGJhc2UgPSBsZXNzb24ubGluZXMuZmlsdGVyKGwgPT4gbC5zcGVha2VyICE9PSAi5L2gIikubWFwKGwgPT4gYOWvueaWueivtO+8muOAjCR7bC5pbmRvbmVzaWFufeOAje+8iCR7bC5jaGluZXNlfe+8ie+8jOS9oOS8muaAjuS5iOWbnuetlO+8n2ApOwogIGNvbnN0IFtwcm9tcHRzLCBzZXRQcm9tcHRzXSA9IHVzZVN0YXRlKGJhc2UpOwogIHVzZUVmZmVjdCgoKSA9PiB7IHNldFByb21wdHMoc2h1ZmZsZShiYXNlKSk7IH0sIFtsZXNzb24uaWRdKTsgLy8gZXNsaW50LWRpc2FibGUtbGluZSByZWFjdC1ob29rcy9leGhhdXN0aXZlLWRlcHMKICBjb25zdCBbcHJvbXB0SWR4LCBzZXRQcm9tcHRJZHhdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW2Fuc3dlciwgc2V0QW5zd2VyXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZmVlZGJhY2ssIHNldEZlZWRiYWNrXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlKCIiKTsKICBjb25zdCBbbG9hZGluZywgc2V0TG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgYWJvcnRSZWYgPSB1c2VSZWY8QWJvcnRDb250cm9sbGVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcHJvbXB0ID0gcHJvbXB0c1twcm9tcHRJZHhdID8/IGDlnKjjgIwke2xlc3Nvbi5zY2VuZX3jgI3ov5nkuKrmg4Xmma/ph4zvvIznlKjljbDlsLzor63or7TkuIDlj6Xor53jgIJgOwoKICBhc3luYyBmdW5jdGlvbiBzdWJtaXQoKSB7CiAgICBpZiAoIWFuc3dlci50cmltKCkgfHwgbG9hZGluZykgcmV0dXJuOwogICAgc2V0TG9hZGluZyh0cnVlKTsgc2V0RmVlZGJhY2soIiIpOyBzZXRFcnJvcigiIik7CiAgICBjb25zdCBhYyA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsgYWJvcnRSZWYuY3VycmVudCA9IGFjOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goIi9hcGkvY29hY2giLCB7IG1ldGhvZDogIlBPU1QiLCBzaWduYWw6IGFjLnNpZ25hbCwgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0sIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgbGVzc29uSWQ6IGxlc3Nvbi5pZCwgcHJvbXB0LCBhbnN3ZXIgfSkgfSk7CiAgICAgIGlmICghcmVzLm9rIHx8ICFyZXMuYm9keSkgeyBjb25zdCBkID0gYXdhaXQgcmVzLmpzb24oKS5jYXRjaCgoKSA9PiAoe30pKSBhcyB7IGVycm9yPzogc3RyaW5nIH07IHNldEVycm9yKGQuZXJyb3IgPz8gIkFJIOaaguaXtuaXoOazleWbnuW6lOOAgiIpOyByZXR1cm47IH0KICAgICAgY29uc3QgcmVhZGVyID0gcmVzLmJvZHkuZ2V0UmVhZGVyKCk7IGNvbnN0IGRlYyA9IG5ldyBUZXh0RGVjb2RlcigpOwogICAgICB3aGlsZSAodHJ1ZSkgeyBjb25zdCB7IHZhbHVlLCBkb25lIH0gPSBhd2FpdCByZWFkZXIucmVhZCgpOyBpZiAoZG9uZSkgYnJlYWs7IHNldEZlZWRiYWNrKGYgPT4gZiArIGRlYy5kZWNvZGUodmFsdWUsIHsgc3RyZWFtOiB0cnVlIH0pKTsgfQogICAgfSBjYXRjaCAoZSkgewogICAgICBpZiAoIShlIGluc3RhbmNlb2YgRXJyb3IgJiYgZS5uYW1lID09PSAiQWJvcnRFcnJvciIpKSBzZXRFcnJvcigi572R57uc5Ye66ZSZ77yM6K+356iN5ZCO5YaN6K+V44CCIik7CiAgICB9IGZpbmFsbHkgeyBzZXRMb2FkaW5nKGZhbHNlKTsgYWJvcnRSZWYuY3VycmVudCA9IG51bGw7IH0KICB9CgogIHJldHVybiA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1sZyBib3JkZXIgYm9yZGVyLWJvcmRlciBiZy1jYXJkIHAtNSI+CiAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgaXRlbXMtc3RhcnQganVzdGlmeS1iZXR3ZWVuIGdhcC0zIj4KICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIj57cHJvbXB0fTwvcD4KICAgICAge3Byb21wdHMubGVuZ3RoID4gMSAmJiA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4geyBzZXRQcm9tcHRJZHgoKHByb21wdElkeCArIDEpICUgcHJvbXB0cy5sZW5ndGgpOyBzZXRGZWVkYmFjaygiIik7IHNldEVycm9yKCIiKTsgfX0+PFJvdGF0ZUNjdyAvPuaNouS4gOmimDwvQnV0dG9uPn0KICAgIDwvZGl2PgogICAgPHRleHRhcmVhIHZhbHVlPXthbnN3ZXJ9IG9uQ2hhbmdlPXtlID0+IHNldEFuc3dlcihlLnRhcmdldC52YWx1ZSl9IG1heExlbmd0aD17NTAwfSByb3dzPXszfSBwbGFjZWhvbGRlcj0i55So5Y2w5bC86K+t5YaZ5LiL5L2g55qE5Zue562U77yM5L6L5aaC77yaU2F5YSBtYXUga2Ugc3Rhc2l1biwgUGFrLiIgYXJpYS1sYWJlbD0i5L2g55qE5Y2w5bC86K+t5Zue562UIiBjbGFzc05hbWU9Im10LTQgdy1mdWxsIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHAtMyB0ZXh0LXNtIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1yaW5nIiAvPgogICAgPGRpdiBjbGFzc05hbWU9Im10LTMgZmxleCBnYXAtMiI+CiAgICAgIDxCdXR0b24gb25DbGljaz17c3VibWl0fSBkaXNhYmxlZD17bG9hZGluZyB8fCAhYW5zd2VyLnRyaW0oKX0+PFNwYXJrbGVzIC8+e2xvYWRpbmcgPyAiQUkg6ICB5biI5om55pS55Lit4oCmIiA6ICLorqkgQUkg6ICB5biI5om55pS5In08L0J1dHRvbj4KICAgICAge2xvYWRpbmcgJiYgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBvbkNsaWNrPXsoKSA9PiBhYm9ydFJlZi5jdXJyZW50Py5hYm9ydCgpfT48U3F1YXJlIC8+5YGc5q2iPC9CdXR0b24+fQogICAgPC9kaXY+CiAgICB7ZXJyb3IgJiYgPHAgY2xhc3NOYW1lPSJtdC00IHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycm9yfTwvcD59CiAgICB7ZmVlZGJhY2sgJiYgPGRpdiBjbGFzc05hbWU9Im10LTUgd2hpdGVzcGFjZS1wcmUtd3JhcCByb3VuZGVkLW1kIGJnLW11dGVkIHAtNCB0ZXh0LXNtIGxlYWRpbmctcmVsYXhlZCI+e2ZlZWRiYWNrfTwvZGl2Pn0KICA8L2Rpdj47Cn0K
+import { useEffect, useRef, useState } from "react";
+import { shuffle } from "@/lib/quiz";
+import { Sparkles, Square, RotateCcw } from "lucide-react";
+import type { Lesson } from "@/data/lessons";
+import { Button } from "@/components/ui/button";
+
+export function SpeakingCoach({ lesson }: { lesson: Lesson }) {
+  const base = lesson.lines.filter(l => l.speaker !== "你").map(l => `对方说：「${l.indonesian}」（${l.chinese}），你会怎么回答？`);
+  const [prompts, setPrompts] = useState(base);
+  useEffect(() => { setPrompts(shuffle(base)); }, [lesson.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  const [promptIdx, setPromptIdx] = useState(0);
+  const [answer, setAnswer] = useState("");
+  const [feedback, setFeedback] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  const abortRef = useRef<AbortController | null>(null);
+  const prompt = prompts[promptIdx] ?? `在「${lesson.scene}」这个情景里，用印尼语说一句话。`;
+
+  async function submit() {
+    if (!answer.trim() || loading) return;
+    setLoading(true); setFeedback(""); setError("");
+    const ac = new AbortController(); abortRef.current = ac;
+    try {
+      const res = await fetch("/api/coach", { method: "POST", signal: ac.signal, headers: { "Content-Type": "application/json" }, body: JSON.stringify({ lessonId: lesson.id, prompt, answer }) });
+      if (!res.ok || !res.body) { const d = await res.json().catch(() => ({})) as { error?: string }; setError(d.error ?? "AI 暂时无法回应。"); return; }
+      const reader = res.body.getReader(); const dec = new TextDecoder();
+      while (true) { const { value, done } = await reader.read(); if (done) break; setFeedback(f => f + dec.decode(value, { stream: true })); }
+    } catch (e) {
+      if (!(e instanceof Error && e.name === "AbortError")) setError("网络出错，请稍后再试。");
+    } finally { setLoading(false); abortRef.current = null; }
+  }
+
+  return <div className="rounded-lg border border-border bg-card p-5">
+    <div className="flex flex-wrap items-start justify-between gap-3">
+      <p className="text-sm font-medium">{prompt}</p>
+      {prompts.length > 1 && <Button variant="ghost" size="sm" onClick={() => { setPromptIdx((promptIdx + 1) % prompts.length); setFeedback(""); setError(""); }}><RotateCcw />换一题</Button>}
+    </div>
+    <textarea value={answer} onChange={e => setAnswer(e.target.value)} maxLength={500} rows={3} placeholder="用印尼语写下你的回答，例如：Saya mau ke stasiun, Pak." aria-label="你的印尼语回答" className="mt-4 w-full rounded-md border border-input bg-background p-3 text-sm focus:outline-none focus:ring-2 focus:ring-ring" />
+    <div className="mt-3 flex gap-2">
+      <Button onClick={submit} disabled={loading || !answer.trim()}><Sparkles />{loading ? "AI 老师批改中…" : "让 AI 老师批改"}</Button>
+      {loading && <Button variant="outline" onClick={() => abortRef.current?.abort()}><Square />停止</Button>}
+    </div>
+    {error && <p className="mt-4 text-sm text-destructive">{error}</p>}
+    {feedback && <div className="mt-5 whitespace-pre-wrap rounded-md bg-muted p-4 text-sm leading-relaxed">{feedback}</div>}
+  </div>;
+}

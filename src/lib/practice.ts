@@ -1,1 +1,46 @@
-aW1wb3J0IHR5cGUgeyBMZXNzb24gfSBmcm9tICJAL2RhdGEvbGVzc29ucyI7CmltcG9ydCB7IGxlc3NvbnMgfSBmcm9tICJAL2RhdGEvbGVzc29ucyI7CmltcG9ydCB7IHNodWZmbGUgfSBmcm9tICJAL2xpYi9xdWl6IjsKCmV4cG9ydCBpbnRlcmZhY2UgUHJhY3RpY2VRdWVzdGlvbiB7CiAgcHJvbXB0OiBzdHJpbmc7CiAgYXVkaW8/OiBzdHJpbmc7CiAgb3B0aW9uczogc3RyaW5nW107CiAgYW5zd2VyOiBudW1iZXI7CiAgZXhwbGFuYXRpb246IHN0cmluZzsKfQoKLyoqIFNodWZmbGUgYSBxdWVzdGlvbidzIG9wdGlvbnMgYW5kIHJlbWFwIGl0cyBhbnN3ZXIgaW5kZXguICovCmV4cG9ydCBmdW5jdGlvbiBzaHVmZmxlT3B0aW9ucyhxOiBQcmFjdGljZVF1ZXN0aW9uKTogUHJhY3RpY2VRdWVzdGlvbiB7CiAgY29uc3Qgb3JkZXIgPSBzaHVmZmxlKHEub3B0aW9ucy5tYXAoKF8sIGkpID0+IGkpKTsKICByZXR1cm4geyAuLi5xLCBvcHRpb25zOiBvcmRlci5tYXAoaSA9PiBxLm9wdGlvbnNbaV0hKSwgYW5zd2VyOiBvcmRlci5pbmRleE9mKHEuYW5zd2VyKSB9Owp9CgpmdW5jdGlvbiBwaWNrRGlzdHJhY3RvcnMoY29ycmVjdDogc3RyaW5nLCBwb29sOiBzdHJpbmdbXSwgbjogbnVtYmVyKTogc3RyaW5nW10gewogIHJldHVybiBzaHVmZmxlKFsuLi5uZXcgU2V0KHBvb2wpXS5maWx0ZXIocCA9PiBwICE9PSBjb3JyZWN0KSkuc2xpY2UoMCwgbik7Cn0KCi8qKgogKiBCdWlsZCBhIGZyZXNoIHBlci1sZXNzb24gcXVpeiBmcm9tIHRoZSBsZXNzb24ncyBvd24gZGlhbG9ndWUgYW5kIHZvY2FiLCBzbwogKiBldmVyeSB2aXNpdCBkcmF3cyBkaWZmZXJlbnQgaXRlbXMgaW4gYSBkaWZmZXJlbnQgb3JkZXIuCiAqLwpleHBvcnQgZnVuY3Rpb24gYnVpbGRMZXNzb25RdWl6KGxlc3NvbjogTGVzc29uLCBjb3VudCA9IDUpOiBQcmFjdGljZVF1ZXN0aW9uW10gewogIGNvbnN0IGxpbmVQb29sID0gbGVzc29ucy5mbGF0TWFwKGwgPT4gbC5saW5lcy5tYXAoeCA9PiB4LmNoaW5lc2UpKTsKICBjb25zdCBvd25MaW5lcyA9IGxlc3Nvbi5saW5lcy5tYXAoeCA9PiB4LmNoaW5lc2UpOwogIGNvbnN0IHZvY2FiUG9vbCA9IGxlc3NvbnMuZmxhdE1hcChsID0+IGwudm9jYWIubWFwKHYgPT4gdi5tZWFuaW5nKSk7CiAgY29uc3Qgb3duVm9jYWIgPSBsZXNzb24udm9jYWIubWFwKHYgPT4gdi5tZWFuaW5nKTsKCiAgY29uc3QgbGluZVFzOiBQcmFjdGljZVF1ZXN0aW9uW10gPSBsZXNzb24ubGluZXMubWFwKGxpbmUgPT4gewogICAgY29uc3Qgd3JvbmcgPSBwaWNrRGlzdHJhY3RvcnMobGluZS5jaGluZXNlLCBvd25MaW5lcywgMik7CiAgICBjb25zdCBleHRyYSA9IHBpY2tEaXN0cmFjdG9ycyhsaW5lLmNoaW5lc2UsIGxpbmVQb29sLmZpbHRlcihwID0+ICF3cm9uZy5pbmNsdWRlcyhwKSksIDMgLSB3cm9uZy5sZW5ndGgpOwogICAgcmV0dXJuIHsgcHJvbXB0OiAi5ZCs6L+Z5Y+l6K+d77yM5a6D5piv5LuA5LmI5oSP5oCd77yfIiwgYXVkaW86IGxpbmUuaW5kb25lc2lhbiwgb3B0aW9uczogW2xpbmUuY2hpbmVzZSwgLi4ud3JvbmcsIC4uLmV4dHJhXSwgYW5zd2VyOiAwLCBleHBsYW5hdGlvbjogYOOAjCR7bGluZS5pbmRvbmVzaWFufeOAjT0gJHtsaW5lLmNoaW5lc2V9YCB9OwogIH0pOwogIGNvbnN0IHZvY2FiUXM6IFByYWN0aWNlUXVlc3Rpb25bXSA9IGxlc3Nvbi52b2NhYi5tYXAodiA9PiB7CiAgICBjb25zdCB3cm9uZyA9IHBpY2tEaXN0cmFjdG9ycyh2Lm1lYW5pbmcsIG93blZvY2FiLCAzKTsKICAgIGNvbnN0IGV4dHJhID0gcGlja0Rpc3RyYWN0b3JzKHYubWVhbmluZywgdm9jYWJQb29sLmZpbHRlcihwID0+ICF3cm9uZy5pbmNsdWRlcyhwKSksIDMgLSB3cm9uZy5sZW5ndGgpOwogICAgcmV0dXJuIHsgcHJvbXB0OiAi5ZCs6L+Z5Liq5Y2V6K+N77yM6YCJ5Ye65Lit5paH5oSP5oCd44CCIiwgYXVkaW86IHYud29yZCwgb3B0aW9uczogW3YubWVhbmluZywgLi4ud3JvbmcsIC4uLmV4dHJhXSwgYW5zd2VyOiAwLCBleHBsYW5hdGlvbjogYCR7di53b3JkfSA9ICR7di5tZWFuaW5nfWAgfTsKICB9KTsKICBjb25zdCBoYWxmID0gTWF0aC5jZWlsKGNvdW50IC8gMik7CiAgY29uc3QgcGlja2VkID0gWy4uLnNodWZmbGUobGluZVFzKS5zbGljZSgwLCBoYWxmKSwgLi4uc2h1ZmZsZSh2b2NhYlFzKS5zbGljZSgwLCBjb3VudCAtIGhhbGYpXTsKICByZXR1cm4gc2h1ZmZsZShwaWNrZWQpLm1hcChzaHVmZmxlT3B0aW9ucyk7Cn0K
+import type { Lesson } from "@/data/lessons";
+import { lessons } from "@/data/lessons";
+import { shuffle } from "@/lib/quiz";
+
+export interface PracticeQuestion {
+  prompt: string;
+  audio?: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+}
+
+/** Shuffle a question's options and remap its answer index. */
+export function shuffleOptions(q: PracticeQuestion): PracticeQuestion {
+  const order = shuffle(q.options.map((_, i) => i));
+  return { ...q, options: order.map(i => q.options[i]!), answer: order.indexOf(q.answer) };
+}
+
+function pickDistractors(correct: string, pool: string[], n: number): string[] {
+  return shuffle([...new Set(pool)].filter(p => p !== correct)).slice(0, n);
+}
+
+/**
+ * Build a fresh per-lesson quiz from the lesson's own dialogue and vocab, so
+ * every visit draws different items in a different order.
+ */
+export function buildLessonQuiz(lesson: Lesson, count = 5): PracticeQuestion[] {
+  const linePool = lessons.flatMap(l => l.lines.map(x => x.chinese));
+  const ownLines = lesson.lines.map(x => x.chinese);
+  const vocabPool = lessons.flatMap(l => l.vocab.map(v => v.meaning));
+  const ownVocab = lesson.vocab.map(v => v.meaning);
+
+  const lineQs: PracticeQuestion[] = lesson.lines.map(line => {
+    const wrong = pickDistractors(line.chinese, ownLines, 2);
+    const extra = pickDistractors(line.chinese, linePool.filter(p => !wrong.includes(p)), 3 - wrong.length);
+    return { prompt: "听这句话，它是什么意思？", audio: line.indonesian, options: [line.chinese, ...wrong, ...extra], answer: 0, explanation: `「${line.indonesian}」= ${line.chinese}` };
+  });
+  const vocabQs: PracticeQuestion[] = lesson.vocab.map(v => {
+    const wrong = pickDistractors(v.meaning, ownVocab, 3);
+    const extra = pickDistractors(v.meaning, vocabPool.filter(p => !wrong.includes(p)), 3 - wrong.length);
+    return { prompt: "听这个单词，选出中文意思。", audio: v.word, options: [v.meaning, ...wrong, ...extra], answer: 0, explanation: `${v.word} = ${v.meaning}` };
+  });
+  const half = Math.ceil(count / 2);
+  const picked = [...shuffle(lineQs).slice(0, half), ...shuffle(vocabQs).slice(0, count - half)];
+  return shuffle(picked).map(shuffleOptions);
+}

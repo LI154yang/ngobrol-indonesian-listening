@@ -1,1 +1,262 @@
-LyogZXNsaW50LWRpc2FibGUgKi8KCi8vIEB0cy1ub2NoZWNrCgovLyBub2luc3BlY3Rpb24gSlNVbnVzZWRHbG9iYWxTeW1ib2xzCgovLyBUaGlzIGZpbGUgd2FzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIGJ5IFRhblN0YWNrIFJvdXRlci4KLy8gWW91IHNob3VsZCBOT1QgbWFrZSBhbnkgY2hhbmdlcyBpbiB0aGlzIGZpbGUgYXMgaXQgd2lsbCBiZSBvdmVyd3JpdHRlbi4KLy8gQWRkaXRpb25hbGx5LCB5b3Ugc2hvdWxkIGFsc28gZXhjbHVkZSB0aGlzIGZpbGUgZnJvbSB5b3VyIGxpbnRlciBhbmQvb3IgZm9ybWF0dGVyIHRvIHByZXZlbnQgaXQgZnJvbSBiZWluZyBjaGVja2VkIG9yIG1vZGlmaWVkLgoKaW1wb3J0IHsgUm91dGUgYXMgcm9vdFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvX19yb290JwppbXBvcnQgeyBSb3V0ZSBhcyBJbmRleFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvaW5kZXgnCmltcG9ydCB7IFJvdXRlIGFzIEFzc2lzdGFudFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvYXNzaXN0YW50JwppbXBvcnQgeyBSb3V0ZSBhcyBNaXN0YWtlc1JvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvbWlzdGFrZXMnCmltcG9ydCB7IFJvdXRlIGFzIFF1aXpSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL3F1aXonCmltcG9ydCB7IFJvdXRlIGFzIFdvcmRzUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy93b3JkcycKaW1wb3J0IHsgUm91dGUgYXMgQXBpQXNzaXN0YW50Um91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9hcGkvYXNzaXN0YW50JwppbXBvcnQgeyBSb3V0ZSBhcyBBcGlDb2FjaFJvdXRlSW1wb3J0IH0gZnJvbSAnLi9yb3V0ZXMvYXBpL2NvYWNoJwppbXBvcnQgeyBSb3V0ZSBhcyBMZXNzb25zTGVzc29uSWRSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL2xlc3NvbnMuJGxlc3NvbklkJwppbXBvcnQgeyBSb3V0ZSBhcyBTdG9yaWVzSW5kZXhSb3V0ZUltcG9ydCB9IGZyb20gJy4vcm91dGVzL3N0b3JpZXMuaW5kZXgnCmltcG9ydCB7IFJvdXRlIGFzIFN0b3JpZXNTdG9yeUlkUm91dGVJbXBvcnQgfSBmcm9tICcuL3JvdXRlcy9zdG9yaWVzLiRzdG9yeUlkJwoKY29uc3QgSW5kZXhSb3V0ZSA9IEluZGV4Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy8nLAogIHBhdGg6ICcvJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgQXNzaXN0YW50Um91dGUgPSBBc3Npc3RhbnRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2Fzc2lzdGFudCcsCiAgcGF0aDogJy9hc3Npc3RhbnQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBNaXN0YWtlc1JvdXRlID0gTWlzdGFrZXNSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL21pc3Rha2VzJywKICBwYXRoOiAnL21pc3Rha2VzJywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgUXVpelJvdXRlID0gUXVpelJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvcXVpeicsCiAgcGF0aDogJy9xdWl6JywKICBnZXRQYXJlbnRSb3V0ZTogKCkgPT4gcm9vdFJvdXRlSW1wb3J0LAp9IGFzIGFueSkKY29uc3QgV29yZHNSb3V0ZSA9IFdvcmRzUm91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy93b3JkcycsCiAgcGF0aDogJy93b3JkcycsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCmNvbnN0IEFwaUFzc2lzdGFudFJvdXRlID0gQXBpQXNzaXN0YW50Um91dGVJbXBvcnQudXBkYXRlKHsKICBpZDogJy9hcGkvYXNzaXN0YW50JywKICBwYXRoOiAnL2FwaS9hc3Npc3RhbnQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBBcGlDb2FjaFJvdXRlID0gQXBpQ29hY2hSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL2FwaS9jb2FjaCcsCiAgcGF0aDogJy9hcGkvY29hY2gnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBMZXNzb25zTGVzc29uSWRSb3V0ZSA9IExlc3NvbnNMZXNzb25JZFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvbGVzc29ucy8kbGVzc29uSWQnLAogIHBhdGg6ICcvbGVzc29ucy8kbGVzc29uSWQnLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBTdG9yaWVzSW5kZXhSb3V0ZSA9IFN0b3JpZXNJbmRleFJvdXRlSW1wb3J0LnVwZGF0ZSh7CiAgaWQ6ICcvc3Rvcmllcy8nLAogIHBhdGg6ICcvc3Rvcmllcy8nLAogIGdldFBhcmVudFJvdXRlOiAoKSA9PiByb290Um91dGVJbXBvcnQsCn0gYXMgYW55KQpjb25zdCBTdG9yaWVzU3RvcnlJZFJvdXRlID0gU3Rvcmllc1N0b3J5SWRSb3V0ZUltcG9ydC51cGRhdGUoewogIGlkOiAnL3N0b3JpZXMvJHN0b3J5SWQnLAogIHBhdGg6ICcvc3Rvcmllcy8kc3RvcnlJZCcsCiAgZ2V0UGFyZW50Um91dGU6ICgpID0+IHJvb3RSb3V0ZUltcG9ydCwKfSBhcyBhbnkpCgpleHBvcnQgaW50ZXJmYWNlIEZpbGVSb3V0ZXNCeUZ1bGxQYXRoIHsKICAnLyc6IHR5cGVvZiBJbmRleFJvdXRlCiAgJy9hc3Npc3RhbnQnOiB0eXBlb2YgQXNzaXN0YW50Um91dGUKICAnL21pc3Rha2VzJzogdHlwZW9mIE1pc3Rha2VzUm91dGUKICAnL3F1aXonOiB0eXBlb2YgUXVpelJvdXRlCiAgJy93b3Jkcyc6IHR5cGVvZiBXb3Jkc1JvdXRlCiAgJy9hcGkvYXNzaXN0YW50JzogdHlwZW9mIEFwaUFzc2lzdGFudFJvdXRlCiAgJy9hcGkvY29hY2gnOiB0eXBlb2YgQXBpQ29hY2hSb3V0ZQogICcvbGVzc29ucy8kbGVzc29uSWQnOiB0eXBlb2YgTGVzc29uc0xlc3NvbklkUm91dGUKICAnL3N0b3JpZXMvJHN0b3J5SWQnOiB0eXBlb2YgU3Rvcmllc1N0b3J5SWRSb3V0ZQogICcvc3Rvcmllcy8nOiB0eXBlb2YgU3Rvcmllc0luZGV4Um91dGUKfQpleHBvcnQgaW50ZXJmYWNlIEZpbGVSb3V0ZXNCeVRvIHsKICAnLyc6IHR5cGVvZiBJbmRleFJvdXRlCiAgJy9hc3Npc3RhbnQnOiB0eXBlb2YgQXNzaXN0YW50Um91dGUKICAnL21pc3Rha2VzJzogdHlwZW9mIE1pc3Rha2VzUm91dGUKICAnL3F1aXonOiB0eXBlb2YgUXVpelJvdXRlCiAgJy93b3Jkcyc6IHR5cGVvZiBXb3Jkc1JvdXRlCiAgJy9hcGkvYXNzaXN0YW50JzogdHlwZW9mIEFwaUFzc2lzdGFudFJvdXRlCiAgJy9hcGkvY29hY2gnOiB0eXBlb2YgQXBpQ29hY2hSb3V0ZQogICcvbGVzc29ucy8kbGVzc29uSWQnOiB0eXBlb2YgTGVzc29uc0xlc3NvbklkUm91dGUKICAnL3N0b3JpZXMvJHN0b3J5SWQnOiB0eXBlb2YgU3Rvcmllc1N0b3J5SWRSb3V0ZQogICcvc3Rvcmllcyc6IHR5cGVvZiBTdG9yaWVzSW5kZXhSb3V0ZQp9CmV4cG9ydCBpbnRlcmZhY2UgRmlsZVJvdXRlc0J5SWQgewogIF9fcm9vdF9fOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgJy8nOiB0eXBlb2YgSW5kZXhSb3V0ZQogICcvYXNzaXN0YW50JzogdHlwZW9mIEFzc2lzdGFudFJvdXRlCiAgJy9taXN0YWtlcyc6IHR5cGVvZiBNaXN0YWtlc1JvdXRlCiAgJy9xdWl6JzogdHlwZW9mIFF1aXpSb3V0ZQogICcvd29yZHMnOiB0eXBlb2YgV29yZHNSb3V0ZQogICcvYXBpL2Fzc2lzdGFudCc6IHR5cGVvZiBBcGlBc3Npc3RhbnRSb3V0ZQogICcvYXBpL2NvYWNoJzogdHlwZW9mIEFwaUNvYWNoUm91dGUKICAnL2xlc3NvbnMvJGxlc3NvbklkJzogdHlwZW9mIExlc3NvbnNMZXNzb25JZFJvdXRlCiAgJy9zdG9yaWVzLyRzdG9yeUlkJzogdHlwZW9mIFN0b3JpZXNTdG9yeUlkUm91dGUKICAnL3N0b3JpZXMvJzogdHlwZW9mIFN0b3JpZXNJbmRleFJvdXRlCn0KZXhwb3J0IGludGVyZmFjZSBGaWxlUm91dGVUeXBlcyB7CiAgZmlsZVJvdXRlc0J5RnVsbFBhdGg6IEZpbGVSb3V0ZXNCeUZ1bGxQYXRoCiAgZnVsbFBhdGhzOgogICAgfCAnLycKICAgIHwgJy9hc3Npc3RhbnQnCiAgICB8ICcvbWlzdGFrZXMnCiAgICB8ICcvcXVpeicKICAgIHwgJy93b3JkcycKICAgIHwgJy9hcGkvYXNzaXN0YW50JwogICAgfCAnL2FwaS9jb2FjaCcKICAgIHwgJy9sZXNzb25zLyRsZXNzb25JZCcKICAgIHwgJy9zdG9yaWVzLyRzdG9yeUlkJwogICAgfCAnL3N0b3JpZXMvJwogIGZpbGVSb3V0ZXNCeVRvOiBGaWxlUm91dGVzQnlUbwogIHRvOgogICAgfCAnLycKICAgIHwgJy9hc3Npc3RhbnQnCiAgICB8ICcvbWlzdGFrZXMnCiAgICB8ICcvcXVpeicKICAgIHwgJy93b3JkcycKICAgIHwgJy9hcGkvYXNzaXN0YW50JwogICAgfCAnL2FwaS9jb2FjaCcKICAgIHwgJy9sZXNzb25zLyRsZXNzb25JZCcKICAgIHwgJy9zdG9yaWVzLyRzdG9yeUlkJwogICAgfCAnL3N0b3JpZXMnCiAgaWQ6CiAgICB8ICdfX3Jvb3RfXycKICAgIHwgJy8nCiAgICB8ICcvYXNzaXN0YW50JwogICAgfCAnL21pc3Rha2VzJwogICAgfCAnL3F1aXonCiAgICB8ICcvd29yZHMnCiAgICB8ICcvYXBpL2Fzc2lzdGFudCcKICAgIHwgJy9hcGkvY29hY2gnCiAgICB8ICcvbGVzc29ucy8kbGVzc29uSWQnCiAgICB8ICcvc3Rvcmllcy8kc3RvcnlJZCcKICAgIHwgJy9zdG9yaWVzLycKICBmaWxlUm91dGVzQnlJZDogRmlsZVJvdXRlc0J5SWQKfQpleHBvcnQgaW50ZXJmYWNlIFJvb3RSb3V0ZUNoaWxkcmVuIHsKICBJbmRleFJvdXRlOiB0eXBlb2YgSW5kZXhSb3V0ZQogIEFzc2lzdGFudFJvdXRlOiB0eXBlb2YgQXNzaXN0YW50Um91dGUKICBNaXN0YWtlc1JvdXRlOiB0eXBlb2YgTWlzdGFrZXNSb3V0ZQogIFF1aXpSb3V0ZTogdHlwZW9mIFF1aXpSb3V0ZQogIFdvcmRzUm91dGU6IHR5cGVvZiBXb3Jkc1JvdXRlCiAgQXBpQXNzaXN0YW50Um91dGU6IHR5cGVvZiBBcGlBc3Npc3RhbnRSb3V0ZQogIEFwaUNvYWNoUm91dGU6IHR5cGVvZiBBcGlDb2FjaFJvdXRlCiAgTGVzc29uc0xlc3NvbklkUm91dGU6IHR5cGVvZiBMZXNzb25zTGVzc29uSWRSb3V0ZQogIFN0b3JpZXNTdG9yeUlkUm91dGU6IHR5cGVvZiBTdG9yaWVzU3RvcnlJZFJvdXRlCiAgU3Rvcmllc0luZGV4Um91dGU6IHR5cGVvZiBTdG9yaWVzSW5kZXhSb3V0ZQp9CgpkZWNsYXJlIG1vZHVsZSAnQHRhbnN0YWNrL3JlYWN0LXJvdXRlcicgewogIGludGVyZmFjZSBGaWxlUm91dGVzQnlQYXRoIHsKICAgICcvJzogewogICAgICBpZDogJy8nCiAgICAgIHBhdGg6ICcvJwogICAgICBmdWxsUGF0aDogJy8nCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgSW5kZXhSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy9hc3Npc3RhbnQnOiB7CiAgICAgIGlkOiAnL2Fzc2lzdGFudCcKICAgICAgcGF0aDogJy9hc3Npc3RhbnQnCiAgICAgIGZ1bGxQYXRoOiAnL2Fzc2lzdGFudCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBBc3Npc3RhbnRSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy9taXN0YWtlcyc6IHsKICAgICAgaWQ6ICcvbWlzdGFrZXMnCiAgICAgIHBhdGg6ICcvbWlzdGFrZXMnCiAgICAgIGZ1bGxQYXRoOiAnL21pc3Rha2VzJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIE1pc3Rha2VzUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvcXVpeic6IHsKICAgICAgaWQ6ICcvcXVpeicKICAgICAgcGF0aDogJy9xdWl6JwogICAgICBmdWxsUGF0aDogJy9xdWl6JwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFF1aXpSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy93b3Jkcyc6IHsKICAgICAgaWQ6ICcvd29yZHMnCiAgICAgIHBhdGg6ICcvd29yZHMnCiAgICAgIGZ1bGxQYXRoOiAnL3dvcmRzJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFdvcmRzUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvYXBpL2Fzc2lzdGFudCc6IHsKICAgICAgaWQ6ICcvYXBpL2Fzc2lzdGFudCcKICAgICAgcGF0aDogJy9hcGkvYXNzaXN0YW50JwogICAgICBmdWxsUGF0aDogJy9hcGkvYXNzaXN0YW50JwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEFwaUFzc2lzdGFudFJvdXRlSW1wb3J0CiAgICAgIHBhcmVudFJvdXRlOiB0eXBlb2Ygcm9vdFJvdXRlSW1wb3J0CiAgICB9CiAgICAnL2FwaS9jb2FjaCc6IHsKICAgICAgaWQ6ICcvYXBpL2NvYWNoJwogICAgICBwYXRoOiAnL2FwaS9jb2FjaCcKICAgICAgZnVsbFBhdGg6ICcvYXBpL2NvYWNoJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIEFwaUNvYWNoUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvbGVzc29ucy8kbGVzc29uSWQnOiB7CiAgICAgIGlkOiAnL2xlc3NvbnMvJGxlc3NvbklkJwogICAgICBwYXRoOiAnL2xlc3NvbnMvJGxlc3NvbklkJwogICAgICBmdWxsUGF0aDogJy9sZXNzb25zLyRsZXNzb25JZCcKICAgICAgcHJlTG9hZGVyUm91dGU6IHR5cGVvZiBMZXNzb25zTGVzc29uSWRSb3V0ZUltcG9ydAogICAgICBwYXJlbnRSb3V0ZTogdHlwZW9mIHJvb3RSb3V0ZUltcG9ydAogICAgfQogICAgJy9zdG9yaWVzLyc6IHsKICAgICAgaWQ6ICcvc3Rvcmllcy8nCiAgICAgIHBhdGg6ICcvc3RvcmllcycKICAgICAgZnVsbFBhdGg6ICcvc3Rvcmllcy8nCiAgICAgIHByZUxvYWRlclJvdXRlOiB0eXBlb2YgU3Rvcmllc0luZGV4Um91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICAgICcvc3Rvcmllcy8kc3RvcnlJZCc6IHsKICAgICAgaWQ6ICcvc3Rvcmllcy8kc3RvcnlJZCcKICAgICAgcGF0aDogJy9zdG9yaWVzLyRzdG9yeUlkJwogICAgICBmdWxsUGF0aDogJy9zdG9yaWVzLyRzdG9yeUlkJwogICAgICBwcmVMb2FkZXJSb3V0ZTogdHlwZW9mIFN0b3JpZXNTdG9yeUlkUm91dGVJbXBvcnQKICAgICAgcGFyZW50Um91dGU6IHR5cGVvZiByb290Um91dGVJbXBvcnQKICAgIH0KICB9Cn0KCmNvbnN0IHJvb3RSb3V0ZUNoaWxkcmVuOiBSb290Um91dGVDaGlsZHJlbiA9IHsKICBJbmRleFJvdXRlOiBJbmRleFJvdXRlLAogIEFzc2lzdGFudFJvdXRlOiBBc3Npc3RhbnRSb3V0ZSwKICBNaXN0YWtlc1JvdXRlOiBNaXN0YWtlc1JvdXRlLAogIFF1aXpSb3V0ZTogUXVpelJvdXRlLAogIFdvcmRzUm91dGU6IFdvcmRzUm91dGUsCiAgQXBpQXNzaXN0YW50Um91dGU6IEFwaUFzc2lzdGFudFJvdXRlLAogIEFwaUNvYWNoUm91dGU6IEFwaUNvYWNoUm91dGUsCiAgTGVzc29uc0xlc3NvbklkUm91dGU6IExlc3NvbnNMZXNzb25JZFJvdXRlLAogIFN0b3JpZXNTdG9yeUlkUm91dGU6IFN0b3JpZXNTdG9yeUlkUm91dGUsCiAgU3Rvcmllc0luZGV4Um91dGU6IFN0b3JpZXNJbmRleFJvdXRlLAp9CmV4cG9ydCBjb25zdCByb3V0ZVRyZWUgPSByb290Um91dGVJbXBvcnQKICAuX2FkZEZpbGVDaGlsZHJlbihyb290Um91dGVDaGlsZHJlbikKICAuX2FkZEZpbGVUeXBlczxGaWxlUm91dGVUeXBlcz4oKQoKaW1wb3J0IHR5cGUgeyBnZXRSb3V0ZXIgfSBmcm9tICcuL3JvdXRlci50c3gnCmltcG9ydCB0eXBlIHsgc3RhcnRJbnN0YW5jZSB9IGZyb20gJy4vc3RhcnQudHMnCmRlY2xhcmUgbW9kdWxlICdAdGFuc3RhY2svcmVhY3Qtc3RhcnQnIHsKICBpbnRlcmZhY2UgUmVnaXN0ZXIgewogICAgc3NyOiB0cnVlCiAgICByb3V0ZXI6IEF3YWl0ZWQ8UmV0dXJuVHlwZTx0eXBlb2YgZ2V0Um91dGVyPj4KICAgIGNvbmZpZzogQXdhaXRlZDxSZXR1cm5UeXBlPHR5cGVvZiBzdGFydEluc3RhbmNlLmdldE9wdGlvbnM+PgogIH0KfQo=
+/* eslint-disable */
+
+// @ts-nocheck
+
+// noinspection JSUnusedGlobalSymbols
+
+// This file was automatically generated by TanStack Router.
+// You should NOT make any changes in this file as it will be overwritten.
+// Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
+
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as AssistantRouteImport } from './routes/assistant'
+import { Route as MistakesRouteImport } from './routes/mistakes'
+import { Route as QuizRouteImport } from './routes/quiz'
+import { Route as WordsRouteImport } from './routes/words'
+import { Route as ApiAssistantRouteImport } from './routes/api/assistant'
+import { Route as ApiCoachRouteImport } from './routes/api/coach'
+import { Route as LessonsLessonIdRouteImport } from './routes/lessons.$lessonId'
+import { Route as StoriesIndexRouteImport } from './routes/stories.index'
+import { Route as StoriesStoryIdRouteImport } from './routes/stories.$storyId'
+
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AssistantRoute = AssistantRouteImport.update({
+  id: '/assistant',
+  path: '/assistant',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MistakesRoute = MistakesRouteImport.update({
+  id: '/mistakes',
+  path: '/mistakes',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QuizRoute = QuizRouteImport.update({
+  id: '/quiz',
+  path: '/quiz',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WordsRoute = WordsRouteImport.update({
+  id: '/words',
+  path: '/words',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiAssistantRoute = ApiAssistantRouteImport.update({
+  id: '/api/assistant',
+  path: '/api/assistant',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ApiCoachRoute = ApiCoachRouteImport.update({
+  id: '/api/coach',
+  path: '/api/coach',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LessonsLessonIdRoute = LessonsLessonIdRouteImport.update({
+  id: '/lessons/$lessonId',
+  path: '/lessons/$lessonId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StoriesIndexRoute = StoriesIndexRouteImport.update({
+  id: '/stories/',
+  path: '/stories/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const StoriesStoryIdRoute = StoriesStoryIdRouteImport.update({
+  id: '/stories/$storyId',
+  path: '/stories/$storyId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+
+export interface FileRoutesByFullPath {
+  '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/mistakes': typeof MistakesRoute
+  '/quiz': typeof QuizRoute
+  '/words': typeof WordsRoute
+  '/api/assistant': typeof ApiAssistantRoute
+  '/api/coach': typeof ApiCoachRoute
+  '/lessons/$lessonId': typeof LessonsLessonIdRoute
+  '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/stories/': typeof StoriesIndexRoute
+}
+export interface FileRoutesByTo {
+  '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/mistakes': typeof MistakesRoute
+  '/quiz': typeof QuizRoute
+  '/words': typeof WordsRoute
+  '/api/assistant': typeof ApiAssistantRoute
+  '/api/coach': typeof ApiCoachRoute
+  '/lessons/$lessonId': typeof LessonsLessonIdRoute
+  '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/stories': typeof StoriesIndexRoute
+}
+export interface FileRoutesById {
+  __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
+  '/assistant': typeof AssistantRoute
+  '/mistakes': typeof MistakesRoute
+  '/quiz': typeof QuizRoute
+  '/words': typeof WordsRoute
+  '/api/assistant': typeof ApiAssistantRoute
+  '/api/coach': typeof ApiCoachRoute
+  '/lessons/$lessonId': typeof LessonsLessonIdRoute
+  '/stories/$storyId': typeof StoriesStoryIdRoute
+  '/stories/': typeof StoriesIndexRoute
+}
+export interface FileRouteTypes {
+  fileRoutesByFullPath: FileRoutesByFullPath
+  fullPaths:
+    | '/'
+    | '/assistant'
+    | '/mistakes'
+    | '/quiz'
+    | '/words'
+    | '/api/assistant'
+    | '/api/coach'
+    | '/lessons/$lessonId'
+    | '/stories/$storyId'
+    | '/stories/'
+  fileRoutesByTo: FileRoutesByTo
+  to:
+    | '/'
+    | '/assistant'
+    | '/mistakes'
+    | '/quiz'
+    | '/words'
+    | '/api/assistant'
+    | '/api/coach'
+    | '/lessons/$lessonId'
+    | '/stories/$storyId'
+    | '/stories'
+  id:
+    | '__root__'
+    | '/'
+    | '/assistant'
+    | '/mistakes'
+    | '/quiz'
+    | '/words'
+    | '/api/assistant'
+    | '/api/coach'
+    | '/lessons/$lessonId'
+    | '/stories/$storyId'
+    | '/stories/'
+  fileRoutesById: FileRoutesById
+}
+export interface RootRouteChildren {
+  IndexRoute: typeof IndexRoute
+  AssistantRoute: typeof AssistantRoute
+  MistakesRoute: typeof MistakesRoute
+  QuizRoute: typeof QuizRoute
+  WordsRoute: typeof WordsRoute
+  ApiAssistantRoute: typeof ApiAssistantRoute
+  ApiCoachRoute: typeof ApiCoachRoute
+  LessonsLessonIdRoute: typeof LessonsLessonIdRoute
+  StoriesStoryIdRoute: typeof StoriesStoryIdRoute
+  StoriesIndexRoute: typeof StoriesIndexRoute
+}
+
+declare module '@tanstack/react-router' {
+  interface FileRoutesByPath {
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/assistant': {
+      id: '/assistant'
+      path: '/assistant'
+      fullPath: '/assistant'
+      preLoaderRoute: typeof AssistantRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mistakes': {
+      id: '/mistakes'
+      path: '/mistakes'
+      fullPath: '/mistakes'
+      preLoaderRoute: typeof MistakesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quiz': {
+      id: '/quiz'
+      path: '/quiz'
+      fullPath: '/quiz'
+      preLoaderRoute: typeof QuizRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/words': {
+      id: '/words'
+      path: '/words'
+      fullPath: '/words'
+      preLoaderRoute: typeof WordsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/assistant': {
+      id: '/api/assistant'
+      path: '/api/assistant'
+      fullPath: '/api/assistant'
+      preLoaderRoute: typeof ApiAssistantRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/api/coach': {
+      id: '/api/coach'
+      path: '/api/coach'
+      fullPath: '/api/coach'
+      preLoaderRoute: typeof ApiCoachRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/lessons/$lessonId': {
+      id: '/lessons/$lessonId'
+      path: '/lessons/$lessonId'
+      fullPath: '/lessons/$lessonId'
+      preLoaderRoute: typeof LessonsLessonIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/stories/': {
+      id: '/stories/'
+      path: '/stories'
+      fullPath: '/stories/'
+      preLoaderRoute: typeof StoriesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/stories/$storyId': {
+      id: '/stories/$storyId'
+      path: '/stories/$storyId'
+      fullPath: '/stories/$storyId'
+      preLoaderRoute: typeof StoriesStoryIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+  }
+}
+
+const rootRouteChildren: RootRouteChildren = {
+  IndexRoute: IndexRoute,
+  AssistantRoute: AssistantRoute,
+  MistakesRoute: MistakesRoute,
+  QuizRoute: QuizRoute,
+  WordsRoute: WordsRoute,
+  ApiAssistantRoute: ApiAssistantRoute,
+  ApiCoachRoute: ApiCoachRoute,
+  LessonsLessonIdRoute: LessonsLessonIdRoute,
+  StoriesStoryIdRoute: StoriesStoryIdRoute,
+  StoriesIndexRoute: StoriesIndexRoute,
+}
+export const routeTree = rootRouteImport
+  ._addFileChildren(rootRouteChildren)
+  ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}

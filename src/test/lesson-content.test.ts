@@ -1,1 +1,51 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwoKaW1wb3J0IHsgbGVzc29ucyB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKaW1wb3J0IHsgY291cnNlRGV0YWlscywgY291cnNlR3JvdXBzLCB0eXBlIENvdXJzZUdyb3VwIH0gZnJvbSAiQC9kYXRhL2NvdXJzZS1jYXRhbG9nIjsKCi8vIExlc3NvbiBjb250ZW50IGlzIHRoZSBwcm9kdWN0OiBhIGxlc3NvbiBtaXNzaW5nIGl0cyBjYXRhbG9nIGVudHJ5IGRpc2FwcGVhcnMKLy8gZnJvbSB0aGUgY291cnNlIGNlbnRlciwgYW5kIGEgZGlhbG9ndWUgbGluZSB3aXRob3V0IENoaW5lc2UgaXMgdW5sZWFybmFibGUuCmRlc2NyaWJlKCJMZXNzb24gY2F0YWxvZyIsICgpID0+IHsKICBpdCgiaGFzIHVuaXF1ZSBsZXNzb24gaWRzIiwgKCkgPT4gewogICAgZXhwZWN0KG5ldyBTZXQobGVzc29ucy5tYXAobCA9PiBsLmlkKSkuc2l6ZSkudG9CZShsZXNzb25zLmxlbmd0aCk7CiAgfSk7CgogIGl0KCJnaXZlcyBldmVyeSBsZXNzb24gYSBjb3Vyc2UgY2VudGVyIGVudHJ5IHdpdGggYSBrbm93biBjYXRlZ29yeSBhbmQgYW4gaW1hZ2UiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IGxlc3NvbiBvZiBsZXNzb25zKSB7CiAgICAgIGNvbnN0IGRldGFpbCA9IGNvdXJzZURldGFpbHNbbGVzc29uLmlkXTsKICAgICAgZXhwZWN0KGRldGFpbCwgYGNvdXJzZURldGFpbHMgbWlzc2luZyBmb3IgJHtsZXNzb24uaWR9YCkudG9CZVRydXRoeSgpOwogICAgICBleHBlY3QoY291cnNlR3JvdXBzKS50b0NvbnRhaW4oZGV0YWlsIS5jYXRlZ29yeSk7CiAgICAgIGV4cGVjdChkZXRhaWwhLmltYWdlLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuKDApOwogICAgfQogIH0pOwoKICBpdCgibGlzdHMgZXZlcnkgbGVzc29uIGV4YWN0bHkgb25jZSBhY3Jvc3MgdGhlIGNhdGVnb3JpZXMiLCAoKSA9PiB7CiAgICBjb25zdCBjYXRlZ29yaXplZCA9IGxlc3NvbnMuZmlsdGVyKGwgPT4gY291cnNlRGV0YWlsc1tsLmlkXSk7CiAgICBleHBlY3QoY2F0ZWdvcml6ZWQubGVuZ3RoKS50b0JlKGxlc3NvbnMubGVuZ3RoKTsKICAgIGZvciAoY29uc3QgZ3JvdXAgb2YgY291cnNlR3JvdXBzLnNsaWNlKDEpKSB7CiAgICAgIGNvbnN0IGluR3JvdXAgPSBsZXNzb25zLmZpbHRlcihsID0+IGNvdXJzZURldGFpbHNbbC5pZF0/LmNhdGVnb3J5ID09PSAoZ3JvdXAgYXMgQ291cnNlR3JvdXApKTsKICAgICAgZXhwZWN0KGluR3JvdXAubGVuZ3RoLCBgY2F0ZWdvcnkgJHtncm91cH0gaGFzIG5vIGxlc3NvbnNgKS50b0JlR3JlYXRlclRoYW4oMCk7CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBldmVyeSBsZXNzb24gdGVhY2hhYmxlOiBkaWFsb2d1ZSwgdHJhbnNsYXRpb24sIHZvY2FiIGFuZCBhIGN1bHR1cmUgbm90ZSIsICgpID0+IHsKICAgIGZvciAoY29uc3QgbGVzc29uIG9mIGxlc3NvbnMpIHsKICAgICAgZXhwZWN0KGxlc3Nvbi5saW5lcy5sZW5ndGgsIGAke2xlc3Nvbi5pZH0gaGFzIHRvbyBmZXcgZGlhbG9ndWUgbGluZXNgKS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDUpOwogICAgICBleHBlY3QobGVzc29uLnZvY2FiLmxlbmd0aCwgYCR7bGVzc29uLmlkfSBoYXMgdG9vIGZldyB2b2NhYiB3b3Jkc2ApLnRvQmVHcmVhdGVyVGhhbk9yRXF1YWwoNik7CiAgICAgIGV4cGVjdChsZXNzb24uY3VsdHVyZU5vdGUubGVuZ3RoLCBgJHtsZXNzb24uaWR9IGhhcyBubyBjdWx0dXJlIG5vdGVgKS50b0JlR3JlYXRlclRoYW4oMTApOwogICAgICBleHBlY3QobmV3IFNldChsZXNzb24udm9jYWIubWFwKHYgPT4gdi53b3JkKSkuc2l6ZSwgYCR7bGVzc29uLmlkfSBoYXMgZHVwbGljYXRlIHZvY2FiYCkudG9CZShsZXNzb24udm9jYWIubGVuZ3RoKTsKICAgICAgZm9yIChjb25zdCBsaW5lIG9mIGxlc3Nvbi5saW5lcykgewogICAgICAgIGV4cGVjdChsaW5lLmluZG9uZXNpYW4udHJpbSgpLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuKDApOwogICAgICAgIGV4cGVjdChsaW5lLmNoaW5lc2UudHJpbSgpLmxlbmd0aCkudG9CZUdyZWF0ZXJUaGFuKDApOwogICAgICB9CiAgICB9CiAgfSk7CgogIGl0KCJrZWVwcyBkaWN0YXRpb24gd29yZHMgZnJlZSBvZiBwdW5jdHVhdGlvbiBhIGxlYXJuZXIgY2Fubm90IHR5cGUiLCAoKSA9PiB7CiAgICBmb3IgKGNvbnN0IGxlc3NvbiBvZiBsZXNzb25zKSB7CiAgICAgIGZvciAoY29uc3Qgd29yZCBvZiBsZXNzb24udm9jYWIpIHsKICAgICAgICBleHBlY3Qod29yZC53b3JkLCBgJHtsZXNzb24uaWR9OiAiJHt3b3JkLndvcmR9IiBpcyBub3QgZGljdGF0aW9uLWZyaWVuZGx5YCkubm90LnRvTWF0Y2goL1soKe+8iO+8iV0vKTsKICAgICAgfQogICAgfQogIH0pOwp9KTsK
+import { describe, expect, it } from "vitest";
+
+import { lessons } from "@/data/lessons";
+import { courseDetails, courseGroups, type CourseGroup } from "@/data/course-catalog";
+
+// Lesson content is the product: a lesson missing its catalog entry disappears
+// from the course center, and a dialogue line without Chinese is unlearnable.
+describe("Lesson catalog", () => {
+  it("has unique lesson ids", () => {
+    expect(new Set(lessons.map(l => l.id)).size).toBe(lessons.length);
+  });
+
+  it("gives every lesson a course center entry with a known category and an image", () => {
+    for (const lesson of lessons) {
+      const detail = courseDetails[lesson.id];
+      expect(detail, `courseDetails missing for ${lesson.id}`).toBeTruthy();
+      expect(courseGroups).toContain(detail!.category);
+      expect(detail!.image.length).toBeGreaterThan(0);
+    }
+  });
+
+  it("lists every lesson exactly once across the categories", () => {
+    const categorized = lessons.filter(l => courseDetails[l.id]);
+    expect(categorized.length).toBe(lessons.length);
+    for (const group of courseGroups.slice(1)) {
+      const inGroup = lessons.filter(l => courseDetails[l.id]?.category === (group as CourseGroup));
+      expect(inGroup.length, `category ${group} has no lessons`).toBeGreaterThan(0);
+    }
+  });
+
+  it("keeps every lesson teachable: dialogue, translation, vocab and a culture note", () => {
+    for (const lesson of lessons) {
+      expect(lesson.lines.length, `${lesson.id} has too few dialogue lines`).toBeGreaterThanOrEqual(5);
+      expect(lesson.vocab.length, `${lesson.id} has too few vocab words`).toBeGreaterThanOrEqual(6);
+      expect(lesson.cultureNote.length, `${lesson.id} has no culture note`).toBeGreaterThan(10);
+      expect(new Set(lesson.vocab.map(v => v.word)).size, `${lesson.id} has duplicate vocab`).toBe(lesson.vocab.length);
+      for (const line of lesson.lines) {
+        expect(line.indonesian.trim().length).toBeGreaterThan(0);
+        expect(line.chinese.trim().length).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it("keeps dictation words free of punctuation a learner cannot type", () => {
+    for (const lesson of lessons) {
+      for (const word of lesson.vocab) {
+        expect(word.word, `${lesson.id}: "${word.word}" is not dictation-friendly`).not.toMatch(/[()（）]/);
+      }
+    }
+  });
+});

@@ -1,1 +1,161 @@
-aW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBWb2x1bWUyLCBDaGVja0NpcmNsZTIsIFhDaXJjbGUsIFJvdGF0ZUNjdywgU2VuZCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB7IHNwZWFrSW5kb25lc2lhbiB9IGZyb20gIkAvbGliL3NwZWVjaCI7CmltcG9ydCB7IGFkZE1pc3Rha2UgfSBmcm9tICJAL2xpYi9taXN0YWtlcyI7CmltcG9ydCB7IGJ1aWxkUXVpelJvdW5kLCB0eXBlIFNodWZmbGVkUXVlc3Rpb24gfSBmcm9tICJAL2xpYi9xdWl6IjsKCmV4cG9ydCBmdW5jdGlvbiBRdWl6KCkgewogIGNvbnN0IFtyb3VuZCwgc2V0Um91bmRdID0gdXNlU3RhdGU8U2h1ZmZsZWRRdWVzdGlvbltdPigoKSA9PiBidWlsZFF1aXpSb3VuZCgpKTsKICBjb25zdCBbY3VycmVudCwgc2V0Q3VycmVudF0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbc2VsZWN0ZWQsIHNldFNlbGVjdGVkXSA9IHVzZVN0YXRlPG51bWJlciB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtzdWJtaXR0ZWQsIHNldFN1Ym1pdHRlZF0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW3Njb3JlLCBzZXRTY29yZV0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbZmluaXNoZWQsIHNldEZpbmlzaGVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgcSA9IHJvdW5kW2N1cnJlbnRdOwogIGlmICghcSkgcmV0dXJuIG51bGw7CgogIGNvbnN0IGNob29zZSA9IChpOiBudW1iZXIpID0+IHsKICAgIGlmIChzdWJtaXR0ZWQpIHJldHVybjsKICAgIHNldFNlbGVjdGVkKGkpOwogIH07CgogIGNvbnN0IHN1Ym1pdCA9ICgpID0+IHsKICAgIGlmIChzZWxlY3RlZCA9PT0gbnVsbCB8fCBzdWJtaXR0ZWQpIHJldHVybjsKICAgIHNldFN1Ym1pdHRlZCh0cnVlKTsKICAgIGlmIChzZWxlY3RlZCA9PT0gcS5hbnN3ZXIpIHsKICAgICAgc2V0U2NvcmUocyA9PiBzICsgMSk7CiAgICB9IGVsc2UgewogICAgICBhZGRNaXN0YWtlKHsga2luZDogInF1aXoiLCB3b3JkOiBxLmF1ZGlvLCBtZWFuaW5nOiBxLm9wdGlvbnNbcS5hbnN3ZXJdID8/ICIiLCB5b3VyQW5zd2VyOiBxLm9wdGlvbnNbc2VsZWN0ZWRdID8/ICIiIH0pOwogICAgfQogIH07CgogIGNvbnN0IG5leHQgPSAoKSA9PiB7CiAgICBpZiAoY3VycmVudCArIDEgPj0gcm91bmQubGVuZ3RoKSB7CiAgICAgIHNldEZpbmlzaGVkKHRydWUpOwogICAgfSBlbHNlIHsKICAgICAgc2V0Q3VycmVudChjID0+IGMgKyAxKTsKICAgICAgc2V0U2VsZWN0ZWQobnVsbCk7CiAgICAgIHNldFN1Ym1pdHRlZChmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgcmVzdGFydCA9ICgpID0+IHsKICAgIHNldFJvdW5kKGJ1aWxkUXVpelJvdW5kKCkpOwogICAgc2V0Q3VycmVudCgwKTsKICAgIHNldFNlbGVjdGVkKG51bGwpOwogICAgc2V0U3VibWl0dGVkKGZhbHNlKTsKICAgIHNldFNjb3JlKDApOwogICAgc2V0RmluaXNoZWQoZmFsc2UpOwogIH07CgogIGlmIChmaW5pc2hlZCkgewogICAgY29uc3QgcGN0ID0gTWF0aC5yb3VuZCgoc2NvcmUgLyByb3VuZC5sZW5ndGgpICogMTAwKTsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC0xMCB0ZXh0LWNlbnRlciBzaGFkb3ctc20iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC02eGwgZm9udC1ib2xkIHRleHQtcHJpbWFyeSI+CiAgICAgICAgICB7cGN0fQogICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LTJ4bCI+5YiGPC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LWxnIGZvbnQtbWVkaXVtIHRleHQtY2FyZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgIOetlOWvuSB7c2NvcmV9IC8ge3JvdW5kLmxlbmd0aH0g6aKYCiAgICAgICAgPC9wPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICB7cGN0ID49IDgwCiAgICAgICAgICAgID8gIkJhZ3VzIHNla2Fsae+8geWkquajkuS6hu+8jOS9oOW3sue7j+WPr+S7peWSjOWNsOWwvOaci+WPi+iBiui1t+adpeS6hu+8gSIKICAgICAgICAgICAgOiBwY3QgPj0gNjAKICAgICAgICAgICAgICA/ICLkuI3plJnvvIHlho3lkKzlh6DpgY3lr7nor53vvIzov5vmraXkvJrlvojlv6vjgIIiCiAgICAgICAgICAgICAgOiAi5Yir54Gw5b+D77yM5Zue5Yiw5LiK6Z2i55qE5a+56K+d5aSa6Lef6K+75Yeg6YGN5YaN6K+V6K+V44CCIn0KICAgICAgICA8L3A+CiAgICAgICAgPEJ1dHRvbgogICAgICAgICAgb25DbGljaz17cmVzdGFydH0KICAgICAgICAgIGNsYXNzTmFtZT0ibXQtNiBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgcHgtNiBweS0yLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXByaW1hcnkvOTAiCiAgICAgICAgPgogICAgICAgICAgPFJvdGF0ZUNjdyBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IOWGjea1i+S4gOasoe+8iOmimOebruS8mumHjeaWsOaJk+S5se+8iQogICAgICAgIDwvQnV0dG9uPgogICAgICA8L2Rpdj4KICAgICk7CiAgfQoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTggc2hhZG93LXNtIj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgPHNwYW4+CiAgICAgICAgICDnrKwge2N1cnJlbnQgKyAxfSAvIHtyb3VuZC5sZW5ndGh9IOmimAogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3Bhbj7lvpfliIbvvJp7c2NvcmV9PC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTIgaC0xLjUgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtZnVsbCBiZy1tdXRlZCI+CiAgICAgICAgPGRpdgogICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgdHJhbnNpdGlvbi1hbGwiCiAgICAgICAgICBzdHlsZT17eyB3aWR0aDogYCR7KChjdXJyZW50ICsgMSkgLyByb3VuZC5sZW5ndGgpICogMTAwfSVgIH19CiAgICAgICAgLz4KICAgICAgPC9kaXY+CgogICAgICA8cCBjbGFzc05hbWU9Im10LTYgdGV4dC1sZyBmb250LXNlbWlib2xkIHRleHQtY2FyZC1mb3JlZ3JvdW5kIj4KICAgICAgICB7cS5xdWVzdGlvbn0KICAgICAgPC9wPgoKICAgICAgPEJ1dHRvbgogICAgICAgIG9uQ2xpY2s9eygpID0+IHNwZWFrSW5kb25lc2lhbihxLmF1ZGlvKX0KICAgICAgICBjbGFzc05hbWU9Im10LTQgaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtZnVsbCBiZy1hY2NlbnQgcHgtNSBweS0yLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtYWNjZW50LWZvcmVncm91bmQgdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6YmctYWNjZW50LzkwIgogICAgICA+CiAgICAgICAgPFZvbHVtZTIgY2xhc3NOYW1lPSJoLTQgdy00IiAvPiDmkq3mlL7lvZXpn7MKICAgICAgPC9CdXR0b24+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtNiBncmlkIGdhcC0zIHNtOmdyaWQtY29scy0yIj4KICAgICAgICB7cS5vcHRpb25zLm1hcCgob3B0LCBpKSA9PiB7CiAgICAgICAgICBjb25zdCBpc0NvcnJlY3QgPSBzdWJtaXR0ZWQgJiYgaSA9PT0gcS5hbnN3ZXI7CiAgICAgICAgICBjb25zdCBpc1dyb25nID0gc3VibWl0dGVkICYmIHNlbGVjdGVkID09PSBpICYmIGkgIT09IHEuYW5zd2VyOwogICAgICAgICAgY29uc3QgaXNQaWNrZWQgPSAhc3VibWl0dGVkICYmIHNlbGVjdGVkID09PSBpOwogICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIGtleT17aX0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBjaG9vc2UoaSl9CiAgICAgICAgICAgICAgZGlzYWJsZWQ9e3N1Ym1pdHRlZH0KICAgICAgICAgICAgICBjbGFzc05hbWU9e2BmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTIgcm91bmRlZC1sZyBib3JkZXIgcHgtNCBweS0zIHRleHQtbGVmdCB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzICR7CiAgICAgICAgICAgICAgICBpc0NvcnJlY3QKICAgICAgICAgICAgICAgICAgPyAiYm9yZGVyLWFjY2VudCBiZy1hY2NlbnQvMTAgdGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICA6IGlzV3JvbmcKICAgICAgICAgICAgICAgICAgICA/ICJib3JkZXItZGVzdHJ1Y3RpdmUgYmctZGVzdHJ1Y3RpdmUvMTAgdGV4dC1mb3JlZ3JvdW5kIgogICAgICAgICAgICAgICAgICAgIDogaXNQaWNrZWQKICAgICAgICAgICAgICAgICAgICAgID8gImJvcmRlci1wcmltYXJ5IGJnLXNlY29uZGFyeSB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICAgICAgICA6ICJib3JkZXItYm9yZGVyIGJnLWJhY2tncm91bmQgdGV4dC1mb3JlZ3JvdW5kIGhvdmVyOmJvcmRlci1wcmltYXJ5IGhvdmVyOmJnLXNlY29uZGFyeSIKICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIHtvcHR9CiAgICAgICAgICAgICAge2lzQ29ycmVjdCAmJiA8Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LWFjY2VudCIgLz59CiAgICAgICAgICAgICAge2lzV3JvbmcgJiYgPFhDaXJjbGUgY2xhc3NOYW1lPSJoLTQgdy00IHRleHQtZGVzdHJ1Y3RpdmUiIC8+fQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICk7CiAgICAgICAgfSl9CiAgICAgIDwvZGl2PgoKICAgICAgeyFzdWJtaXR0ZWQgJiYgKAogICAgICAgIDxCdXR0b24KICAgICAgICAgIG9uQ2xpY2s9e3N1Ym1pdH0KICAgICAgICAgIGRpc2FibGVkPXtzZWxlY3RlZCA9PT0gbnVsbH0KICAgICAgICAgIGNsYXNzTmFtZT0ibXQtNSBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgcHgtNiBweS0yLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXByaW1hcnkvOTAgZGlzYWJsZWQ6b3BhY2l0eS01MCIKICAgICAgICA+CiAgICAgICAgICA8U2VuZCBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IOaPkOS6pOetlOahiAogICAgICAgIDwvQnV0dG9uPgogICAgICApfQoKICAgICAge3N1Ym1pdHRlZCAmJiAoCiAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTUgcm91bmRlZC1sZyBiZy1zZWNvbmRhcnkgcC00IHRleHQtc20gdGV4dC1zZWNvbmRhcnktZm9yZWdyb3VuZCI+CiAgICAgICAgICB7cS5leHBsYW5hdGlvbn0KICAgICAgICA8L2Rpdj4KICAgICAgKX0KCiAgICAgIHtzdWJtaXR0ZWQgJiYgKAogICAgICAgIDxCdXR0b24KICAgICAgICAgIG9uQ2xpY2s9e25leHR9CiAgICAgICAgICBjbGFzc05hbWU9Im10LTUgcm91bmRlZC1mdWxsIGJnLXByaW1hcnkgcHgtNiBweS0yLjUgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIHRyYW5zaXRpb24tY29sb3JzIGhvdmVyOmJnLXByaW1hcnkvOTAiCiAgICAgICAgPgogICAgICAgICAge2N1cnJlbnQgKyAxID49IHJvdW5kLmxlbmd0aCA/ICLmn6XnnIvmiJDnu6kiIDogIuS4i+S4gOmimCJ9CiAgICAgICAgPC9CdXR0b24+CiAgICAgICl9CiAgICA8L2Rpdj4KICApOwp9Cg==
+import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Volume2, CheckCircle2, XCircle, RotateCcw, Send } from "lucide-react";
+import { speakIndonesian } from "@/lib/speech";
+import { addMistake } from "@/lib/mistakes";
+import { buildQuizRound, type ShuffledQuestion } from "@/lib/quiz";
+
+export function Quiz() {
+  const [round, setRound] = useState<ShuffledQuestion[]>(() => buildQuizRound());
+  const [current, setCurrent] = useState(0);
+  const [selected, setSelected] = useState<number | null>(null);
+  const [submitted, setSubmitted] = useState(false);
+  const [score, setScore] = useState(0);
+  const [finished, setFinished] = useState(false);
+
+  const q = round[current];
+  if (!q) return null;
+
+  const choose = (i: number) => {
+    if (submitted) return;
+    setSelected(i);
+  };
+
+  const submit = () => {
+    if (selected === null || submitted) return;
+    setSubmitted(true);
+    if (selected === q.answer) {
+      setScore(s => s + 1);
+    } else {
+      addMistake({ kind: "quiz", word: q.audio, meaning: q.options[q.answer] ?? "", yourAnswer: q.options[selected] ?? "" });
+    }
+  };
+
+  const next = () => {
+    if (current + 1 >= round.length) {
+      setFinished(true);
+    } else {
+      setCurrent(c => c + 1);
+      setSelected(null);
+      setSubmitted(false);
+    }
+  };
+
+  const restart = () => {
+    setRound(buildQuizRound());
+    setCurrent(0);
+    setSelected(null);
+    setSubmitted(false);
+    setScore(0);
+    setFinished(false);
+  };
+
+  if (finished) {
+    const pct = Math.round((score / round.length) * 100);
+    return (
+      <div className="rounded-lg border border-border bg-card p-10 text-center shadow-sm">
+        <div className="font-display text-6xl font-bold text-primary">
+          {pct}
+          <span className="text-2xl">分</span>
+        </div>
+        <p className="mt-3 text-lg font-medium text-card-foreground">
+          答对 {score} / {round.length} 题
+        </p>
+        <p className="mt-2 text-sm text-muted-foreground">
+          {pct >= 80
+            ? "Bagus sekali！太棒了，你已经可以和印尼朋友聊起来了！"
+            : pct >= 60
+              ? "不错！再听几遍对话，进步会很快。"
+              : "别灰心，回到上面的对话多跟读几遍再试试。"}
+        </p>
+        <Button
+          onClick={restart}
+          className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+        >
+          <RotateCcw className="h-4 w-4" /> 再测一次（题目会重新打乱）
+        </Button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="rounded-lg border border-border bg-card p-8 shadow-sm">
+      <div className="flex items-center justify-between text-sm text-muted-foreground">
+        <span>
+          第 {current + 1} / {round.length} 题
+        </span>
+        <span>得分：{score}</span>
+      </div>
+      <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-muted">
+        <div
+          className="h-full rounded-full bg-primary transition-all"
+          style={{ width: `${((current + 1) / round.length) * 100}%` }}
+        />
+      </div>
+
+      <p className="mt-6 text-lg font-semibold text-card-foreground">
+        {q.question}
+      </p>
+
+      <Button
+        onClick={() => speakIndonesian(q.audio)}
+        className="mt-4 inline-flex items-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent/90"
+      >
+        <Volume2 className="h-4 w-4" /> 播放录音
+      </Button>
+
+      <div className="mt-6 grid gap-3 sm:grid-cols-2">
+        {q.options.map((opt, i) => {
+          const isCorrect = submitted && i === q.answer;
+          const isWrong = submitted && selected === i && i !== q.answer;
+          const isPicked = !submitted && selected === i;
+          return (
+            <Button
+              key={i}
+              onClick={() => choose(i)}
+              disabled={submitted}
+              className={`flex items-center justify-between gap-2 rounded-lg border px-4 py-3 text-left text-sm font-medium transition-colors ${
+                isCorrect
+                  ? "border-accent bg-accent/10 text-foreground"
+                  : isWrong
+                    ? "border-destructive bg-destructive/10 text-foreground"
+                    : isPicked
+                      ? "border-primary bg-secondary text-foreground"
+                      : "border-border bg-background text-foreground hover:border-primary hover:bg-secondary"
+              }`}
+            >
+              {opt}
+              {isCorrect && <CheckCircle2 className="h-4 w-4 text-accent" />}
+              {isWrong && <XCircle className="h-4 w-4 text-destructive" />}
+            </Button>
+          );
+        })}
+      </div>
+
+      {!submitted && (
+        <Button
+          onClick={submit}
+          disabled={selected === null}
+          className="mt-5 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 disabled:opacity-50"
+        >
+          <Send className="h-4 w-4" /> 提交答案
+        </Button>
+      )}
+
+      {submitted && (
+        <div className="mt-5 rounded-lg bg-secondary p-4 text-sm text-secondary-foreground">
+          {q.explanation}
+        </div>
+      )}
+
+      {submitted && (
+        <Button
+          onClick={next}
+          className="mt-5 rounded-full bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90"
+        >
+          {current + 1 >= round.length ? "查看成绩" : "下一题"}
+        </Button>
+      )}
+    </div>
+  );
+}

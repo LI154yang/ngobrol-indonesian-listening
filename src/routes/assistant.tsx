@@ -1,1 +1,98 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHsgU2VuZCwgU3F1YXJlLCBUcmFzaDIsIFZvbHVtZTIsIFZvbHVtZVggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBMZWFybmluZ1NoZWxsIH0gZnJvbSAiQC9jb21wb25lbnRzL0xlYXJuaW5nU2hlbGwiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgdXNlTWlzdGFrZXMgfSBmcm9tICJAL2xpYi9taXN0YWtlcyI7CmltcG9ydCB7IGlzU2Z4T24sIHNldFNmeE9uIH0gZnJvbSAiQC9saWIvc2Z4IjsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2Fzc2lzdGFudCIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlOiAiQUkg5a2m5Lmg5Yqp5omLIMK3IE5nb2Jyb2whIOWNsOWwvOivreWQrOWKm+ivvuWggiIgfSwKICAgICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi6K6pIEFJIOWKqeaJi+W4ruS9oOaAu+e7k+ivvueoi+mHjeeCueOAgeW9kue6s+ivjeaxh+OAgeagueaNrumUmemimOWItuWumuWkjeS5oOiuoeWIkuOAgiIgfSwKICAgICAgeyBwcm9wZXJ0eTogIm9nOnRpdGxlIiwgY29udGVudDogIkFJIOWtpuS5oOWKqeaJiyDCtyBOZ29icm9sISDljbDlsLzor63lkKzlipvor77loIIiIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzpkZXNjcmlwdGlvbiIsIGNvbnRlbnQ6ICLorqkgQUkg5Yqp5omL5biu5L2g5oC757uT6K++56iL6YeN54K544CB5b2S57qz6K+N5rGH44CB5qC55o2u6ZSZ6aKY5Yi25a6a5aSN5Lmg6K6h5YiS44CCIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dHlwZSIsIGNvbnRlbnQ6ICJ3ZWJzaXRlIiB9LAogICAgICB7IG5hbWU6ICJ0d2l0dGVyOmNhcmQiLCBjb250ZW50OiAic3VtbWFyeSIgfSwKICAgIF0sCiAgfSksCiAgY29tcG9uZW50OiBBc3Npc3RhbnRQYWdlLAp9KTsKCnR5cGUgTXNnID0geyByb2xlOiAidXNlciIgfCAiYXNzaXN0YW50IjsgY29udGVudDogc3RyaW5nIH07CmNvbnN0IFNVR0dFU1RJT05TID0gWyLluK7miJHmgLvnu5PmiYDmnInor77nqIvph4zmnIDluLjnlKjnmoQgMTAg5Y+l6K+dIiwgIuaMieS4u+mimOaVtOeQhuaIkeWtpui/h+eahOivjeaxhyIsICLmoLnmja7miJHnmoTplJnpopjlgZrkuIDkuKogMyDlpKnlpI3kuaDorqHliJIiLCAi5Ye6IDUg6YGT6aKY6ICD6ICD5oiR5a2m6L+H55qE5YaF5a65Il07CgpmdW5jdGlvbiBBc3Npc3RhbnRQYWdlKCkgewogIGNvbnN0IG1pc3Rha2VzID0gdXNlTWlzdGFrZXMoKTsKICBjb25zdCBbbWVzc2FnZXMsIHNldE1lc3NhZ2VzXSA9IHVzZVN0YXRlPE1zZ1tdPihbXSk7CiAgY29uc3QgW2lucHV0LCBzZXRJbnB1dF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2xvYWRpbmcsIHNldExvYWRpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtlcnJvciwgc2V0RXJyb3JdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtzZngsIHNldFNmeF0gPSB1c2VTdGF0ZSh0cnVlKTsKICBjb25zdCBhYm9ydFJlZiA9IHVzZVJlZjxBYm9ydENvbnRyb2xsZXIgfCBudWxsPihudWxsKTsKICBjb25zdCBlbmRSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQ+KG51bGwpOwogIHVzZUVmZmVjdCgoKSA9PiB7IHNldFNmeChpc1NmeE9uKCkpOyB9LCBbXSk7CiAgdXNlRWZmZWN0KCgpID0+IHsgZW5kUmVmLmN1cnJlbnQ/LnNjcm9sbEludG9WaWV3KHsgYmxvY2s6ICJlbmQiIH0pOyB9LCBbbWVzc2FnZXNdKTsKCiAgYXN5bmMgZnVuY3Rpb24gc2VuZCh0ZXh0OiBzdHJpbmcpIHsKICAgIGNvbnN0IHEgPSB0ZXh0LnRyaW0oKTsKICAgIGlmICghcSB8fCBsb2FkaW5nKSByZXR1cm47CiAgICBjb25zdCBoaXN0b3J5OiBNc2dbXSA9IFsuLi5tZXNzYWdlcywgeyByb2xlOiAidXNlciIsIGNvbnRlbnQ6IHEgfV07CiAgICBzZXRNZXNzYWdlcyhbLi4uaGlzdG9yeSwgeyByb2xlOiAiYXNzaXN0YW50IiwgY29udGVudDogIiIgfV0pOwogICAgc2V0SW5wdXQoIiIpOyBzZXRFcnJvcigiIik7IHNldExvYWRpbmcodHJ1ZSk7CiAgICBjb25zdCBhYyA9IG5ldyBBYm9ydENvbnRyb2xsZXIoKTsgYWJvcnRSZWYuY3VycmVudCA9IGFjOwogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goIi9hcGkvYXNzaXN0YW50IiwgewogICAgICAgIG1ldGhvZDogIlBPU1QiLCBzaWduYWw6IGFjLnNpZ25hbCwgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iIH0sCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBtZXNzYWdlczogaGlzdG9yeS5zbGljZSgtMjApLCBtaXN0YWtlczogbWlzdGFrZXMuc2xpY2UoMCwgNDApLm1hcChtID0+IGAke20ud29yZH3vvIgke20ubWVhbmluZ33vvIlgKSB9KSwKICAgICAgfSk7CiAgICAgIGlmICghcmVzLm9rIHx8ICFyZXMuYm9keSkgewogICAgICAgIGNvbnN0IGQgPSBhd2FpdCByZXMuanNvbigpLmNhdGNoKCgpID0+ICh7fSkpIGFzIHsgZXJyb3I/OiBzdHJpbmcgfTsKICAgICAgICBzZXRFcnJvcihkLmVycm9yID8/ICJBSSDmmoLml7bml6Dms5Xlm57lupTjgIIiKTsKICAgICAgICBzZXRNZXNzYWdlcyhoaXN0b3J5KTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgY29uc3QgcmVhZGVyID0gcmVzLmJvZHkuZ2V0UmVhZGVyKCk7IGNvbnN0IGRlYyA9IG5ldyBUZXh0RGVjb2RlcigpOwogICAgICB3aGlsZSAodHJ1ZSkgewogICAgICAgIGNvbnN0IHsgdmFsdWUsIGRvbmUgfSA9IGF3YWl0IHJlYWRlci5yZWFkKCk7CiAgICAgICAgaWYgKGRvbmUpIGJyZWFrOwogICAgICAgIGNvbnN0IGNodW5rID0gZGVjLmRlY29kZSh2YWx1ZSwgeyBzdHJlYW06IHRydWUgfSk7CiAgICAgICAgc2V0TWVzc2FnZXMobSA9PiB7IGNvbnN0IGMgPSBbLi4ubV07IGNvbnN0IGxhc3QgPSBjW2MubGVuZ3RoIC0gMV0hOyBjW2MubGVuZ3RoIC0gMV0gPSB7IC4uLmxhc3QsIGNvbnRlbnQ6IGxhc3QuY29udGVudCArIGNodW5rIH07IHJldHVybiBjOyB9KTsKICAgICAgfQogICAgfSBjYXRjaCAoZSkgewogICAgICBpZiAoIShlIGluc3RhbmNlb2YgRXJyb3IgJiYgZS5uYW1lID09PSAiQWJvcnRFcnJvciIpKSBzZXRFcnJvcigi572R57uc5Ye66ZSZ77yM6K+356iN5ZCO5YaN6K+V44CCIik7CiAgICB9IGZpbmFsbHkgeyBzZXRMb2FkaW5nKGZhbHNlKTsgYWJvcnRSZWYuY3VycmVudCA9IG51bGw7IH0KICB9CgogIHJldHVybiA8TGVhcm5pbmdTaGVsbD4KICAgIDxtYWluIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0zeGwgcHgtNSBweS0xMCBzbTpweC04Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtNCI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTN4bCBmb250LWJvbGQiPkFJIOWtpuS5oOWKqeaJizwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPuWug+efpemBk+acrOermeWFqOmDqOivvueoi+OAgeivjeaxh+WSjOS9oOeahOmUmemimO+8jOWPr+S7peW4ruS9oOaVtOWQiOWtpui/h+eahOWGheWuueOAgjwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtMiI+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiIHNpemU9InNtIiBvbkNsaWNrPXsoKSA9PiB7IHNldFNmeE9uKCFzZngpOyBzZXRTZngoIXNmeCk7IH19PntzZnggPyA8Vm9sdW1lMiAvPiA6IDxWb2x1bWVYIC8+feaMiemSrumfs+aViHtzZnggPyAi5byAIiA6ICLlhbMifTwvQnV0dG9uPgogICAgICAgICAge21lc3NhZ2VzLmxlbmd0aCA+IDAgJiYgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9eygpID0+IHsgYWJvcnRSZWYuY3VycmVudD8uYWJvcnQoKTsgc2V0TWVzc2FnZXMoW10pOyB9fT48VHJhc2gyIC8+5riF56m6PC9CdXR0b24+fQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC04IHNwYWNlLXktNSI+CiAgICAgICAge21lc3NhZ2VzLmxlbmd0aCA9PT0gMCAmJiA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMyBzbTpncmlkLWNvbHMtMiI+e1NVR0dFU1RJT05TLm1hcChzID0+IDxidXR0b24ga2V5PXtzfSBvbkNsaWNrPXsoKSA9PiBzZW5kKHMpfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCBwLTQgdGV4dC1sZWZ0IHRleHQtc20gdHJhbnNpdGlvbi1jb2xvcnMgaG92ZXI6Ym9yZGVyLXByaW1hcnkgaG92ZXI6dGV4dC1wcmltYXJ5Ij57c308L2J1dHRvbj4pfTwvZGl2Pn0KICAgICAgICB7bWVzc2FnZXMubWFwKChtLCBpKSA9PiBtLnJvbGUgPT09ICJ1c2VyIgogICAgICAgICAgPyA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJtbC1hdXRvIG1heC13LVs4NSVdIHJvdW5kZWQtbGcgYmctcHJpbWFyeSBweC00IHB5LTMgdGV4dC1zbSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCI+e20uY29udGVudH08L2Rpdj4KICAgICAgICAgIDogPGRpdiBrZXk9e2l9IGNsYXNzTmFtZT0id2hpdGVzcGFjZS1wcmUtd3JhcCB0ZXh0LXNtIGxlYWRpbmctcmVsYXhlZCI+e20uY29udGVudCB8fCAobG9hZGluZyAmJiBpID09PSBtZXNzYWdlcy5sZW5ndGggLSAxID8gPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LW11dGVkLWZvcmVncm91bmQiPuWKqeaJi+ato+WcqOaVtOeQhuKApjwvc3Bhbj4gOiAiIil9PC9kaXY+KX0KICAgICAgICB7ZXJyb3IgJiYgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtZGVzdHJ1Y3RpdmUiPntlcnJvcn08L3A+fQogICAgICAgIDxkaXYgcmVmPXtlbmRSZWZ9IC8+CiAgICAgIDwvZGl2PgoKICAgICAgPGZvcm0gY2xhc3NOYW1lPSJtdC04IGZsZXggZ2FwLTIiIG9uU3VibWl0PXtlID0+IHsgZS5wcmV2ZW50RGVmYXVsdCgpOyBzZW5kKGlucHV0KTsgfX0+CiAgICAgICAgPHRleHRhcmVhIHZhbHVlPXtpbnB1dH0gb25DaGFuZ2U9e2UgPT4gc2V0SW5wdXQoZS50YXJnZXQudmFsdWUpfSBvbktleURvd249e2UgPT4geyBpZiAoZS5rZXkgPT09ICJFbnRlciIgJiYgIWUuc2hpZnRLZXkpIHsgZS5wcmV2ZW50RGVmYXVsdCgpOyBzZW5kKGlucHV0KTsgfSB9fSByb3dzPXsyfSBtYXhMZW5ndGg9ezIwMDB9IHBsYWNlaG9sZGVyPSLkvovlpoLvvJrluK7miJHlr7nmr5QgbWF1IOWSjCBpbmdpbiDnmoTnlKjms5UiIGFyaWEtbGFiZWw9IuWQkeWtpuS5oOWKqeaJi+aPkOmXriIgY2xhc3NOYW1lPSJtaW4tdy0wIGZsZXgtMSByZXNpemUtbm9uZSByb3VuZGVkLW1kIGJvcmRlciBib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZCBwLTMgdGV4dC1zbSBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctcmluZyIgLz4KICAgICAgICB7bG9hZGluZwogICAgICAgICAgPyA8QnV0dG9uIHR5cGU9ImJ1dHRvbiIgdmFyaWFudD0ib3V0bGluZSIgY2xhc3NOYW1lPSJoLWF1dG8iIG9uQ2xpY2s9eygpID0+IGFib3J0UmVmLmN1cnJlbnQ/LmFib3J0KCl9PjxTcXVhcmUgLz7lgZzmraI8L0J1dHRvbj4KICAgICAgICAgIDogPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIGNsYXNzTmFtZT0iaC1hdXRvIiBkaXNhYmxlZD17IWlucHV0LnRyaW0oKX0+PFNlbmQgLz7lj5HpgIE8L0J1dHRvbj59CiAgICAgIDwvZm9ybT4KICAgIDwvbWFpbj4KICA8L0xlYXJuaW5nU2hlbGw+Owp9Cg==
+import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useRef, useState } from "react";
+import { Send, Square, Trash2, Volume2, VolumeX } from "lucide-react";
+import { LearningShell } from "@/components/LearningShell";
+import { Button } from "@/components/ui/button";
+import { useMistakes } from "@/lib/mistakes";
+import { isSfxOn, setSfxOn } from "@/lib/sfx";
+
+export const Route = createFileRoute("/assistant")({
+  head: () => ({
+    meta: [
+      { title: "AI 学习助手 · Ngobrol! 印尼语听力课堂" },
+      { name: "description", content: "让 AI 助手帮你总结课程重点、归纳词汇、根据错题制定复习计划。" },
+      { property: "og:title", content: "AI 学习助手 · Ngobrol! 印尼语听力课堂" },
+      { property: "og:description", content: "让 AI 助手帮你总结课程重点、归纳词汇、根据错题制定复习计划。" },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary" },
+    ],
+  }),
+  component: AssistantPage,
+});
+
+type Msg = { role: "user" | "assistant"; content: string };
+const SUGGESTIONS = ["帮我总结所有课程里最常用的 10 句话", "按主题整理我学过的词汇", "根据我的错题做一个 3 天复习计划", "出 5 道题考考我学过的内容"];
+
+function AssistantPage() {
+  const mistakes = useMistakes();
+  const [messages, setMessages] = useState<Msg[]>([]);
+  const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [sfx, setSfx] = useState(true);
+  const abortRef = useRef<AbortController | null>(null);
+  const endRef = useRef<HTMLDivElement>(null);
+  useEffect(() => { setSfx(isSfxOn()); }, []);
+  useEffect(() => { endRef.current?.scrollIntoView({ block: "end" }); }, [messages]);
+
+  async function send(text: string) {
+    const q = text.trim();
+    if (!q || loading) return;
+    const history: Msg[] = [...messages, { role: "user", content: q }];
+    setMessages([...history, { role: "assistant", content: "" }]);
+    setInput(""); setError(""); setLoading(true);
+    const ac = new AbortController(); abortRef.current = ac;
+    try {
+      const res = await fetch("/api/assistant", {
+        method: "POST", signal: ac.signal, headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ messages: history.slice(-20), mistakes: mistakes.slice(0, 40).map(m => `${m.word}（${m.meaning}）`) }),
+      });
+      if (!res.ok || !res.body) {
+        const d = await res.json().catch(() => ({})) as { error?: string };
+        setError(d.error ?? "AI 暂时无法回应。");
+        setMessages(history);
+        return;
+      }
+      const reader = res.body.getReader(); const dec = new TextDecoder();
+      while (true) {
+        const { value, done } = await reader.read();
+        if (done) break;
+        const chunk = dec.decode(value, { stream: true });
+        setMessages(m => { const c = [...m]; const last = c[c.length - 1]!; c[c.length - 1] = { ...last, content: last.content + chunk }; return c; });
+      }
+    } catch (e) {
+      if (!(e instanceof Error && e.name === "AbortError")) setError("网络出错，请稍后再试。");
+    } finally { setLoading(false); abortRef.current = null; }
+  }
+
+  return <LearningShell>
+    <main className="mx-auto max-w-3xl px-5 py-10 sm:px-8">
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="font-display text-3xl font-bold">AI 学习助手</h1>
+          <p className="mt-2 text-sm text-muted-foreground">它知道本站全部课程、词汇和你的错题，可以帮你整合学过的内容。</p>
+        </div>
+        <div className="flex gap-2">
+          <Button variant="outline" size="sm" onClick={() => { setSfxOn(!sfx); setSfx(!sfx); }}>{sfx ? <Volume2 /> : <VolumeX />}按钮音效{sfx ? "开" : "关"}</Button>
+          {messages.length > 0 && <Button variant="ghost" size="sm" onClick={() => { abortRef.current?.abort(); setMessages([]); }}><Trash2 />清空</Button>}
+        </div>
+      </div>
+
+      <div className="mt-8 space-y-5">
+        {messages.length === 0 && <div className="grid gap-3 sm:grid-cols-2">{SUGGESTIONS.map(s => <button key={s} onClick={() => send(s)} className="rounded-lg border border-border bg-card p-4 text-left text-sm transition-colors hover:border-primary hover:text-primary">{s}</button>)}</div>}
+        {messages.map((m, i) => m.role === "user"
+          ? <div key={i} className="ml-auto max-w-[85%] rounded-lg bg-primary px-4 py-3 text-sm text-primary-foreground">{m.content}</div>
+          : <div key={i} className="whitespace-pre-wrap text-sm leading-relaxed">{m.content || (loading && i === messages.length - 1 ? <span className="text-muted-foreground">助手正在整理…</span> : "")}</div>)}
+        {error && <p className="text-sm text-destructive">{error}</p>}
+        <div ref={endRef} />
+      </div>
+
+      <form className="mt-8 flex gap-2" onSubmit={e => { e.preventDefault(); send(input); }}>
+        <textarea value={input} onChange={e => setInput(e.target.value)} onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); send(input); } }} rows={2} maxLength={2000} placeholder="例如：帮我对比 mau 和 ingin 的用法" aria-label="向学习助手提问" className="min-w-0 flex-1 resize-none rounded-md border border-input bg-background p-3 text-sm focus:outline-none focus:ring-2 focus:ring-ring" />
+        {loading
+          ? <Button type="button" variant="outline" className="h-auto" onClick={() => abortRef.current?.abort()}><Square />停止</Button>
+          : <Button type="submit" className="h-auto" disabled={!input.trim()}><Send />发送</Button>}
+      </form>
+    </main>
+  </LearningShell>;
+}

@@ -1,1 +1,119 @@
-aW1wb3J0IHsgdXNlTWVtbywgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IENoZWNrLCBSb3RhdGVDY3csIFZvbHVtZTIsIFggfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgdHlwZSB7IExlc3NvbiB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKaW1wb3J0IHsgc3BlYWtJbmRvbmVzaWFuIH0gZnJvbSAiQC9saWIvc3BlZWNoIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IGFkZE1pc3Rha2UgfSBmcm9tICJAL2xpYi9taXN0YWtlcyI7Cgp0eXBlIFJlc3VsdCA9ICJpZGxlIiB8ICJjb3JyZWN0IiB8ICJ3cm9uZyI7CgpmdW5jdGlvbiBub3JtYWxpemUodGV4dDogc3RyaW5nKTogc3RyaW5nIHsKICByZXR1cm4gdGV4dAogICAgLnRvTG93ZXJDYXNlKCkKICAgIC5yZXBsYWNlKC9bPyEuLOKApici4oCZXS9nLCAiIikKICAgIC5yZXBsYWNlKC9ccysvZywgIiAiKQogICAgLnRyaW0oKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIERpY3RhdGlvblByYWN0aWNlKHsgbGVzc29uIH06IHsgbGVzc29uOiBMZXNzb24gfSkgewogIGNvbnN0IGl0ZW1zID0gdXNlTWVtbygoKSA9PiBsZXNzb24udm9jYWIsIFtsZXNzb25dKTsKICBjb25zdCBbaW5kZXgsIHNldEluZGV4XSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IFtpbnB1dCwgc2V0SW5wdXRdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtyZXN1bHQsIHNldFJlc3VsdF0gPSB1c2VTdGF0ZTxSZXN1bHQ+KCJpZGxlIik7CiAgY29uc3QgW3Njb3JlLCBzZXRTY29yZV0gPSB1c2VTdGF0ZSgwKTsKICBjb25zdCBbYXR0ZW1wdGVkLCBzZXRBdHRlbXB0ZWRdID0gdXNlU3RhdGUoMCk7CgogIGNvbnN0IGN1cnJlbnQgPSBpdGVtc1tpbmRleF07CiAgaWYgKCFjdXJyZW50KSByZXR1cm4gbnVsbDsKCiAgY29uc3QgcGxheSA9ICgpID0+IHsKICAgIHNwZWFrSW5kb25lc2lhbihjdXJyZW50LndvcmQpOwogIH07CgogIGNvbnN0IGNoZWNrID0gKCkgPT4gewogICAgaWYgKHJlc3VsdCAhPT0gImlkbGUiIHx8ICFpbnB1dC50cmltKCkpIHJldHVybjsKICAgIGNvbnN0IG9rID0gbm9ybWFsaXplKGlucHV0KSA9PT0gbm9ybWFsaXplKGN1cnJlbnQud29yZCk7CiAgICBzZXRSZXN1bHQob2sgPyAiY29ycmVjdCIgOiAid3JvbmciKTsKICAgIHNldEF0dGVtcHRlZCh2YWx1ZSA9PiB2YWx1ZSArIDEpOwogICAgaWYgKG9rKSBzZXRTY29yZSh2YWx1ZSA9PiB2YWx1ZSArIDEpOwogICAgZWxzZSBhZGRNaXN0YWtlKHsga2luZDogImRpY3RhdGlvbiIsIHdvcmQ6IGN1cnJlbnQud29yZCwgbWVhbmluZzogY3VycmVudC5tZWFuaW5nLCB5b3VyQW5zd2VyOiBpbnB1dC50cmltKCksIGxlc3NvbklkOiBsZXNzb24uaWQgfSk7CiAgfTsKCiAgY29uc3QgbmV4dCA9ICgpID0+IHsKICAgIHNldEluZGV4KHZhbHVlID0+ICh2YWx1ZSArIDEpICUgaXRlbXMubGVuZ3RoKTsKICAgIHNldElucHV0KCIiKTsKICAgIHNldFJlc3VsdCgiaWRsZSIpOwogIH07CgogIGNvbnN0IHJlc3RhcnQgPSAoKSA9PiB7CiAgICBzZXRJbmRleCgwKTsKICAgIHNldElucHV0KCIiKTsKICAgIHNldFJlc3VsdCgiaWRsZSIpOwogICAgc2V0U2NvcmUoMCk7CiAgICBzZXRBdHRlbXB0ZWQoMCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJyb3VuZGVkLWxnIGJvcmRlciBib3JkZXItYm9yZGVyIGJnLWNhcmQgcC01Ij4KICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTMiPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAg56ysIHtpbmRleCArIDF9IC8ge2l0ZW1zLmxlbmd0aH0g6K+NIMK3IOW+l+WIhiB7c2NvcmV9IC8ge2F0dGVtcHRlZH0KICAgICAgICA8L3A+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0ic20iIG9uQ2xpY2s9e3Jlc3RhcnR9PgogICAgICAgICAgPFJvdGF0ZUNjdyAvPiDph43mlrDlvIDlp4sKICAgICAgICA8L0J1dHRvbj4KICAgICAgPC9kaXY+CgogICAgICA8cCBjbGFzc05hbWU9Im10LTQgdGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgIOeCueWHu+aSreaUvu+8jOWQrOW9lemfs+WGmeWHuuS9oOWQrOWIsOeahOWNsOWwvOivreWNleivjeaIluefreivre+8mgogICAgICA8L3A+CgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9Imljb24iIG9uQ2xpY2s9e3BsYXl9IGFyaWEtbGFiZWw9IuaSreaUvuWQrOWGmeWNleivjSIgdGl0bGU9IuaSreaUviI+CiAgICAgICAgICA8Vm9sdW1lMiAvPgogICAgICAgIDwvQnV0dG9uPgogICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPuS4reaWh+aEj+aAne+8mntjdXJyZW50Lm1lYW5pbmd9PC9wPgogICAgICA8L2Rpdj4KCiAgICAgIDxmb3JtCiAgICAgICAgY2xhc3NOYW1lPSJtdC00IGZsZXggZmxleC1jb2wgZ2FwLTMgc206ZmxleC1yb3ciCiAgICAgICAgb25TdWJtaXQ9e2V2ZW50ID0+IHsKICAgICAgICAgIGV2ZW50LnByZXZlbnREZWZhdWx0KCk7CiAgICAgICAgICBjaGVjaygpOwogICAgICAgIH19CiAgICAgID4KICAgICAgICA8aW5wdXQKICAgICAgICAgIHR5cGU9InRleHQiCiAgICAgICAgICB2YWx1ZT17aW5wdXR9CiAgICAgICAgICBvbkNoYW5nZT17ZXZlbnQgPT4gewogICAgICAgICAgICBzZXRJbnB1dChldmVudC50YXJnZXQudmFsdWUpOwogICAgICAgICAgICBpZiAocmVzdWx0ICE9PSAiaWRsZSIpIHNldFJlc3VsdCgiaWRsZSIpOwogICAgICAgICAgfX0KICAgICAgICAgIHBsYWNlaG9sZGVyPSLlnKjov5nph4zovpPlhaXkvaDlkKzliLDnmoTlhoXlrrnigKYiCiAgICAgICAgICBhcmlhLWxhYmVsPSLlkKzlhpnovpPlhaUiCiAgICAgICAgICBjbGFzc05hbWU9Im1pbi13LTAgZmxleC0xIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIHB4LTMgcHktMiB0ZXh0LXNtIG91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyIKICAgICAgICAvPgogICAgICAgIHtyZXN1bHQgPT09ICJpZGxlIiA/ICgKICAgICAgICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiBkaXNhYmxlZD17IWlucHV0LnRyaW0oKX0+CiAgICAgICAgICAgIOajgOafpeetlOahiAogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiBvbkNsaWNrPXtuZXh0fT4KICAgICAgICAgICAg5LiL5LiA5LiqCiAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICApfQogICAgICA8L2Zvcm0+CgogICAgICB7cmVzdWx0ID09PSAiY29ycmVjdCIgJiYgKAogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtYWNjZW50Ij4KICAgICAgICAgIDxDaGVjayBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IOetlOWvueS6hu+8gXtjdXJyZW50LndvcmR9ID0ge2N1cnJlbnQubWVhbmluZ30KICAgICAgICA8L3A+CiAgICAgICl9CiAgICAgIHtyZXN1bHQgPT09ICJ3cm9uZyIgJiYgKAogICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtZGVzdHJ1Y3RpdmUiPgogICAgICAgICAgPFggY2xhc3NOYW1lPSJoLTQgdy00IiAvPiDmraPnoa7nrZTmoYjmmK/jgIx7Y3VycmVudC53b3JkfeOAje+8iHtjdXJyZW50Lm1lYW5pbmd977yJCiAgICAgICAgPC9wPgogICAgICApfQogICAgPC9kaXY+CiAgKTsKfQo=
+import { useMemo, useState } from "react";
+import { Check, RotateCcw, Volume2, X } from "lucide-react";
+import type { Lesson } from "@/data/lessons";
+import { speakIndonesian } from "@/lib/speech";
+import { Button } from "@/components/ui/button";
+import { addMistake } from "@/lib/mistakes";
+
+type Result = "idle" | "correct" | "wrong";
+
+function normalize(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/[?!.,…'"’]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function DictationPractice({ lesson }: { lesson: Lesson }) {
+  const items = useMemo(() => lesson.vocab, [lesson]);
+  const [index, setIndex] = useState(0);
+  const [input, setInput] = useState("");
+  const [result, setResult] = useState<Result>("idle");
+  const [score, setScore] = useState(0);
+  const [attempted, setAttempted] = useState(0);
+
+  const current = items[index];
+  if (!current) return null;
+
+  const play = () => {
+    speakIndonesian(current.word);
+  };
+
+  const check = () => {
+    if (result !== "idle" || !input.trim()) return;
+    const ok = normalize(input) === normalize(current.word);
+    setResult(ok ? "correct" : "wrong");
+    setAttempted(value => value + 1);
+    if (ok) setScore(value => value + 1);
+    else addMistake({ kind: "dictation", word: current.word, meaning: current.meaning, yourAnswer: input.trim(), lessonId: lesson.id });
+  };
+
+  const next = () => {
+    setIndex(value => (value + 1) % items.length);
+    setInput("");
+    setResult("idle");
+  };
+
+  const restart = () => {
+    setIndex(0);
+    setInput("");
+    setResult("idle");
+    setScore(0);
+    setAttempted(0);
+  };
+
+  return (
+    <div className="rounded-lg border border-border bg-card p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="text-sm text-muted-foreground">
+          第 {index + 1} / {items.length} 词 · 得分 {score} / {attempted}
+        </p>
+        <Button variant="ghost" size="sm" onClick={restart}>
+          <RotateCcw /> 重新开始
+        </Button>
+      </div>
+
+      <p className="mt-4 text-sm text-muted-foreground">
+        点击播放，听录音写出你听到的印尼语单词或短语：
+      </p>
+
+      <div className="mt-3 flex items-center gap-3">
+        <Button variant="secondary" size="icon" onClick={play} aria-label="播放听写单词" title="播放">
+          <Volume2 />
+        </Button>
+        <p className="text-sm text-muted-foreground">中文意思：{current.meaning}</p>
+      </div>
+
+      <form
+        className="mt-4 flex flex-col gap-3 sm:flex-row"
+        onSubmit={event => {
+          event.preventDefault();
+          check();
+        }}
+      >
+        <input
+          type="text"
+          value={input}
+          onChange={event => {
+            setInput(event.target.value);
+            if (result !== "idle") setResult("idle");
+          }}
+          placeholder="在这里输入你听到的内容…"
+          aria-label="听写输入"
+          className="min-w-0 flex-1 rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring"
+        />
+        {result === "idle" ? (
+          <Button type="submit" disabled={!input.trim()}>
+            检查答案
+          </Button>
+        ) : (
+          <Button type="button" onClick={next}>
+            下一个
+          </Button>
+        )}
+      </form>
+
+      {result === "correct" && (
+        <p className="mt-3 flex items-center gap-2 text-sm font-medium text-accent">
+          <Check className="h-4 w-4" /> 答对了！{current.word} = {current.meaning}
+        </p>
+      )}
+      {result === "wrong" && (
+        <p className="mt-3 flex items-center gap-2 text-sm font-medium text-destructive">
+          <X className="h-4 w-4" /> 正确答案是「{current.word}」（{current.meaning}）
+        </p>
+      )}
+    </div>
+  );
+}

@@ -1,1 +1,99 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHogfSBmcm9tICJ6b2QiOwppbXBvcnQgeyBsZXNzb25zIH0gZnJvbSAiQC9kYXRhL2xlc3NvbnMiOwppbXBvcnQgeyBzdG9yaWVzIH0gZnJvbSAiQC9kYXRhL3N0b3JpZXMiOwppbXBvcnQgeyBjcmVhdGVMb3ZhYmxlQWlHYXRld2F5UnVuSWRGZXRjaCB9IGZyb20gIkAvc2VydmVyL3J1bi1pZCI7Cgpjb25zdCBCb2R5ID0gei5vYmplY3QoewogIG1lc3NhZ2VzOiB6LmFycmF5KHoub2JqZWN0KHsgcm9sZTogei5lbnVtKFsidXNlciIsICJhc3Npc3RhbnQiXSksIGNvbnRlbnQ6IHouc3RyaW5nKCkubWF4KDQwMDApIH0pKS5taW4oMSkubWF4KDMwKSwKICBtaXN0YWtlczogei5hcnJheSh6LnN0cmluZygpLm1heCgyMDApKS5tYXgoNDApLm9wdGlvbmFsKCksCn0pOwoKY29uc3QgY2F0YWxvZyA9IGxlc3NvbnMubWFwKGwgPT4gYMK3ICR7bC50aXRsZX3vvIgke2wubGV2ZWx977yJ77yaJHtsLnZvY2FiLm1hcCh2ID0+IGAke3Yud29yZH09JHt2Lm1lYW5pbmd9YCkuam9pbigi77yMIil9YCkuam9pbigiXG4iKTsKY29uc3Qgc3RvcnlMaXN0ID0gc3Rvcmllcy5tYXAocyA9PiBgwrcgJHtzLnRpdGxlfe+8iCR7cy50aXRsZUlkfe+8iWApLmpvaW4oIlxuIik7Cgpjb25zdCBTWVNURU0gPSBg5L2g5piv44CMTmdvYnJvbCEg5Y2w5bC86K+t5ZCs5Yqb6K++5aCC44CN55qE5a2m5Lmg5Yqp5omL77yM5a2m55Sf5piv5Lit5paH5q+N6K+t6ICF44CC5L2g55qE5Lu75Yqh5piv5biu5a2m55Sf5pW05ZCI5a2m6L+H55qE5YaF5a6577ya5oC757uT6K++56iL6YeN54K544CB5oyJ5Li76aKY5b2S57qz6K+N5rGH5ZKM5Y+l5Z6L44CB5a+55q+U5piT5re36K+N44CB5qC55o2u6ZSZ6aKY5Yi25a6a5aSN5Lmg6K6h5YiS44CB5Ye65bCP57uD5Lmg44CC55So566A5L2T5Lit5paH5Zue562U77yM5Y2w5bC86K+t5L6L5Y+l5ZCO6ZmE5Lit5paH44CC5Zue562U566A5rSB5pyJ5p2h55CG77yM5Y+v5Lul55So566A5Y2V55qEIC0g5YiX6KGo77yM5LiN6KaB55SoICMg5oiWICoqIOetiSBNYXJrZG93biDnrKblj7fjgIIKCuacrOermeivvueoi+S4juivjeaxh++8mgoke2NhdGFsb2d9CgrmlYXkuovpmIXor7vvvJoKJHtzdG9yeUxpc3R9YDsKCmV4cG9ydCBjb25zdCBSb3V0ZSA9IGNyZWF0ZUZpbGVSb3V0ZSgiL2FwaS9hc3Npc3RhbnQiKSh7CiAgc2VydmVyOiB7CiAgICBoYW5kbGVyczogewogICAgICBQT1NUOiBhc3luYyAoeyByZXF1ZXN0IH0pID0+IHsKICAgICAgICBjb25zdCBwYXJzZWQgPSBCb2R5LnNhZmVQYXJzZShhd2FpdCByZXF1ZXN0Lmpzb24oKS5jYXRjaCgoKSA9PiBudWxsKSk7CiAgICAgICAgaWYgKCFwYXJzZWQuc3VjY2VzcykgcmV0dXJuIFJlc3BvbnNlLmpzb24oeyBlcnJvcjogIua2iOaBr+agvOW8j+S4jeato+ehruaIluWkqumVv+OAgiIgfSwgeyBzdGF0dXM6IDQwMCB9KTsKICAgICAgICBjb25zdCBhcGlLZXkgPSBwcm9jZXNzLmVudlsiTE9WQUJMRV9BUElfS0VZIl07CiAgICAgICAgaWYgKCFhcGlLZXkpIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6ICJBSSDmnI3liqHmnKrphY3nva7jgIIiIH0sIHsgc3RhdHVzOiA1MDAgfSk7CiAgICAgICAgY29uc3QgbWlzdGFrZU5vdGUgPSBwYXJzZWQuZGF0YS5taXN0YWtlcz8ubGVuZ3RoID8gYFxuXG7lrabnlJ/plJnpopjlupPph4znmoTor43vvJoke3BhcnNlZC5kYXRhLm1pc3Rha2VzLmpvaW4oIu+8jCIpfWAgOiAiIjsKICAgICAgICBjb25zdCBpbnB1dCA9IFt7IHJvbGU6ICJzeXN0ZW0iLCBjb250ZW50OiBTWVNURU0gKyBtaXN0YWtlTm90ZSB9LCAuLi5wYXJzZWQuZGF0YS5tZXNzYWdlc107CiAgICAgICAgY29uc3QgZ2F0ZXdheSA9IGNyZWF0ZUxvdmFibGVBaUdhdGV3YXlSdW5JZEZldGNoKCk7CiAgICAgICAgbGV0IHVwc3RyZWFtOiBSZXNwb25zZTsKICAgICAgICB0cnkgewogICAgICAgICAgdXBzdHJlYW0gPSBhd2FpdCBnYXRld2F5LmZldGNoKCJodHRwczovL2FpLmdhdGV3YXkubG92YWJsZS5kZXYvdjEvcmVzcG9uc2VzIiwgewogICAgICAgICAgICBtZXRob2Q6ICJQT1NUIiwKICAgICAgICAgICAgc2lnbmFsOiByZXF1ZXN0LnNpZ25hbCwKICAgICAgICAgICAgaGVhZGVyczogeyAiQ29udGVudC1UeXBlIjogImFwcGxpY2F0aW9uL2pzb24iLCAiTG92YWJsZS1BUEktS2V5IjogYXBpS2V5LCAiWC1Mb3ZhYmxlLUFJRy1TREsiOiAiZmV0Y2giIH0sCiAgICAgICAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsKICAgICAgICAgICAgICBtb2RlbDogIm9wZW5haS9ncHQtNi1hc3RyYSIsCiAgICAgICAgICAgICAgaW5wdXQsCiAgICAgICAgICAgICAgc3RyZWFtOiB0cnVlLAogICAgICAgICAgICAgIHN0b3JlOiBmYWxzZSwKICAgICAgICAgICAgICByZWFzb25pbmc6IHsgZWZmb3J0OiAibG93Iiwgc3VtbWFyeTogImF1dG8iIH0sCiAgICAgICAgICAgICAgaW5jbHVkZTogWyJyZWFzb25pbmcuZW5jcnlwdGVkX2NvbnRlbnQiXSwKICAgICAgICAgICAgfSksCiAgICAgICAgICB9KTsKICAgICAgICB9IGNhdGNoIChlcnJvcikgewogICAgICAgICAgaWYgKHJlcXVlc3Quc2lnbmFsLmFib3J0ZWQpIHJldHVybiBuZXcgUmVzcG9uc2UobnVsbCwgeyBzdGF0dXM6IDQ5OSB9KTsKICAgICAgICAgIHRocm93IGVycm9yOwogICAgICAgIH0KICAgICAgICBpZiAoIXVwc3RyZWFtLm9rIHx8ICF1cHN0cmVhbS5ib2R5KSB7CiAgICAgICAgICBjb25zdCBkYXRhID0gYXdhaXQgdXBzdHJlYW0uanNvbigpLmNhdGNoKCgpID0+ICh7fSkpIGFzIHsgZXJyb3I/OiB7IG1lc3NhZ2U/OiBzdHJpbmcgfTsgbWVzc2FnZT86IHN0cmluZyB9OwogICAgICAgICAgY29uc3QgbXNnID0gdXBzdHJlYW0uc3RhdHVzID09PSA0MjkgPyAi6K+35rGC5aSq6aKR57mB77yM6K+356iN5ZCO5YaN6K+V44CCIgogICAgICAgICAgICA6IHVwc3RyZWFtLnN0YXR1cyA9PT0gNDAyID8gKGRhdGEubWVzc2FnZSA/PyAiQUkg6aKd5bqm5bey55So5a6M44CCIikKICAgICAgICAgICAgOiBkYXRhLmVycm9yPy5tZXNzYWdlID8/IGRhdGEubWVzc2FnZSA/PyAiQUkg5pqC5pe25peg5rOV5Zue5bqU44CCIjsKICAgICAgICAgIHJldHVybiBSZXNwb25zZS5qc29uKHsgZXJyb3I6IG1zZyB9LCB7IHN0YXR1czogdXBzdHJlYW0uc3RhdHVzIH0pOwogICAgICAgIH0KCiAgICAgICAgLy8gQ29udmVydCBTU0UgaW50byBhIHBsYWluIHRleHQgc3RyZWFtIG9mIG91dHB1dCBkZWx0YXMuCiAgICAgICAgY29uc3QgcmVhZGVyID0gdXBzdHJlYW0uYm9keS5nZXRSZWFkZXIoKTsKICAgICAgICBjb25zdCBkZWNvZGVyID0gbmV3IFRleHREZWNvZGVyKCk7CiAgICAgICAgY29uc3QgZW5jb2RlciA9IG5ldyBUZXh0RW5jb2RlcigpOwogICAgICAgIGNvbnN0IHN0cmVhbSA9IG5ldyBSZWFkYWJsZVN0cmVhbTxVaW50OEFycmF5Pih7CiAgICAgICAgICBhc3luYyBzdGFydChjb250cm9sbGVyKSB7CiAgICAgICAgICAgIGxldCBidWZmZXIgPSAiIjsKICAgICAgICAgICAgbGV0IGFueSA9IGZhbHNlOwogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgIHdoaWxlICh0cnVlKSB7CiAgICAgICAgICAgICAgICBjb25zdCB7IHZhbHVlLCBkb25lIH0gPSBhd2FpdCByZWFkZXIucmVhZCgpOwogICAgICAgICAgICAgICAgaWYgKGRvbmUpIGJyZWFrOwogICAgICAgICAgICAgICAgYnVmZmVyICs9IGRlY29kZXIuZGVjb2RlKHZhbHVlLCB7IHN0cmVhbTogdHJ1ZSB9KTsKICAgICAgICAgICAgICAgIGNvbnN0IGxpbmVzID0gYnVmZmVyLnNwbGl0KCJcbiIpOwogICAgICAgICAgICAgICAgYnVmZmVyID0gbGluZXMucG9wKCkgPz8gIiI7CiAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IGxpbmUgb2YgbGluZXMpIHsKICAgICAgICAgICAgICAgICAgaWYgKCFsaW5lLnN0YXJ0c1dpdGgoImRhdGE6IikpIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICBjb25zdCBwYXlsb2FkID0gbGluZS5zbGljZSg1KS50cmltKCk7CiAgICAgICAgICAgICAgICAgIGlmICghcGF5bG9hZCB8fCBwYXlsb2FkID09PSAiW0RPTkVdIikgY29udGludWU7CiAgICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3QgZXZ0ID0gSlNPTi5wYXJzZShwYXlsb2FkKSBhcyB7IHR5cGU/OiBzdHJpbmc7IGRlbHRhPzogc3RyaW5nOyBlcnJvcj86IHsgbWVzc2FnZT86IHN0cmluZyB9OyByZXNwb25zZT86IHsgZXJyb3I/OiB7IG1lc3NhZ2U/OiBzdHJpbmcgfSB9IH07CiAgICAgICAgICAgICAgICAgICAgaWYgKGV2dC50eXBlID09PSAicmVzcG9uc2Uub3V0cHV0X3RleHQuZGVsdGEiICYmIGV2dC5kZWx0YSkgeyBhbnkgPSB0cnVlOyBjb250cm9sbGVyLmVucXVldWUoZW5jb2Rlci5lbmNvZGUoZXZ0LmRlbHRhKSk7IH0KICAgICAgICAgICAgICAgICAgICBlbHNlIGlmIChldnQudHlwZSA9PT0gImVycm9yIiB8fCBldnQudHlwZSA9PT0gInJlc3BvbnNlLmZhaWxlZCIpIHsKICAgICAgICAgICAgICAgICAgICAgIGNvbnRyb2xsZXIuZW5xdWV1ZShlbmNvZGVyLmVuY29kZShgXG5cblvlh7rplJnkuobvvJoke2V2dC5lcnJvcj8ubWVzc2FnZSA/PyBldnQucmVzcG9uc2U/LmVycm9yPy5tZXNzYWdlID8/ICJBSSDlm57lupTlpLHotKUifV1gKSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICB9IGNhdGNoIHsgLyogaWdub3JlIHBhcnRpYWwgKi8gfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgIH0KICAgICAgICAgICAgICBpZiAoIWFueSkgY29udHJvbGxlci5lbnF1ZXVlKGVuY29kZXIuZW5jb2RlKCJbQUkg5rKh5pyJ6L+U5Zue5YaF5a6577yM6K+35o2i5Liq6K+05rOV5YaN6K+V5LiA5qyh44CCXSIpKTsKICAgICAgICAgICAgfSBjYXRjaCB7IC8qIGNsaWVudCBhYm9ydGVkICovIH0KICAgICAgICAgICAgY29udHJvbGxlci5jbG9zZSgpOwogICAgICAgICAgfSwKICAgICAgICAgIGNhbmNlbCgpIHsgcmVhZGVyLmNhbmNlbCgpLmNhdGNoKCgpID0+IHt9KTsgfSwKICAgICAgICB9KTsKICAgICAgICByZXR1cm4gbmV3IFJlc3BvbnNlKHN0cmVhbSwgeyBoZWFkZXJzOiB7ICJDb250ZW50LVR5cGUiOiAidGV4dC9wbGFpbjsgY2hhcnNldD11dGYtOCIsICJDYWNoZS1Db250cm9sIjogIm5vLWNhY2hlIiB9IH0pOwogICAgICB9LAogICAgfSwKICB9LAp9KTsK
+import { createFileRoute } from "@tanstack/react-router";
+import { z } from "zod";
+import { lessons } from "@/data/lessons";
+import { stories } from "@/data/stories";
+import { createLovableAiGatewayRunIdFetch } from "@/server/run-id";
+
+const Body = z.object({
+  messages: z.array(z.object({ role: z.enum(["user", "assistant"]), content: z.string().max(4000) })).min(1).max(30),
+  mistakes: z.array(z.string().max(200)).max(40).optional(),
+});
+
+const catalog = lessons.map(l => `· ${l.title}（${l.level}）：${l.vocab.map(v => `${v.word}=${v.meaning}`).join("，")}`).join("\n");
+const storyList = stories.map(s => `· ${s.title}（${s.titleId}）`).join("\n");
+
+const SYSTEM = `你是「Ngobrol! 印尼语听力课堂」的学习助手，学生是中文母语者。你的任务是帮学生整合学过的内容：总结课程重点、按主题归纳词汇和句型、对比易混词、根据错题制定复习计划、出小练习。用简体中文回答，印尼语例句后附中文。回答简洁有条理，可以用简单的 - 列表，不要用 # 或 ** 等 Markdown 符号。
+
+本站课程与词汇：
+${catalog}
+
+故事阅读：
+${storyList}`;
+
+export const Route = createFileRoute("/api/assistant")({
+  server: {
+    handlers: {
+      POST: async ({ request }) => {
+        const parsed = Body.safeParse(await request.json().catch(() => null));
+        if (!parsed.success) return Response.json({ error: "消息格式不正确或太长。" }, { status: 400 });
+        const apiKey = process.env["LOVABLE_API_KEY"];
+        if (!apiKey) return Response.json({ error: "AI 服务未配置。" }, { status: 500 });
+        const mistakeNote = parsed.data.mistakes?.length ? `\n\n学生错题库里的词：${parsed.data.mistakes.join("，")}` : "";
+        const input = [{ role: "system", content: SYSTEM + mistakeNote }, ...parsed.data.messages];
+        const gateway = createLovableAiGatewayRunIdFetch();
+        let upstream: Response;
+        try {
+          upstream = await gateway.fetch("https://ai.gateway.lovable.dev/v1/responses", {
+            method: "POST",
+            signal: request.signal,
+            headers: { "Content-Type": "application/json", "Lovable-API-Key": apiKey, "X-Lovable-AIG-SDK": "fetch" },
+            body: JSON.stringify({
+              model: "openai/gpt-6-astra",
+              input,
+              stream: true,
+              store: false,
+              reasoning: { effort: "low", summary: "auto" },
+              include: ["reasoning.encrypted_content"],
+            }),
+          });
+        } catch (error) {
+          if (request.signal.aborted) return new Response(null, { status: 499 });
+          throw error;
+        }
+        if (!upstream.ok || !upstream.body) {
+          const data = await upstream.json().catch(() => ({})) as { error?: { message?: string }; message?: string };
+          const msg = upstream.status === 429 ? "请求太频繁，请稍后再试。"
+            : upstream.status === 402 ? (data.message ?? "AI 额度已用完。")
+            : data.error?.message ?? data.message ?? "AI 暂时无法回应。";
+          return Response.json({ error: msg }, { status: upstream.status });
+        }
+
+        // Convert SSE into a plain text stream of output deltas.
+        const reader = upstream.body.getReader();
+        const decoder = new TextDecoder();
+        const encoder = new TextEncoder();
+        const stream = new ReadableStream<Uint8Array>({
+          async start(controller) {
+            let buffer = "";
+            let any = false;
+            try {
+              while (true) {
+                const { value, done } = await reader.read();
+                if (done) break;
+                buffer += decoder.decode(value, { stream: true });
+                const lines = buffer.split("\n");
+                buffer = lines.pop() ?? "";
+                for (const line of lines) {
+                  if (!line.startsWith("data:")) continue;
+                  const payload = line.slice(5).trim();
+                  if (!payload || payload === "[DONE]") continue;
+                  try {
+                    const evt = JSON.parse(payload) as { type?: string; delta?: string; error?: { message?: string }; response?: { error?: { message?: string } } };
+                    if (evt.type === "response.output_text.delta" && evt.delta) { any = true; controller.enqueue(encoder.encode(evt.delta)); }
+                    else if (evt.type === "error" || evt.type === "response.failed") {
+                      controller.enqueue(encoder.encode(`\n\n[出错了：${evt.error?.message ?? evt.response?.error?.message ?? "AI 回应失败"}]`));
+                    }
+                  } catch { /* ignore partial */ }
+                }
+              }
+              if (!any) controller.enqueue(encoder.encode("[AI 没有返回内容，请换个说法再试一次。]"));
+            } catch { /* client aborted */ }
+            controller.close();
+          },
+          cancel() { reader.cancel().catch(() => {}); },
+        });
+        return new Response(stream, { headers: { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-cache" } });
+      },
+    },
+  },
+});

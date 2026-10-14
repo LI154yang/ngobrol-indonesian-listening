@@ -1,1 +1,77 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCBMaW5rIH0gZnJvbSAiQHRhbnN0YWNrL3JlYWN0LXJvdXRlciI7CmltcG9ydCB7IHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBBcnJvd1JpZ2h0LCBTZWFyY2gsIEhlYWRwaG9uZXMsIEJvb2tPcGVuIH0gZnJvbSAibHVjaWRlLXJlYWN0IjsKaW1wb3J0IHsgbGVzc29ucyB9IGZyb20gIkAvZGF0YS9sZXNzb25zIjsKaW1wb3J0IHsgY291cnNlRGV0YWlscywgY291cnNlR3JvdXBzLCB0eXBlIENvdXJzZUdyb3VwIH0gZnJvbSAiQC9kYXRhL2NvdXJzZS1jYXRhbG9nIjsKaW1wb3J0IHsgTGVhcm5pbmdTaGVsbCB9IGZyb20gIkAvY29tcG9uZW50cy9MZWFybmluZ1NoZWxsIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi8iKSh7CiAgaGVhZDogKCkgPT4gKHsgbWV0YTogWwogICAgeyB0aXRsZTogIuivvueoi+S4reW/gyDigJQgTmdvYnJvbCEg5Y2w5bC86K+t5ZCs5Yqb6K++5aCCIiB9LAogICAgeyBuYW1lOiAiZGVzY3JpcHRpb24iLCBjb250ZW50OiAi5Y2B5LqM6Zeo55Sf5rS75oOF5pmv6K++56iL77ya5LuO5omT5oub5ZG844CB54K56aSQ44CB56CN5Lu35Yiw5omT6L2m44CB5o2i6ZKx44CB55yL55eF5LiOIFdoYXRzQXBwIOe6puS6uu+8jOmAkOWPpeWQrOWKm+OAgeS4reaWh+e/u+ivkeS4juaWh+WMlui0tOWjq+OAgiIgfSwKICAgIHsgcHJvcGVydHk6ICJvZzp0aXRsZSIsIGNvbnRlbnQ6ICLor77nqIvkuK3lv4Mg4oCUIE5nb2Jyb2whIiB9LAogICAgeyBwcm9wZXJ0eTogIm9nOmRlc2NyaXB0aW9uIiwgY29udGVudDogIuWNgeS6jOmXqOeUn+a0u+aDheaZr+ivvueoi++8jOS4reaWh+e/u+ivkeOAgemAkOWPpeWQrOWKm+S4juaWh+WMlui0tOWjq+OAgiIgfSwKICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogIF0gfSksCiAgY29tcG9uZW50OiBDb3Vyc2VDZW50ZXIsCn0pOwoKZnVuY3Rpb24gQ291cnNlQ2VudGVyKCkgewogIGNvbnN0IFtjYXRlZ29yeSwgc2V0Q2F0ZWdvcnldID0gdXNlU3RhdGU8Q291cnNlR3JvdXA+KCLlhajpg6jor77nqIsiKTsKICBjb25zdCBbc2VhcmNoLCBzZXRTZWFyY2hdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IHdvcmRUb3RhbCA9IGxlc3NvbnMucmVkdWNlKChuLCBsKSA9PiBuICsgbC52b2NhYi5sZW5ndGgsIDApOwogIGNvbnN0IGxldmVsVG90YWwgPSBuZXcgU2V0KGxlc3NvbnMubWFwKGwgPT4gbC5sZXZlbCkpLnNpemU7CiAgY29uc3QgZmlsdGVyZWQgPSBsZXNzb25zLmZpbHRlcigobGVzc29uKSA9PgogICAgKGNhdGVnb3J5ID09PSAi5YWo6YOo6K++56iLIiB8fCBjb3Vyc2VEZXRhaWxzW2xlc3Nvbi5pZF0/LmNhdGVnb3J5ID09PSBjYXRlZ29yeSkgJiYKICAgIGAke2xlc3Nvbi50aXRsZX0gJHtsZXNzb24uc3VidGl0bGV9ICR7bGVzc29uLnNjZW5lfSAke2xlc3Nvbi52b2NhYi5tYXAodiA9PiB2LndvcmQpLmpvaW4oIiAiKX1gLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoc2VhcmNoLnRyaW0oKS50b0xvd2VyQ2FzZSgpKQogICk7CiAgcmV0dXJuICgKICAgIDxMZWFybmluZ1NoZWxsPgogICAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctNnhsIHB4LTUgc206cHgtOCI+CiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1lbmQganVzdGlmeS1iZXR3ZWVuIGdhcC02IGJvcmRlci1iIGJvcmRlci1ib3JkZXIgcHktMTAgc206cHktMTIiPgogICAgICAgICAgPGRpdj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtYWNjZW50Ij48SGVhZHBob25lcyBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IEJBSEFTQSBJTkRPTkVTSUEgwrcg5Y2w5bC86K+tPC9wPgogICAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC0zIGZvbnQtZGlzcGxheSB0ZXh0LTN4bCBmb250LWJvbGQgc206dGV4dC00eGwiPk5nb2Jyb2whIOivvueoi+S4reW/gzwvaDE+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPuS7juesrOS4gOWjsCBIYWxv77yM5Yiw6Ieq5Zyo6IGK55Sf5rS744CCPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBnYXAtNyB0ZXh0LXNtIj48ZGl2PjxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtM3hsIGZvbnQtYm9sZCI+e1N0cmluZyhsZXNzb25zLmxlbmd0aCkucGFkU3RhcnQoMiwgIjAiKX08L3A+PHAgY2xhc3NOYW1lPSJtdC0xIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+5oOF5pmv6K++56iLPC9wPjwvZGl2PjxkaXYgY2xhc3NOYW1lPSJib3JkZXItbCBib3JkZXItYm9yZGVyIHBsLTciPjxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtM3hsIGZvbnQtYm9sZCI+e1N0cmluZyhsZXZlbFRvdGFsKS5wYWRTdGFydCgyLCAiMCIpfTwvcD48cCBjbGFzc05hbWU9Im10LTEgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj7lrabkuaDpmLbmrrU8L3A+PC9kaXY+PGRpdiBjbGFzc05hbWU9ImJvcmRlci1sIGJvcmRlci1ib3JkZXIgcGwtNyI+PHAgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgZm9udC1ib2xkIj57d29yZFRvdGFsfTwvcD48cCBjbGFzc05hbWU9Im10LTEgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj7lrp7nlKjljZXor408L3A+PC9kaXY+PC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItNyBmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC01Ij4KICAgICAgICAgICAgPGRpdiByb2xlPSJncm91cCIgYXJpYS1sYWJlbD0i6K++56iL5YiG57G7IiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICAgICAgICB7Y291cnNlR3JvdXBzLm1hcChncm91cCA9PiA8QnV0dG9uIGtleT17Z3JvdXB9IHZhcmlhbnQ9e2NhdGVnb3J5ID09PSBncm91cCA/ICJkZWZhdWx0IiA6ICJnaG9zdCJ9IGFyaWEtcHJlc3NlZD17Y2F0ZWdvcnkgPT09IGdyb3VwfSBvbkNsaWNrPXsoKSA9PiBzZXRDYXRlZ29yeShncm91cCl9Pntncm91cH08L0J1dHRvbj4pfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iZmxleCB3LWZ1bGwgaXRlbXMtY2VudGVyIGdhcC0yIHJvdW5kZWQtbWQgYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1jYXJkIHB4LTMgc206dy02NCI+CiAgICAgICAgICAgICAgPFNlYXJjaCBjbGFzc05hbWU9ImgtNCB3LTQgc2hyaW5rLTAgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIiAvPgogICAgICAgICAgICAgIDxpbnB1dCBhcmlhLWxhYmVsPSLmkJzntKLor77nqIsiIHBsYWNlaG9sZGVyPSLmkJzntKLor77nqIvmiJbor43msYciIHZhbHVlPXtzZWFyY2h9IG9uQ2hhbmdlPXtlID0+IHNldFNlYXJjaChlLnRhcmdldC52YWx1ZSl9IGNsYXNzTmFtZT0iaC0xMCBtaW4tdy0wIGZsZXgtMSBiZy10cmFuc3BhcmVudCB0ZXh0LXNtIG91dGxpbmUtbm9uZSIgLz4KICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTYgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMiPgogICAgICAgICAgICB7ZmlsdGVyZWQubWFwKGxlc3NvbiA9PiB7CiAgICAgICAgICAgICAgY29uc3QgZGV0YWlsID0gY291cnNlRGV0YWlsc1tsZXNzb24uaWRdOwogICAgICAgICAgICAgIGlmICghZGV0YWlsKSByZXR1cm4gbnVsbDsKICAgICAgICAgICAgICByZXR1cm4gPExpbmsga2V5PXtsZXNzb24uaWR9IHRvPSIvbGVzc29ucy8kbGVzc29uSWQiIHBhcmFtcz17eyBsZXNzb25JZDogbGVzc29uLmlkIH19IGNsYXNzTmFtZT0iZ3JvdXAgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtbGcgYm9yZGVyIGJvcmRlci1ib3JkZXIgYmctY2FyZCB0cmFuc2l0aW9uLWNvbG9ycyBob3Zlcjpib3JkZXItcHJpbWFyeSBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMiBmb2N1cy12aXNpYmxlOnJpbmctcmluZyI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgYXNwZWN0LVsxNi8xMF0gb3ZlcmZsb3ctaGlkZGVuIj4KICAgICAgICAgICAgICAgICAgPGltZyBzcmM9e2RldGFpbC5pbWFnZX0gYWx0PXtsZXNzb24uc2NlbmV9IHdpZHRoPXsxMDI0fSBoZWlnaHQ9ezc2OH0gbG9hZGluZz0ibGF6eSIgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIG9iamVjdC1jb3ZlciB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi01MDAgZ3JvdXAtaG92ZXI6c2NhbGUtMTA1IG1vdGlvbi1yZWR1Y2U6dHJhbnNpdGlvbi1ub25lIiAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImFic29sdXRlIGxlZnQtNCB0b3AtNCByb3VuZGVkLW1kIGJnLWNhcmQgcHgtMi41IHB5LTEgdGV4dC14cyBmb250LXNlbWlib2xkIHRleHQtY2FyZC1mb3JlZ3JvdW5kIj57bGVzc29uLmxldmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNSI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gdGV4dC14cyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPjxzcGFuPntkZXRhaWwuY2F0ZWdvcnl9PC9zcGFuPjxzcGFuPntsZXNzb24ubGluZXMubGVuZ3RofSDlj6Xlr7nor508L3NwYW4+PC9kaXY+CiAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9Im10LTMgZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIj57bGVzc29uLnRpdGxlfTwvaDI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+e2xlc3Nvbi5zdWJ0aXRsZX08L3A+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC01IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBib3JkZXItdCBib3JkZXItYm9yZGVyIHB0LTQgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXByaW1hcnkiPjxzcGFuPui/m+WFpeivvueoizwvc3Bhbj48QXJyb3dSaWdodCBjbGFzc05hbWU9ImgtNCB3LTQgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZ3JvdXAtaG92ZXI6dHJhbnNsYXRlLXgtMSIgLz48L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvTGluaz47CiAgICAgICAgICAgIH0pfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgICB7ZmlsdGVyZWQubGVuZ3RoID09PSAwICYmIDxkaXYgY2xhc3NOYW1lPSJweS0xNiB0ZXh0LWNlbnRlciI+PEJvb2tPcGVuIGNsYXNzTmFtZT0ibXgtYXV0byBoLTggdy04IHRleHQtbXV0ZWQtZm9yZWdyb3VuZCIgLz48aDIgY2xhc3NOYW1lPSJtdC00IGZvbnQtc2VtaWJvbGQiPuayoeacieaJvuWIsOWMuemFjeeahOivvueoizwvaDI+PEJ1dHRvbiB2YXJpYW50PSJsaW5rIiBvbkNsaWNrPXsoKSA9PiB7IHNldFNlYXJjaCgiIik7IHNldENhdGVnb3J5KCLlhajpg6jor77nqIsiKTsgfX0+5p+l55yL5YWo6YOo6K++56iLPC9CdXR0b24+PC9kaXY+fQogICAgICAgIDwvc2VjdGlvbj4KICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gZ2FwLTUgYm9yZGVyLXkgYm9yZGVyLWJvcmRlciBweS03Ij4KICAgICAgICAgIDxkaXY+PGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQteGwgZm9udC1ib2xkIj7lkKzmh4LkuoblpJrlsJHvvJ88L2gyPjxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+6Zeu5YCZ44CB56CN5Lu35LiO54K56aSQIMK3IDUg6YGT5ZCs5Yqb6aKYPC9wPjwvZGl2PgogICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJzZWNvbmRhcnkiIHNpemU9ImxnIiBhc0NoaWxkPjxMaW5rIHRvPSIvcXVpeiI+PEhlYWRwaG9uZXMgLz7lvIDlp4vlkKzlipvmtYvpqow8QXJyb3dSaWdodCAvPjwvTGluaz48L0J1dHRvbj4KICAgICAgICA8L3NlY3Rpb24+CiAgICAgIDwvbWFpbj4KICAgIDwvTGVhcm5pbmdTaGVsbD4KICApOwp9Cg==
+import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
+import { ArrowRight, Search, Headphones, BookOpen } from "lucide-react";
+import { lessons } from "@/data/lessons";
+import { courseDetails, courseGroups, type CourseGroup } from "@/data/course-catalog";
+import { LearningShell } from "@/components/LearningShell";
+import { Button } from "@/components/ui/button";
+
+export const Route = createFileRoute("/")({
+  head: () => ({ meta: [
+    { title: "课程中心 — Ngobrol! 印尼语听力课堂" },
+    { name: "description", content: "十二门生活情景课程：从打招呼、点餐、砍价到打车、换钱、看病与 WhatsApp 约人，逐句听力、中文翻译与文化贴士。" },
+    { property: "og:title", content: "课程中心 — Ngobrol!" },
+    { property: "og:description", content: "十二门生活情景课程，中文翻译、逐句听力与文化贴士。" },
+    { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" },
+  ] }),
+  component: CourseCenter,
+});
+
+function CourseCenter() {
+  const [category, setCategory] = useState<CourseGroup>("全部课程");
+  const [search, setSearch] = useState("");
+  const wordTotal = lessons.reduce((n, l) => n + l.vocab.length, 0);
+  const levelTotal = new Set(lessons.map(l => l.level)).size;
+  const filtered = lessons.filter((lesson) =>
+    (category === "全部课程" || courseDetails[lesson.id]?.category === category) &&
+    `${lesson.title} ${lesson.subtitle} ${lesson.scene} ${lesson.vocab.map(v => v.word).join(" ")}`.toLowerCase().includes(search.trim().toLowerCase())
+  );
+  return (
+    <LearningShell>
+      <main className="mx-auto max-w-6xl px-5 sm:px-8">
+        <section className="flex flex-wrap items-end justify-between gap-6 border-b border-border py-10 sm:py-12">
+          <div>
+            <p className="flex items-center gap-2 text-sm font-medium text-accent"><Headphones className="h-4 w-4" /> BAHASA INDONESIA · 印尼语</p>
+            <h1 className="mt-3 font-display text-3xl font-bold sm:text-4xl">Ngobrol! 课程中心</h1>
+            <p className="mt-3 text-muted-foreground">从第一声 Halo，到自在聊生活。</p>
+          </div>
+          <div className="flex gap-7 text-sm"><div><p className="font-display text-3xl font-bold">{String(lessons.length).padStart(2, "0")}</p><p className="mt-1 text-muted-foreground">情景课程</p></div><div className="border-l border-border pl-7"><p className="font-display text-3xl font-bold">{String(levelTotal).padStart(2, "0")}</p><p className="mt-1 text-muted-foreground">学习阶段</p></div><div className="border-l border-border pl-7"><p className="font-display text-3xl font-bold">{wordTotal}</p><p className="mt-1 text-muted-foreground">实用单词</p></div></div>
+        </section>
+        <section className="py-8">
+          <div className="mb-7 flex flex-wrap items-center justify-between gap-5">
+            <div role="group" aria-label="课程分类" className="flex flex-wrap gap-2">
+              {courseGroups.map(group => <Button key={group} variant={category === group ? "default" : "ghost"} aria-pressed={category === group} onClick={() => setCategory(group)}>{group}</Button>)}
+            </div>
+            <label className="flex w-full items-center gap-2 rounded-md border border-input bg-card px-3 sm:w-64">
+              <Search className="h-4 w-4 shrink-0 text-muted-foreground" />
+              <input aria-label="搜索课程" placeholder="搜索课程或词汇" value={search} onChange={e => setSearch(e.target.value)} className="h-10 min-w-0 flex-1 bg-transparent text-sm outline-none" />
+            </label>
+          </div>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {filtered.map(lesson => {
+              const detail = courseDetails[lesson.id];
+              if (!detail) return null;
+              return <Link key={lesson.id} to="/lessons/$lessonId" params={{ lessonId: lesson.id }} className="group overflow-hidden rounded-lg border border-border bg-card transition-colors hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                <div className="relative aspect-[16/10] overflow-hidden">
+                  <img src={detail.image} alt={lesson.scene} width={1024} height={768} loading="lazy" className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105 motion-reduce:transition-none" />
+                  <span className="absolute left-4 top-4 rounded-md bg-card px-2.5 py-1 text-xs font-semibold text-card-foreground">{lesson.level}</span>
+                </div>
+                <div className="p-5">
+                  <div className="flex items-center justify-between text-xs text-muted-foreground"><span>{detail.category}</span><span>{lesson.lines.length} 句对话</span></div>
+                  <h2 className="mt-3 font-display text-xl font-bold">{lesson.title}</h2>
+                  <p className="mt-2 text-sm text-muted-foreground">{lesson.subtitle}</p>
+                  <div className="mt-5 flex items-center justify-between border-t border-border pt-4 text-sm font-medium text-primary"><span>进入课程</span><ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" /></div>
+                </div>
+              </Link>;
+            })}
+          </div>
+          {filtered.length === 0 && <div className="py-16 text-center"><BookOpen className="mx-auto h-8 w-8 text-muted-foreground" /><h2 className="mt-4 font-semibold">没有找到匹配的课程</h2><Button variant="link" onClick={() => { setSearch(""); setCategory("全部课程"); }}>查看全部课程</Button></div>}
+        </section>
+        <section className="flex flex-wrap items-center justify-between gap-5 border-y border-border py-7">
+          <div><h2 className="font-display text-xl font-bold">听懂了多少？</h2><p className="mt-2 text-sm text-muted-foreground">问候、砍价与点餐 · 5 道听力题</p></div>
+          <Button variant="secondary" size="lg" asChild><Link to="/quiz"><Headphones />开始听力测验<ArrowRight /></Link></Button>
+        </section>
+      </main>
+    </LearningShell>
+  );
+}

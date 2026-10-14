@@ -1,1 +1,34 @@
-aW1wb3J0IHsgTGluayB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyBIZWFkcGhvbmVzLCBBcnJvd1VwUmlnaHQsIEJvb2tPcGVuLCBOb3RlYm9va1BlbiwgQm9va1RleHQsIEJvdCB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB0eXBlIHsgUmVhY3ROb2RlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKCmV4cG9ydCBmdW5jdGlvbiBMZWFybmluZ1NoZWxsKHsgY2hpbGRyZW4gfTogeyBjaGlsZHJlbjogUmVhY3ROb2RlIH0pIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy1iYWNrZ3JvdW5kIj4KICAgICAgPGhlYWRlciBjbGFzc05hbWU9ImJvcmRlci1iIGJvcmRlci1ib3JkZXIgYmctY2FyZCI+CiAgICAgICAgPG5hdiBhcmlhLWxhYmVsPSLkuLvlr7zoiKoiIGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IG1heC13LTZ4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC00IHB4LTUgcHktNSBzbTpweC04Ij4KICAgICAgICAgIDxMaW5rIHRvPSIvIiBjbGFzc05hbWU9ImZsZXggc2hyaW5rLTAgaXRlbXMtY2VudGVyIGdhcC0yIHRleHQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iZmxleCBoLTkgdy05IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciByb3VuZGVkLWxnIGJnLXByaW1hcnkgZm9udC1kaXNwbGF5IHRleHQtbGcgZm9udC1ib2xkIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIj5OPC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LXhsIGZvbnQtYm9sZCI+TmdvYnJvbCE8L3NwYW4+CiAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZmxleC13cmFwIGp1c3RpZnktZW5kIGdhcC0xIHNtOmdhcC0zIj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgYXNDaGlsZD48TGluayB0bz0iLyIgYWN0aXZlT3B0aW9ucz17eyBleGFjdDogdHJ1ZSB9fSBhY3RpdmVQcm9wcz17eyBjbGFzc05hbWU6ICJiZy1zZWNvbmRhcnkgdGV4dC1wcmltYXJ5IiB9fT7or77nqIvkuK3lv4M8L0xpbms+PC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIGFzQ2hpbGQ+PExpbmsgdG89Ii9zdG9yaWVzIiBhY3RpdmVQcm9wcz17eyBjbGFzc05hbWU6ICJiZy1zZWNvbmRhcnkgdGV4dC1wcmltYXJ5IiB9fT48Qm9va1RleHQgLz7mlYXkuovpmIXor7s8L0xpbms+PC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIGFzQ2hpbGQ+PExpbmsgdG89Ii9xdWl6IiBhY3RpdmVQcm9wcz17eyBjbGFzc05hbWU6ICJiZy1zZWNvbmRhcnkgdGV4dC1wcmltYXJ5IiB9fT48SGVhZHBob25lcyAvPuWQrOWKm+a1i+mqjDwvTGluaz48L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgYXNDaGlsZD48TGluayB0bz0iL3dvcmRzIiBhY3RpdmVQcm9wcz17eyBjbGFzc05hbWU6ICJiZy1zZWNvbmRhcnkgdGV4dC1wcmltYXJ5IiB9fT48Qm9va09wZW4gLz7ljZXor43lupM8L0xpbms+PC9CdXR0b24+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ2hvc3QiIGFzQ2hpbGQ+PExpbmsgdG89Ii9taXN0YWtlcyIgYWN0aXZlUHJvcHM9e3sgY2xhc3NOYW1lOiAiYmctc2Vjb25kYXJ5IHRleHQtcHJpbWFyeSIgfX0+PE5vdGVib29rUGVuIC8+6ZSZ6aKY5bqTPC9MaW5rPjwvQnV0dG9uPgogICAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9Imdob3N0IiBhc0NoaWxkPjxMaW5rIHRvPSIvYXNzaXN0YW50IiBhY3RpdmVQcm9wcz17eyBjbGFzc05hbWU6ICJiZy1zZWNvbmRhcnkgdGV4dC1wcmltYXJ5IiB9fT48Qm90IC8+5a2m5Lmg5Yqp5omLPC9MaW5rPjwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9uYXY+CiAgICAgIDwvaGVhZGVyPgogICAgICB7Y2hpbGRyZW59CiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPSJtdC0xMiBib3JkZXItdCBib3JkZXItYm9yZGVyIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXgtYXV0byBmbGV4IG1heC13LTZ4bCBmbGV4LXdyYXAgaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBnYXAtNCBweC01IHB5LTggc206cHgtOCI+CiAgICAgICAgICA8ZGl2PjxwIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IGZvbnQtYm9sZCI+TmdvYnJvbCEgwrcg5Y2w5bC86K+t5ZCs5Yqb6K++5aCCPC9wPjxwIGNsYXNzTmFtZT0ibXQtMSB0ZXh0LXhzIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+U2VsYW1hdCBiZWxhamFyISDlrabkuaDmhInlv6s8L3A+PC9kaXY+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9ImxpbmsiIGFzQ2hpbGQ+PExpbmsgdG89Ii8iPuaJgOacieivvueoiyA8QXJyb3dVcFJpZ2h0IC8+PC9MaW5rPjwvQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Zvb3Rlcj4KICAgIDwvZGl2PgogICk7Cn0=
+import { Link } from "@tanstack/react-router";
+import { Headphones, ArrowUpRight, BookOpen, NotebookPen, BookText, Bot } from "lucide-react";
+import type { ReactNode } from "react";
+import { Button } from "@/components/ui/button";
+
+export function LearningShell({ children }: { children: ReactNode }) {
+  return (
+    <div className="min-h-screen bg-background">
+      <header className="border-b border-border bg-card">
+        <nav aria-label="主导航" className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-5 sm:px-8">
+          <Link to="/" className="flex shrink-0 items-center gap-2 text-foreground">
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary font-display text-lg font-bold text-primary-foreground">N</span>
+            <span className="font-display text-xl font-bold">Ngobrol!</span>
+          </Link>
+          <div className="flex items-center flex-wrap justify-end gap-1 sm:gap-3">
+            <Button variant="ghost" asChild><Link to="/" activeOptions={{ exact: true }} activeProps={{ className: "bg-secondary text-primary" }}>课程中心</Link></Button>
+            <Button variant="ghost" asChild><Link to="/stories" activeProps={{ className: "bg-secondary text-primary" }}><BookText />故事阅读</Link></Button>
+            <Button variant="ghost" asChild><Link to="/quiz" activeProps={{ className: "bg-secondary text-primary" }}><Headphones />听力测验</Link></Button>
+            <Button variant="ghost" asChild><Link to="/words" activeProps={{ className: "bg-secondary text-primary" }}><BookOpen />单词库</Link></Button>
+            <Button variant="ghost" asChild><Link to="/mistakes" activeProps={{ className: "bg-secondary text-primary" }}><NotebookPen />错题库</Link></Button>
+            <Button variant="ghost" asChild><Link to="/assistant" activeProps={{ className: "bg-secondary text-primary" }}><Bot />学习助手</Link></Button>
+          </div>
+        </nav>
+      </header>
+      {children}
+      <footer className="mt-12 border-t border-border">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-5 py-8 sm:px-8">
+          <div><p className="font-display font-bold">Ngobrol! · 印尼语听力课堂</p><p className="mt-1 text-xs text-muted-foreground">Selamat belajar! 学习愉快</p></div>
+          <Button variant="link" asChild><Link to="/">所有课程 <ArrowUpRight /></Link></Button>
+        </div>
+      </footer>
+    </div>
+  );
+}

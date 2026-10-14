@@ -1,1 +1,20 @@
-IyBSb2FkbWFwCgotIFt4XSBCdWlsZCBhIHVuaWZpZWQgY291cnNlIGNlbnRlciBhbmQgY29ubmVjdGVkIGluZGl2aWR1YWwgbGVzc29uIHBhZ2VzLgotIFt4XSBBZGQgbW9yZSBldmVyeWRheSBjb252ZXJzYXRpb24gbGVzc29ucyBhbmQgcmV0YWluIGxpc3RlbmluZyBxdWl6emVzLgotIFt4XSBWZXJpZnkgY291cnNlIG5hdmlnYXRpb24gYW5kIHF1aXogZmxvdy4KLSBbeF0gQWRkIHBlci1sZXNzb24gd29yZCBkaWN0YXRpb24gcHJhY3RpY2UuCi0gW3hdIEFkZCBhIHdvcmQgYmFuayBhbmQgYSBtaXN0YWtlIGJhbmsuCi0gW3hdIEV4cGFuZCB0aGUgY291cnNlIGxpYnJhcnkgdG8gMTIgZXZlcnlkYXkgc2l0dWF0aW9ucyAobmV3OiBmb3JtcyBvZiBhZGRyZXNzLCByaWRlLWhhaWxpbmcsIG1vbmV5LCBjbGluaWMsIFdoYXRzQXBwLCB0ZW1wbGUgdGlja2V0cyksIGVhY2ggd2l0aCBpdHMgb3duIHBob3RvIGFuZCBjdWx0dXJlIG5vdGUuCi0gW3hdIEtlZXAgY291cnNlIGNlbnRlciBzdGF0cywgY2F0ZWdvcnkgZmlsdGVycyBhbmQgcGFnZSBkZXNjcmlwdGlvbnMgaW4gc3luYyB3aXRoIHRoZSBjYXRhbG9nLgotIFt4XSBWZXJpZnkgYWxsIDEyIGxlc3NvbiBwYWdlcywgd29yZCBiYW5rLCBtaXN0YWtlIGJhbmsgYW5kIG1vYmlsZSBsYXlvdXQgaW4gdGhlIGJyb3dzZXIuCgotIFt4XSBQZXItbGVzc29uIHJhbmRvbWl6ZWQgcXVpeiwgc2h1ZmZsZWQgQUkgcHJvbXB0cywgYW5kIDMgbG9uZy1mb3JtIHN0b3J5IHJlYWRpbmdzIHdpdGggY29tcHJlaGVuc2lvbi4KCiMjIE9wZW4KLSAobm9uZSkKCiMjIE5leHQgY2FuZGlkYXRlcwoKLSBSZWFsIHJlY29yZGVkIGF1ZGlvIGZvciBrZXkgc2VudGVuY2VzIGluc3RlYWQgb2YgYnJvd3NlciBzcGVlY2guCi0gTGVzc29uIHByb2dyZXNzICsgc3BhY2VkIHJldmlldyBvZiB0aGUgbWlzdGFrZSBiYW5rLgo=
+# Roadmap
+
+- [x] Build a unified course center and connected individual lesson pages.
+- [x] Add more everyday conversation lessons and retain listening quizzes.
+- [x] Verify course navigation and quiz flow.
+- [x] Add per-lesson word dictation practice.
+- [x] Add a word bank and a mistake bank.
+- [x] Expand the course library to 12 everyday situations (new: forms of address, ride-hailing, money, clinic, WhatsApp, temple tickets), each with its own photo and culture note.
+- [x] Keep course center stats, category filters and page descriptions in sync with the catalog.
+- [x] Verify all 12 lesson pages, word bank, mistake bank and mobile layout in the browser.
+
+- [x] Per-lesson randomized quiz, shuffled AI prompts, and 3 long-form story readings with comprehension.
+
+## Open
+- (none)
+
+## Next candidates
+
+- Real recorded audio for key sentences instead of browser speech.
+- Lesson progress + spaced review of the mistake bank.
